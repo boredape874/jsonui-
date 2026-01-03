@@ -17,7 +17,7 @@ title: 크기와 앵커
 
 
 
-            ### 크기 표현식
+### 크기 표현식
 
 - `100%` 부모 기준
 - `100% - 8px` 계산식
@@ -32,21 +32,21 @@ title: 크기와 앵커
 
 
 
-            ### Anchor 9-Point
+### Anchor 9-Point
 
 
-              top_left
-              top_middle
-              top_right
-              left_middle
-              center
-              right_middle
-              bottom_left
-              bottom_middle
-              bottom_right
+top_left
+top_middle
+top_right
+left_middle
+center
+right_middle
+bottom_left
+bottom_middle
+bottom_right
 
 
-            anchor와 offset을 함께 써서 반응형 배치를 만듭니다.
+anchor와 offset을 함께 써서 반응형 배치를 만듭니다.
 
 
 

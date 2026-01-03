@@ -17,7 +17,7 @@ title: ignored와 visible 차이
 
 
 
-            ### ignored
+### ignored
 
 요소를 완전히 제거합니다. 공간도 차지하지 않습니다.
 
@@ -25,7 +25,7 @@ title: ignored와 visible 차이
 
 
 
-            ### visible
+### visible
 
 보이기만 숨깁니다. 공간은 그대로 유지됩니다.
 

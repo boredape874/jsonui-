@@ -76,6 +76,7 @@ export default defineConfig({
             { text: '텍스처와 나인슬라이스', link: '/layout/textures#textures' },
             { text: '레이어', link: '/layout/layers#layers' },
             { text: '바인딩', link: '/layout/binding#binding' },
+            { text: '바인딩 목록', link: '/binding/#binding-index' },
             { text: 'Molang', link: '/layout/molang#molang' },
             { text: '변수 & 메모장', link: '/layout/variables#variables' },
             { text: 'ignored와 visible', link: '/layout/ignored#ignored' }

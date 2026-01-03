@@ -38,7 +38,7 @@ title: 입력 매핑
 
 
 
-            ### 자주 쓰는 from_button_id
+### 자주 쓰는 from_button_id
 
 - button.menu_select (기본 선택)
 - button.menu_ok (확인)
@@ -50,7 +50,7 @@ title: 입력 매핑
 
 
 
-            ### mapping_type
+### mapping_type
 
 - pressed: 눌렀을 때
 - focused: 포커스될 때

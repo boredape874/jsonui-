@@ -17,7 +17,7 @@ title: 리소스
 
 
 
-            ### 초보자 추천 순서
+### 초보자 추천 순서
 
 1. Bedrock Wiki - JSON UI Intro
 2. JSON UI Dumper (요소 찾기)
@@ -28,7 +28,7 @@ title: 리소스
 
 
 
-            ### 바로 도움이 되는 도구
+### 바로 도움이 되는 도구
 
 - JSON UI Dumper: 화면 요소 검색
 - Bugrock Schemas: 자동완성/검증
@@ -43,7 +43,7 @@ title: 리소스
 
 
 
-                  ### 공식 문서
+### 공식 문서
 
 - [Microsoft Learn - Creator Reference](https://learn.microsoft.com/en-us/minecraft/creator/reference/?view=minecraft-bedrock-stable)
 - [Molang 소개](https://learn.microsoft.com/en-us/minecraft/creator/documents/molang/introduction)
@@ -56,7 +56,7 @@ title: 리소스
 
 
 
-                  ### 커뮤니티 위키
+### 커뮤니티 위키
 
 - [Bedrock Wiki](https://wiki.bedrock.dev/)
 - [JSON UI Intro](https://wiki.bedrock.dev/json-ui/json-ui-intro)
@@ -69,7 +69,7 @@ title: 리소스
 
 
 
-                  ### 도구 & 시각화
+### 도구 & 시각화
 
 - [JSON UI Dumper](https://theoristmc.github.io/JSON-UI-Dumper/)
 - [JSON UI Editor](https://github.com/KalmeMarq/json-ui-editor)
@@ -82,7 +82,7 @@ title: 리소스
 
 
 
-                  ### 예제 코드 모음
+### 예제 코드 모음
 
 - [Vanilla UI 파일 모음](https://github.com/bedrock-dot-dev/packs)
 - [Vanilla Resource Pack](https://github.com/ZtechNetwork/MCBVanillaResourcePack)
@@ -94,7 +94,7 @@ title: 리소스
 
 
 
-                  ### 라이브러리
+### 라이브러리
 
 - [StarLib 문서](https://pipangry.github.io/docs-starlib/)
 - [StarLibV2 코드 모음](https://github.com/pipangry/StarLibV2)
@@ -106,7 +106,7 @@ title: 리소스
 
 
 
-                  ### ScriptAPI & 폼
+### ScriptAPI & 폼
 
 - [ScriptAPI 커스텀 UI](https://lemon-slime.com/en/minecraft/create-custom-ui/)
 - [서버 폼 수정](https://wiki.bedrock.dev/json-ui/modifying-server-forms)
@@ -118,7 +118,7 @@ title: 리소스
 
 
 
-                  ### 예제 UI 팩
+### 예제 UI 팩
 
 - [Bedrock UI+](https://mcpedl.com/bedrock-ui-plus-b69-2/)
 - [Another UI](https://mcpedl.com/another-ui/)
@@ -131,7 +131,7 @@ title: 리소스
 
 
 
-                  ### VSCode & 스키마
+### VSCode & 스키마
 
 - [Bedrock UI 확장](https://marketplace.visualstudio.com/items?itemName=Dingsel.bedrock-ui)
 - [JSON Schema Validator](https://marketplace.visualstudio.com/items?itemName=tberman.json-schema-validator)
@@ -143,7 +143,7 @@ title: 리소스
 
 
 
-                  ### 커뮤니티 & 포럼
+### 커뮤니티 & 포럼
 
 - [Bedrock 디스코드 모음](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/discord.md)
 - [BuiltByBit JSON UI](https://builtbybit.com/tags/json-ui/)
@@ -154,7 +154,7 @@ title: 리소스
 
 
 
-                  ### 영상 & 튜토리얼
+### 영상 & 튜토리얼
 
 - [HUD 추가 가이드](https://wiki.bedrock.dev/json-ui/add-hud-elements)
 - [Buttons & Toggles](https://wiki.bedrock.dev/json-ui/buttons-and-toggles)
@@ -166,7 +166,7 @@ title: 리소스
 
 
 
-            ### AI 학습 참고
+### AI 학습 참고
 
 - [Prompting Techniques](https://www.promptingguide.ai/techniques)
 - [Prompt Engineering Guide](https://www.lakera.ai/blog/prompt-engineering-guide)
@@ -179,7 +179,7 @@ title: 리소스
 
 
 
-          처음엔 “초보자 추천 순서”의 3가지만 보면 충분합니다. 나머지는 필요할 때 찾아보세요.
+처음엔 “초보자 추천 순서”의 3가지만 보면 충분합니다. 나머지는 필요할 때 찾아보세요.
 
 
       

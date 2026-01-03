@@ -1,4 +1,4 @@
-﻿import json
+import json
 import re
 import html
 from pathlib import Path
@@ -10,54 +10,58 @@ public_dir.mkdir(parents=True, exist_ok=True)
 entries = []
 seen = set()
 
-section_pattern = re.compile(r'<section[^>]*id="([^"]+)"[^>]*>(.*?)</section>', re.S)
-header_pattern = re.compile(r'<header[^>]*id="([^"]+)"[^>]*>(.*?)</header>', re.S)
+heading_pattern = re.compile(r"^(#{1,3})\s+(.+)$")
+anchor_pattern = re.compile(r"\s*\{#([^}]+)\}\s*$")
 
 
-def strip_tags(value: str) -> str:
-    value = re.sub(r'<[^>]+>', ' ', value)
-    value = re.sub(r'\s+', ' ', value).strip()
+def strip_md(value: str) -> str:
+    value = re.sub(r"`([^`]+)`", r"\1", value)
+    value = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", value)
+    value = re.sub(r"\*\*([^*]+)\*\*", r"\1", value)
+    value = re.sub(r"\*([^*]+)\*", r"\1", value)
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = re.sub(r"\s+", " ", value).strip()
     return html.unescape(value)
 
 
-def extract_title(block_html: str) -> str:
-    for tag in ("h2", "h1", "h3"):
-        match = re.search(fr'<{tag}[^>]*>(.*?)</{tag}>', block_html, re.S)
-        if match:
-            return strip_tags(match.group(1))
-    return ""
+def slugify(value: str) -> str:
+    value = value.lower().strip()
+    value = re.sub(r"[^\w\s-]", "", value, flags=re.UNICODE)
+    value = re.sub(r"\s+", "-", value)
+    value = re.sub(r"-{2,}", "-", value)
+    return value or "section"
 
 
-def extract_summary(block_html: str) -> str:
-    match = re.search(r'<p[^>]*>(.*?)</p>', block_html, re.S)
-    if match:
-        return strip_tags(match.group(1))
-    return ""
-
-
-def add_blocks(rel_base: str, pattern, text: str) -> None:
-    for match in pattern.finditer(text):
-        section_id = match.group(1)
-        body = match.group(2)
-        key = (rel_base, section_id)
-        if key in seen:
+def extract_summary(lines: list[str]) -> str:
+    buffer = []
+    for line in lines:
+        line = line.strip()
+        if not line:
+            if buffer:
+                break
             continue
-        seen.add(key)
+        if line.startswith("```"):
+            break
+        buffer.append(line)
+    return strip_md(" ".join(buffer))
 
-        title = extract_title(body) or section_id
-        summary = extract_summary(body)
-        text_content = strip_tags(body).lower()
-        url = f"{rel_base}.html#{section_id}"
 
-        entries.append(
-            {
-                "id": section_id,
-                "title": title,
-                "summary": summary,
-                "text": text_content,
-                "url": url,
-            }
-        )
+def add_entry(rel_base: str, section_id: str, title: str, summary: str, text: str) -> None:
+    key = (rel_base, section_id)
+    if key in seen:
+        return
+    seen.add(key)
+
+    url = f"{rel_base}.html#{section_id}"
+    entries.append(
+        {
+            "id": section_id,
+            "title": title,
+            "summary": summary,
+            "text": text,
+            "url": url,
+        }
+    )
 
 
 for md_file in root.rglob("*.md"):
@@ -70,12 +74,55 @@ for md_file in root.rglob("*.md"):
         if len(parts) >= 3:
             text = parts[2]
 
+    lines = text.splitlines()
+    headings = []
+    for idx, line in enumerate(lines):
+        match = heading_pattern.match(line)
+        if not match:
+            continue
+        level = len(match.group(1))
+        title_raw = match.group(2).strip()
+        anchor_match = anchor_pattern.search(title_raw)
+        anchor = None
+        if anchor_match:
+            anchor = anchor_match.group(1)
+            title_raw = title_raw[: anchor_match.start()].strip()
+        headings.append(
+            {
+                "index": idx,
+                "level": level,
+                "title": title_raw,
+                "anchor": anchor,
+            }
+        )
+
+    if not headings:
+        continue
+
     rel_base = md_file.relative_to(root).with_suffix("").as_posix()
+    used_ids: set[str] = set()
 
-    if md_file.name == "index.md":
-        add_blocks(rel_base, header_pattern, text)
+    for i, heading in enumerate(headings):
+        start = heading["index"] + 1
+        end = len(lines)
+        for j in range(i + 1, len(headings)):
+            if headings[j]["level"] <= heading["level"]:
+                end = headings[j]["index"]
+                break
 
-    add_blocks(rel_base, section_pattern, text)
+        section_lines = lines[start:end]
+        title = strip_md(heading["title"])
+        section_id = heading["anchor"] or slugify(title)
+        if section_id in used_ids:
+            suffix = 2
+            while f"{section_id}-{suffix}" in used_ids:
+                suffix += 1
+            section_id = f"{section_id}-{suffix}"
+        used_ids.add(section_id)
+
+        summary = extract_summary(section_lines)
+        text_content = strip_md(" ".join(section_lines)).lower()
+        add_entry(rel_base, section_id, title or section_id, summary, text_content)
 
 entries.sort(key=lambda item: (item["url"], item["id"]))
 

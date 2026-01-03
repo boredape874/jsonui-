@@ -9,37 +9,37 @@ title: 마인크래프트 베드락 에디션 JSON UI 통합 가이드
 Minecraft Bedrock Edition ? JSON UI Guide ? 2026-01
 
 
-          코딩이 처음이라도 이해할 수 있게, JSON과 UI의 최소 규칙만 알려드립니다.
+코딩이 처음이라도 이해할 수 있게, JSON과 UI의 최소 규칙만 알려드립니다.
 
 
-          [빠른 시작](intro/quickstart.html#quickstart)
-          [실전 케이스 스터디](practice/case-studies.html#examples)
+[빠른 시작](intro/quickstart.html#quickstart)
+[실전 케이스 스터디](practice/case-studies.html#examples)
 
 
-          초보 입문레이아웃/연결확장/애니메이션실전 적용바인딩
-          ScriptAPI
+초보 입문레이아웃/연결확장/애니메이션실전 적용바인딩
+ScriptAPI
 
 
-        ## 시작 안내
+## 시작 안내
 
 - 개요
 - 검색
 - 리소스
 
 
-        ### 초보 입문
+### 초보 입문
 
 - 완전 기초 0단계
 - 빠른 시작
 - 기초 개념
 
 
-            작성
-            보드
+작성
+보드
 
 
-            버전
-            2026-01
+버전
+2026-01
 
 
 ## 문서 지도 {#home-map}
@@ -82,6 +82,7 @@ Minecraft Bedrock Edition ? JSON UI Guide ? 2026-01
 - [텍스처와 나인슬라이스](layout/textures.html#textures)
 - [레이어](layout/layers.html#layers)
 - [바인딩](layout/binding.html#binding)
+- [바인딩 목록](binding/index.html#binding-index)
 - [Molang](layout/molang.html#molang)
 - [변수 & 메모장](layout/variables.html#variables)
 - [ignored와 visible](layout/ignored.html#ignored)
@@ -113,6 +114,5 @@ Minecraft Bedrock Edition ? JSON UI Guide ? 2026-01
 - [체크리스트](misc/checklist.html#checklist)
 
 
-    실제 예제 분석을 기반으로 구성되었습니다.
-
+실제 예제 분석을 기반으로 구성되었습니다.
 

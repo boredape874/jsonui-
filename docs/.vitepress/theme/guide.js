@@ -178,13 +178,8 @@ const setupCodeBlocks = () => {
 
     toggleButton.addEventListener("click", toggleBlock);
 
-    const isLong = code.innerText.length > 600;
-    if (isLong) {
-      block.classList.add("collapsed");
-      setToggleState(true);
-    } else {
-      setToggleState(false);
-    }
+    block.classList.add("collapsed");
+    setToggleState(true);
 
     actions.appendChild(copyButton);
     actions.appendChild(toggleButton);
@@ -193,7 +188,96 @@ const setupCodeBlocks = () => {
   });
 };
 
+const setupVitepressCodeBlocks = () => {
+  const blocks = document.querySelectorAll(".vp-doc div[class*=\"language-\"]");
+  blocks.forEach((block) => {
+    if (block.dataset.codeFoldReady === "true") return;
+    block.dataset.codeFoldReady = "true";
+
+    const pre = block.querySelector("pre");
+    if (!pre) return;
+
+    block.classList.add("code-fold", "is-collapsed");
+
+    let header = block.querySelector(".code-fold-header");
+    if (!header) {
+      header = document.createElement("div");
+      header.className = "code-fold-header";
+      block.prepend(header);
+    }
+
+    if (header.querySelector(".code-fold-toggle")) return;
+
+    const langMatch = Array.from(block.classList).find((name) => name.startsWith("language-"));
+    const langLabel = langMatch ? langMatch.replace("language-", "").toUpperCase() : "CODE";
+
+    const label = document.createElement("span");
+    label.className = "code-fold-label";
+    label.textContent = langLabel;
+
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "code-fold-toggle";
+    toggle.textContent = "펼치기";
+    toggle.setAttribute("aria-label", "코드 펼치기");
+    toggle.setAttribute("aria-expanded", "false");
+
+    const setState = (collapsed) => {
+      block.classList.toggle("is-collapsed", collapsed);
+      toggle.textContent = collapsed ? "펼치기" : "접기";
+      toggle.setAttribute("aria-label", collapsed ? "코드 펼치기" : "코드 접기");
+      toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    };
+
+    toggle.addEventListener("click", () => {
+      const collapsed = block.classList.contains("is-collapsed");
+      setState(!collapsed);
+    });
+
+    header.appendChild(label);
+    header.appendChild(toggle);
+
+    setState(true);
+  });
+};
+
+const setupOutlineToggle = () => {
+  const aside = document.querySelector(".VPDocAside");
+  if (!aside || aside.dataset.outlineReady === "true") return;
+  aside.dataset.outlineReady = "true";
+
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "outline-toggle";
+
+  const storageKey = "vp-outline-collapsed";
+  let collapsed = false;
+  try {
+    collapsed = window.localStorage.getItem(storageKey) === "true";
+  } catch (error) {
+    collapsed = false;
+  }
+
+  const setState = (next) => {
+    collapsed = next;
+    aside.classList.toggle("is-collapsed", collapsed);
+    toggle.textContent = collapsed ? "목차 펼치기" : "목차 접기";
+    toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    try {
+      window.localStorage.setItem(storageKey, collapsed ? "true" : "false");
+    } catch (error) {
+      // Ignore storage errors.
+    }
+  };
+
+  toggle.addEventListener("click", () => setState(!collapsed));
+  aside.prepend(toggle);
+  setState(collapsed);
+};
+
 export const setupGuideInteractions = () => {
   setupCodeBlocks();
+  setupVitepressCodeBlocks();
   setupSearch();
+  setupOutlineToggle();
 };
