@@ -1,10 +1,10 @@
----
-title: 💬 NPC 대화창 커스터마이징
+﻿---
+title: NPC 대화창 커스터마이징
 ---
 
-# 💬 NPC 대화창 커스터마이징 {#npc-dialog}
+# NPC 대화창 커스터마이징 {#npc-dialog}
 
-> ???: 중급
+> 난이도: 중급
 
 <div class="term-box">
 <div class="term-title">NPC 대화창이란?</div>
@@ -16,7 +16,7 @@ NPC(Non-Player Character)와 상호작용할 때 표시되는 대화 인터페�
 </div>
 </div>
 
-<h3 id="npc-basics">📁 파일 위치 및 네임스페이스</h3>
+<h3 id="npc-basics"> 파일 위치 및 네임스페이스</h3>
 <p>
 NPC 대화창 UI는 리소스팩의 <code>ui/npc_interact_screen.json</code> 파일에 있습니다.
 모든 요소는 <strong>npc_interact</strong> 네임스페이스를 사용합니다.
@@ -30,7 +30,7 @@ NPC 대화창 UI는 리소스팩의 <code>ui/npc_interact_screen.json</code> 파
 }</code></pre>
 </div>
 
-<h3 id="npc-name">✏️ NPC 이름 스타일 변경</h3>
+<h3 id="npc-name"> NPC 이름 스타일 변경</h3>
 <p>
 NPC 이름의 색상, 폰트, 크기를 변경할 수 있습니다.
 </p>
@@ -46,7 +46,7 @@ NPC 이름의 색상, 폰트, 크기를 변경할 수 있습니다.
 }</code></pre>
 </div>
 
-<h3 id="npc-message">💬 대화 메시지 스타일 변경</h3>
+<h3 id="npc-message"> 대화 메시지 스타일 변경</h3>
 <p>
 NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 </p>
@@ -70,7 +70,7 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 • <code>locked_color</code> - 조건 미충족으로 대화가 잠겨있을 때
 </div>
 
-<h3 id="npc-bubble">💭 말풍선 배경 수정</h3>
+<h3 id="npc-bubble"> 말풍선 배경 수정</h3>
 <p>
 대화 말풍선의 배경 이미지와 투명도를 변경할 수 있습니다.
 </p>
@@ -89,7 +89,7 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 }</code></pre>
 </div>
 
-<h3 id="npc-model">🎭 NPC 3D 모델 위치 조정</h3>
+<h3 id="npc-model"> NPC 3D 모델 위치 조정</h3>
 <p>
 대화창에 표시되는 NPC의 3D 모델 위치와 크기를 조정합니다.
 </p>
@@ -110,7 +110,7 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 }</code></pre>
 </div>
 
-<h3 id="npc-buttons">🔘 대화 선택지 버튼 스타일</h3>
+<h3 id="npc-buttons"> 대화 선택지 버튼 스타일</h3>
 <p>
 플레이어가 선택할 수 있는 대화 옵션 버튼을 커스터마이징합니다.
 </p>
@@ -138,7 +138,7 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 }</code></pre>
 </div>
 
-<h3 id="npc-examples">🎨 실전 예제 - 테마별 NPC 대화창</h3>
+<h3 id="npc-examples"> 실전 예제 - 테마별 NPC 대화창</h3>
 
 <h4 id="npc-merchant">예제 1: 고급 상인 NPC (금색 테마)</h4>
 <div class="code-block">
@@ -222,7 +222,7 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 }</code></pre>
 </div>
 
-<h3 id="npc-tips">💡 NPC 대화창 커스터마이징 팁</h3>
+<h3 id="npc-tips"> NPC 대화창 커스터마이징 팁</h3>
 
 <div class="lecture-note">
 <div class="lecture-note-title">색상 활용 가이드</div>
@@ -257,3 +257,4 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 <strong>완성!</strong> 이제 NPC마다 다른 테마의 대화창을 만들 수 있습니다!
 상인은 금색, 적은 빨간색, 마법사는 보라색으로 구분해보세요!
 </div>
+

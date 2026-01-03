@@ -1,10 +1,10 @@
----
-title: 📂 실전 예제 모음
+﻿---
+title: 실전 예제 모음
 ---
 
-# 📂 실전 예제 모음 {#examples}
+# 실전 예제 모음 {#examples}
 
-> ???: 중급
+> 난이도: 중급
 
 <h3>예제 1: 사용자 정의 HUD (체력, 허기, 좌표)</h3>
 
@@ -26,7 +26,7 @@ title: 📂 실전 예제 모음
         <span style="color: #8b949e;">// 체력 표시</span>
         <span style="color: #79c0ff;">"health_label"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-          <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"❤ #health"</span>,
+          <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">" #health"</span>,
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.0</span>, <span style="color: #79c0ff;">0.0</span>],
           <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
         }
@@ -35,7 +35,7 @@ title: 📂 실전 예제 모음
         <span style="color: #8b949e;">// 허기 표시</span>
         <span style="color: #79c0ff;">"hunger_label"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-          <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"🍖 #hunger"</span>,
+          <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">" #hunger"</span>,
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.7</span>, <span style="color: #79c0ff;">0.0</span>],
           <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
         }
@@ -44,7 +44,7 @@ title: 📂 실전 예제 모음
         <span style="color: #8b949e;">// 좌표 표시</span>
         <span style="color: #79c0ff;">"position_label"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-          <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"📍 X:#x Y:#y Z:#z"</span>,
+          <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">" X:#x Y:#y Z:#z"</span>,
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
           <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
         }
@@ -201,3 +201,4 @@ title: 📂 실전 예제 모음
 <strong>참고:</strong> 실제 미니맵을 만들려면 애드온 스크립트와 함께 사용하여
 주변 블록 정보를 전달받아야 합니다.
 </div>
+

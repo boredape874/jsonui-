@@ -1,10 +1,10 @@
----
-title: 🔧 문제 해결 가이드
+﻿---
+title: 문제 해결 가이드
 ---
 
-# 🔧 문제 해결 가이드 {#troubleshooting}
+# 문제 해결 가이드 {#troubleshooting}
 
-> ???: 초급
+> 난이도: 초급
 
 <h3>일반적인 문제와 해결 방법</h3>
 
@@ -118,3 +118,4 @@ title: 🔧 문제 해결 가이드
 문제를 찾을 때 이 간단한 빨간 박스를 추가해보세요:<br>
 <code>{"type": "image", "texture": "textures/ui/White", "size": [100, 100], "color": [1, 0, 0]}</code>
 </div>
+

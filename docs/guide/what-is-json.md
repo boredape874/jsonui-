@@ -1,10 +1,10 @@
----
-title: ❓ JSON이란? (완전 초보자용 설명)
+﻿---
+title: JSON이란? (완전 초보자용 설명)
 ---
 
-# ❓ JSON이란? (완전 초보자용 설명) {#what-is-json}
+# JSON이란? (완전 초보자용 설명) {#what-is-json}
 
-> ???: 초급
+> 난이도: 초급
 
 <div class="term-box">
 <div class="term-title">JSON의 의미</div>
@@ -146,3 +146,4 @@ JSON은 원래 주석을 지원하지 않지만, 마인크래프트 JSON UI에�
   <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>  <span style="color: #8b949e;">// 줄 끝에도 주석을 달 수 있어요</span>
 }</code></pre>
 </div>
+

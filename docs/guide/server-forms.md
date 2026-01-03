@@ -1,10 +1,10 @@
----
-title: 📋 서버 폼 커스터마이징
+﻿---
+title: 서버 폼 커스터마이징
 ---
 
-# 📋 서버 폼 커스터마이징 {#server-forms}
+# 서버 폼 커스터마이징 {#server-forms}
 
-> ???: 전문가
+> 난이도: 전문가
 
 <div class="term-box">
 <div class="term-title">서버 폼(Server Form)이란?</div>
@@ -137,3 +137,4 @@ Factory를 사용하여 하나의 틀(템플릿)을 만들고 필요할 때마�
 3. 제목에 "my_shop:"이 포함되어 있으므로 커스텀 UI 표시<br>
 4. 바닐라 폼은 키워드가 있으므로 숨김
 </div>
+

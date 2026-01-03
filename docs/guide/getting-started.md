@@ -1,10 +1,10 @@
----
-title: 🚀 첫 번째 JSON UI 만들기
+﻿---
+title: 첫 번째 JSON UI 만들기
 ---
 
-# 🚀 첫 번째 JSON UI 만들기 {#getting-started}
+# 첫 번째 JSON UI 만들기 {#getting-started}
 
-> ???: 초급
+> 난이도: 초급
 
 <p>이제 실제로 JSON UI를 만들어 봅시다! 단계별로 천천히 따라해 보세요.</p>
 
@@ -161,8 +161,9 @@ Android: <code>내부저장소/games/com.mojang/resource_packs/</code>
 <li>월드에 입장하면 화면 왼쪽 위에 노란색 "안녕하세요!" 표시!</li>
 </ol>
 <div class="alert-box alert-success">
-축하합니다! 첫 번째 JSON UI를 성공적으로 만들었습니다! 🎉
+축하합니다! 첫 번째 JSON UI를 성공적으로 만들었습니다! 
 </div>
 </div>
 </div>
 </div>
+

@@ -1,10 +1,10 @@
----
-title: 🎮 HUD 커스터마이징 실전 튜토리얼
+﻿---
+title: HUD 커스터마이징 실전 튜토리얼
 ---
 
-# 🎮 HUD 커스터마이징 실전 튜토리얼 {#hud-tutorial}
+# HUD 커스터마이징 실전 튜토리얼 {#hud-tutorial}
 
-> ???: 중급
+> 난이도: 중급
 
 <div class="term-box">
 <div class="term-title">HUD(Head-Up Display)란?</div>
@@ -310,3 +310,4 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
 • 너무 많은 요소를 추가하면 화면이 복잡해질 수 있습니다<br>
 • 다른 플레이어도 사용할 리소스 팩이라면 위치를 신중히 선택하세요
 </div>
+

@@ -1,10 +1,10 @@
----
-title: 📊 프로그레스 바 만들기
+﻿---
+title: 프로그레스 바 만들기
 ---
 
-# 📊 프로그레스 바 만들기 {#progress-bar}
+# 프로그레스 바 만들기 {#progress-bar}
 
-> ???: 고급
+> 난이도: 고급
 
 <div class="term-box">
 <div class="term-title">프로그레스 바(Progress Bar)란?</div>
@@ -180,3 +180,4 @@ title: 📊 프로그레스 바 만들기
 • clips_children으로 영역 제한<br>
 • 바인딩으로 실시간 데이터 연결 가능
 </div>
+

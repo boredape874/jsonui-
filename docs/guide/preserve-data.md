@@ -1,10 +1,10 @@
----
-title: 💾 데이터 보존 기법
+﻿---
+title: 데이터 보존 기법
 ---
 
-# 💾 데이터 보존 기법 {#preserve-data}
+# 데이터 보존 기법 {#preserve-data}
 
-> ???: 전문가
+> 난이도: 전문가
 
 <div class="term-box">
 <div class="term-title">데이터 보존(Data Preservation)이란?</div>
@@ -106,8 +106,8 @@ title: 💾 데이터 보존 기법
 <li>제목 변경 감지: <code>#hud_title_text_string</code> = "update:안녕하세요"</li>
 <li>조건 검사:
 <ul>
-<li>저장된 텍스트와 다른가? ✓</li>
-<li>"update:"가 포함되어 있나? ✓</li>
+<li>저장된 텍스트와 다른가? </li>
+<li>"update:"가 포함되어 있나? </li>
 </ul>
 </li>
 <li>조건 충족 → <code>data_control</code>이 잠깐 visible됨</li>
@@ -162,3 +162,4 @@ title: 💾 데이터 보존 기법
 • 조건식으로 저장 시점 제어<br>
 • 재사용 가능한 컴포넌트 설계
 </div>
+

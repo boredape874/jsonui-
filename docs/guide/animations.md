@@ -1,10 +1,10 @@
----
-title: 🎬 애니메이션 완벽 이해
+﻿---
+title: 애니메이션 완벽 이해
 ---
 
-# 🎬 애니메이션 완벽 이해 {#animations}
+# 애니메이션 완벽 이해 {#animations}
 
-> ???: 고급
+> 난이도: 고급
 
 <div class="term-box">
 <div class="term-title">애니메이션(Animation)이란?</div>
@@ -328,3 +328,4 @@ title: 🎬 애니메이션 완벽 이해
 • 일부 애니메이션은 특정 화면에서만 작동할 수 있습니다<br>
 • <code>next</code>로 무한 반복 시 멈출 방법이 없으니 주의하세요
 </div>
+

@@ -1,8 +1,8 @@
----
-title: 📖 소개
+﻿---
+title: 소개
 ---
 
-# 📖 소개 {#intro}
+# 소개 {#intro}
 
 <div class="alert-box alert-info">
 이 가이드는 <strong>프로그래밍을 전혀 해보지 않은 완전 초보자</strong>를 위해 작성되었습니다.
@@ -37,10 +37,11 @@ Ore UI는 하드코딩되어 있어서 수정할 수 없지만, HUD와 같은 �
 <div class="lecture-note">
 <div class="lecture-note-title">이렇게 배웁니다</div>
 <ul>
-<li>✅ <strong>모든 용어를 쉬운 말로</strong> 설명합니다</li>
-<li>✅ <strong>코드마다 주석(설명)</strong>을 달아서 무엇을 하는지 알려줍니다</li>
-<li>✅ <strong>단계별로 천천히</strong> 진행합니다</li>
-<li>✅ <strong>실제 예제</strong>를 직접 따라 만들 수 있습니다</li>
-<li>✅ <strong>초급부터 고급까지</strong> 모든 내용을 다룹니다</li>
+<li> <strong>모든 용어를 쉬운 말로</strong> 설명합니다</li>
+<li> <strong>코드마다 주석(설명)</strong>을 달아서 무엇을 하는지 알려줍니다</li>
+<li> <strong>단계별로 천천히</strong> 진행합니다</li>
+<li> <strong>실제 예제</strong>를 직접 따라 만들 수 있습니다</li>
+<li> <strong>초급부터 고급까지</strong> 모든 내용을 다룹니다</li>
 </ul>
 </div>
+

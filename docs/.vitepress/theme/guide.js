@@ -271,44 +271,9 @@ const setupVitepressCodeBlocks = () => {
   });
 };
 
-const setupOutlineToggle = () => {
-  const aside = document.querySelector(".VPDocAside");
-  if (!aside || aside.dataset.outlineReady === "true") return;
-  aside.dataset.outlineReady = "true";
-
-  const toggle = document.createElement("button");
-  toggle.type = "button";
-  toggle.className = "outline-toggle";
-
-  const storageKey = "vp-outline-collapsed";
-  let collapsed = false;
-  try {
-    collapsed = window.localStorage.getItem(storageKey) === "true";
-  } catch (error) {
-    collapsed = false;
-  }
-
-  const setState = (next) => {
-    collapsed = next;
-    aside.classList.toggle("is-collapsed", collapsed);
-    toggle.textContent = collapsed ? "목차 펼치기" : "목차 접기";
-    toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
-    try {
-      window.localStorage.setItem(storageKey, collapsed ? "true" : "false");
-    } catch (error) {
-      // Ignore storage errors.
-    }
-  };
-
-  toggle.addEventListener("click", () => setState(!collapsed));
-  aside.prepend(toggle);
-  setState(collapsed);
-};
-
 export const setupGuideInteractions = () => {
   wrapLoosePreBlocks();
   setupCodeBlocks();
   setupVitepressCodeBlocks();
   setupSearch();
-  setupOutlineToggle();
 };

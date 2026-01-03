@@ -1,10 +1,10 @@
----
-title: 📚 용어 사전
+﻿---
+title: 용어 사전
 ---
 
-# 📚 용어 사전 {#glossary}
+# 용어 사전 {#glossary}
 
-> ???: 초급
+> 난이도: 초급
 
 <div class="term-box">
 <div class="term-title">A</div>
@@ -125,3 +125,4 @@ title: 📚 용어 사전
 • Discord 커뮤니티에 질문하기<br>
 • GitHub에서 예제 찾아보기
 </div>
+

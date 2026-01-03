@@ -1,10 +1,10 @@
----
-title: 🔥 고급 기법 및 최적화
+﻿---
+title: 고급 기법 및 최적화
 ---
 
-# 🔥 고급 기법 및 최적화 {#advanced}
+# 고급 기법 및 최적화 {#advanced}
 
-> ???: 전문가
+> 난이도: 전문가
 
 <h3>호환성 극대화하기</h3>
 
@@ -23,7 +23,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 
 <div class="comparison-box">
 <div class="comparison-bad">
-<div class="comparison-header">❌ 나쁜 예</div>
+<div class="comparison-header"> 나쁜 예</div>
 <div class="comparison-content">
 <pre><code>{
   <span style="color: #79c0ff;">"progress_text_label"</span>: {
@@ -41,7 +41,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 </div>
 
 <div class="comparison-good">
-<div class="comparison-header">✅ 좋은 예</div>
+<div class="comparison-header"> 좋은 예</div>
 <div class="comparison-content">
 <pre><code>{
   <span style="color: #79c0ff;">"progress_text_label"</span>: {
@@ -57,7 +57,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 
 <div class="comparison-box">
 <div class="comparison-bad">
-<div class="comparison-header">❌ 나쁜 예</div>
+<div class="comparison-header"> 나쁜 예</div>
 <div class="comparison-content">
 <pre><code>{
   <span style="color: #79c0ff;">"root_panel"</span>: {
@@ -74,7 +74,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 </div>
 
 <div class="comparison-good">
-<div class="comparison-header">✅ 좋은 예</div>
+<div class="comparison-header"> 좋은 예</div>
 <div class="comparison-content">
 <pre><code>{
   <span style="color: #79c0ff;">"root_panel"</span>: {
@@ -117,7 +117,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 
 <div class="comparison-box">
 <div class="comparison-bad">
-<div class="comparison-header">❌ 여러 진입점</div>
+<div class="comparison-header"> 여러 진입점</div>
 <div class="comparison-content">
 <pre><code>{
   <span style="color: #79c0ff;">"root_panel"</span>: {
@@ -135,7 +135,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 </div>
 
 <div class="comparison-good">
-<div class="comparison-header">✅ 단일 진입점</div>
+<div class="comparison-header"> 단일 진입점</div>
 <div class="comparison-content">
 <pre><code>{
   <span style="color: #79c0ff;">"root_panel"</span>: {
@@ -162,7 +162,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 
 <div class="comparison-box">
 <div class="comparison-bad">
-<div class="comparison-header">❌ 비효율적</div>
+<div class="comparison-header"> 비효율적</div>
 <div class="comparison-content">
 <code>"$var": "(2 * (-1 * $number))"</code>
 <p>→ 연산 2번 수행</p>
@@ -170,7 +170,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 </div>
 
 <div class="comparison-good">
-<div class="comparison-header">✅ 효율적</div>
+<div class="comparison-header"> 효율적</div>
 <div class="comparison-content">
 <code>"$var": "(-2 * $number)"</code>
 <p>→ 연산 1번으로 단순화</p>
@@ -209,7 +209,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 
 <div class="comparison-box">
 <div class="comparison-bad">
-<div class="comparison-header">❌ 5개의 별도 이미지</div>
+<div class="comparison-header"> 5개의 별도 이미지</div>
 <div class="comparison-content">
 <pre><code><span style="color: #79c0ff;">"image_1@template"</span>: { <span style="color: #79c0ff;">"$texture"</span>: <span style="color: #a5d6ff;">"textures/ui/1"</span> },
 <span style="color: #79c0ff;">"image_2@template"</span>: { <span style="color: #79c0ff;">"$texture"</span>: <span style="color: #a5d6ff;">"textures/ui/2"</span> },
@@ -220,7 +220,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 </div>
 
 <div class="comparison-good">
-<div class="comparison-header">✅ 1개로 통합</div>
+<div class="comparison-header"> 1개로 통합</div>
 <div class="comparison-content">
 <pre><code>{
   <span style="color: #79c0ff;">"image"</span>: {
@@ -245,9 +245,10 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 
 <div class="alert-box alert-tip">
 <strong>최적화 체크리스트:</strong><br>
-✓ 필요한 것만 수정했는가?<br>
-✓ Modifications를 사용했는가?<br>
-✓ 연산자를 최대한 단순화했는가?<br>
-✓ 불필요한 바인딩을 제거했는가?<br>
-✓ ignored를 사용하여 불필요한 요소를 제거했는가?
+ 필요한 것만 수정했는가?<br>
+ Modifications를 사용했는가?<br>
+ 연산자를 최대한 단순화했는가?<br>
+ 불필요한 바인딩을 제거했는가?<br>
+ ignored를 사용하여 불필요한 요소를 제거했는가?
 </div>
+

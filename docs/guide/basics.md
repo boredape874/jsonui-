@@ -1,10 +1,10 @@
----
-title: 🎯 기초 개념 이해하기
+﻿---
+title: 기초 개념 이해하기
 ---
 
-# 🎯 기초 개념 이해하기 {#basics}
+# 기초 개념 이해하기 {#basics}
 
-> ???: 초급
+> 난이도: 초급
 
 <p>JSON UI를 만들기 전에 꼭 알아야 할 핵심 개념들을 배워봅시다.</p>
 
@@ -64,27 +64,27 @@ title: 🎯 기초 개념 이해하기
 <tr>
 <td><code>panel</code></td>
 <td>다른 요소를 담는 상자</td>
-<td>📦 포장 상자</td>
+<td> 포장 상자</td>
 </tr>
 <tr>
 <td><code>label</code></td>
 <td>글자를 표시</td>
-<td>📝 메모지</td>
+<td> 메모지</td>
 </tr>
 <tr>
 <td><code>image</code></td>
 <td>그림/이미지를 표시</td>
-<td>🖼️ 액자</td>
+<td> 액자</td>
 </tr>
 <tr>
 <td><code>button</code></td>
 <td>클릭할 수 있는 버튼</td>
-<td>🔘 스위치</td>
+<td> 스위치</td>
 </tr>
 <tr>
 <td><code>stack_panel</code></td>
 <td>요소들을 세로/가로로 정렬</td>
-<td>📚 책꽂이</td>
+<td> 책꽂이</td>
 </tr>
 </tbody>
 </table>
@@ -131,11 +131,11 @@ title: 🎯 기초 개념 이해하기
 <p>화면(또는 부모 요소)을 9개 구역으로 나눕니다:</p>
 <div class="code-header">앵커 포인트</div>
 <pre><code><span style="color: #a5d6ff;">top_left</span>       <span style="color: #a5d6ff;">top_middle</span>       <span style="color: #a5d6ff;">top_right</span>
-    ↖               ↑               ↗
+(좌상)          (상단)           (우상)
 <span style="color: #a5d6ff;">left_middle</span>    <span style="color: #a5d6ff;">center</span>          <span style="color: #a5d6ff;">right_middle</span>
-    ←               ●               →
+(좌측)          (중앙)           (우측)
 <span style="color: #a5d6ff;">bottom_left</span>    <span style="color: #a5d6ff;">bottom_middle</span>   <span style="color: #a5d6ff;">bottom_right</span>
-↙               ↓               ↘</code></pre>
+(좌하)          (하단)           (우하)</code></pre>
 </div>
 
 <h4>앵커 사용 예시</h4>
@@ -165,3 +165,4 @@ title: 🎯 기초 개념 이해하기
 <div class="alert-box alert-tip">
 <strong>팁:</strong> 대부분의 경우 <code>anchor_from</code>과 <code>anchor_to</code>를 같은 값으로 설정합니다!
 </div>
+

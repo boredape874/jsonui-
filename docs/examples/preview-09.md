@@ -10025,7 +10025,7 @@ npc_interact_screen.json
           // 글자 표시
           "type": "label",
           // 보여줄 글자
-          "text": "✕",
+          "text": "",
           // ?? (R,G,B,A)
           "color": [0.9, 0.9, 0.9],
           // ?? ??
@@ -10093,7 +10093,7 @@ npc_interact_screen.json
           // 글자 표시
           "type": "label",
           // 보여줄 글자
-          "text": "✕",
+          "text": "",
           // ?? (R,G,B,A)
           "color": [1.0, 1.0, 1.0],
           // ?? ??
@@ -10161,7 +10161,7 @@ npc_interact_screen.json
           // 글자 표시
           "type": "label",
           // 보여줄 글자
-          "text": "✕",
+          "text": "",
           // ?? (R,G,B,A)
           "color": [0.7, 0.7, 0.7],
           // ?? ??

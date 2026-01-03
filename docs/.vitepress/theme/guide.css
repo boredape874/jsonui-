@@ -48,8 +48,8 @@
   --vp-shadow-2: 0 6px 18px rgba(28, 22, 16, 0.12);
   --vp-shadow-3: 0 14px 32px rgba(28, 22, 16, 0.18);
   --vp-shadow-4: 0 18px 40px rgba(28, 22, 16, 0.22);
-  --vp-sidebar-width: 260px;
-  --vp-layout-max-width: 1440px;
+  --vp-sidebar-width: 240px;
+  --vp-layout-max-width: 100%;
 }
 
 .dark {
@@ -192,6 +192,10 @@ pre {
   border-radius: 6px;
   color: var(--ui-accent-3);
   font-size: 0.9em;
+  display: inline;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  word-break: break-word;
 }
 
 h1,
@@ -219,7 +223,7 @@ iframe {
 hr {
   border: none;
   border-top: 1px solid var(--ui-border);
-  margin: 32px 0;
+  margin: 20px 0;
 }
 
 .VPNavBar {
@@ -242,6 +246,8 @@ hr {
 
 .VPSidebar {
   border-right: 1px solid var(--ui-border);
+  background: var(--ui-surface);
+  padding: 12px 10px 20px;
 }
 
 .VPSidebar .group + .group {
@@ -275,22 +281,40 @@ hr {
   background: transparent;
 }
 
+.VPContent .container {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+.VPDoc {
+  width: 100%;
+}
+
 .VPDoc .content-container {
-  padding: 32px 24px 64px;
+  padding: 0;
+  max-width: none;
 }
 
 .VPDoc .content {
   background: var(--ui-surface);
-  border: 1px solid var(--ui-border);
-  border-radius: 24px;
-  padding: 32px 36px;
-  box-shadow: var(--vp-shadow-2);
+  border-top: 1px solid var(--ui-border);
+  border-bottom: 1px solid var(--ui-border);
+  border-radius: 0;
+  padding: 24px clamp(16px, 2.4vw, 32px) 32px;
+  box-shadow: none;
   animation: contentRise 0.6s ease;
+}
+
+.VPDocAside,
+.VPDocOutline,
+.outline-toggle {
+  display: none !important;
 }
 
 .vp-doc h1 {
   font-size: clamp(2.1rem, 3.5vw, 3rem);
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .vp-doc h1::after {
@@ -298,7 +322,7 @@ hr {
   display: block;
   width: 80px;
   height: 4px;
-  margin-top: 10px;
+  margin-top: 8px;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--ui-accent), var(--ui-accent-2));
 }
@@ -310,13 +334,13 @@ hr {
 }
 
 .vp-doc h2 {
-  margin-top: 44px;
+  margin-top: 32px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--ui-border);
 }
 
 .vp-doc h3 {
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 .vp-doc ul,
@@ -368,7 +392,7 @@ hr {
 
 .term-box {
   padding: 16px 18px;
-  margin: 16px 0;
+  margin: 12px 0;
   box-shadow: var(--vp-shadow-1);
 }
 
@@ -403,14 +427,14 @@ hr {
 
 .lecture-note {
   padding: 14px 16px;
-  margin: 16px 0;
+  margin: 12px 0;
   border-style: dashed;
   background: var(--ui-surface-2);
 }
 
 .alert-box {
   padding: 14px 16px;
-  margin: 16px 0;
+  margin: 12px 0;
   border-left: 4px solid var(--ui-accent-3);
   color: var(--ui-ink);
 }
@@ -432,7 +456,7 @@ hr {
 }
 
 .table-container {
-  margin: 16px 0;
+  margin: 12px 0;
   border: 1px solid var(--ui-border);
   border-radius: 14px;
   background: var(--ui-surface);
@@ -464,7 +488,7 @@ td {
   display: grid;
   gap: 14px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin: 16px 0;
+  margin: 12px 0;
 }
 
 .comparison-box {
@@ -490,8 +514,8 @@ td {
 
 .step-guide {
   display: grid;
-  gap: 12px;
-  margin: 16px 0;
+  gap: 10px;
+  margin: 12px 0;
 }
 
 .step-item {
@@ -500,6 +524,29 @@ td {
   gap: 12px;
   padding: 12px 14px;
   background: var(--ui-surface);
+}
+
+.step-content {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.step-content code,
+.alert-box code,
+.term-box code,
+.lecture-note code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.step-item,
+.step-content,
+.alert-box,
+.term-box,
+.lecture-note {
+  max-width: 100%;
 }
 
 .step-number {
@@ -514,7 +561,7 @@ td {
 }
 
 .code-block {
-  margin: 18px 0;
+  margin: 14px 0;
 }
 
 .code-block pre {
@@ -544,6 +591,7 @@ td {
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
+  min-width: 0;
 }
 
 .code-actions {
@@ -551,13 +599,25 @@ td {
   gap: 8px;
 }
 
+.code-title span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .code-action {
   border: 1px solid var(--ui-border);
   background: var(--ui-surface-3);
   color: var(--ui-ink);
-  padding: 6px 10px;
+  padding: 0 10px;
   border-radius: 10px;
   font-size: 0.75rem;
+  height: 26px;
+  line-height: 1;
+  min-width: 64px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
 }
@@ -571,7 +631,7 @@ td {
   border: 1px solid var(--ui-border);
   border-radius: 16px;
   background: var(--ui-surface-2);
-  margin: 18px 0;
+  margin: 14px 0;
   overflow: hidden;
 }
 
@@ -580,6 +640,7 @@ td {
   color: var(--ui-code-ink);
   margin: 0;
   padding: 16px;
+  overflow-x: auto;
   border: none;
   border-radius: 0 0 16px 16px;
   font-size: 0.85rem;
@@ -593,9 +654,49 @@ td {
   top: 8px;
   right: 12px;
   border: 1px solid var(--ui-border);
-  border-radius: 10px;
+  border-radius: 999px;
   background: var(--ui-surface-3);
   color: var(--ui-ink);
+  padding: 0 10px;
+  font-size: 0.75rem;
+  height: 26px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  background-image: none;
+  width: auto;
+  min-width: 64px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.vp-doc div[class*="language-"] > button.copy::before {
+  content: none;
+  display: none;
+}
+
+.vp-doc div[class*="language-"] > button.copy::after {
+  content: "복사";
+}
+
+.vp-doc div[class*="language-"] > button.copy.copied::after {
+  content: "복사됨";
+}
+
+.vp-doc div[class*="language-"] > button.copy.copied,
+.vp-doc div[class*="language-"] > button.copy:hover.copied {
+  border-radius: 999px;
+  background-image: none;
+}
+
+.vp-doc div[class*="language-"] > button.copy.copied::before,
+.vp-doc div[class*="language-"] > button.copy:hover.copied::before {
+  content: none;
+  display: none;
 }
 
 .vp-doc div[class*="language-"] > button.copy:hover {
@@ -629,9 +730,16 @@ td {
   border: 1px solid var(--ui-border);
   background: var(--ui-surface-3);
   color: var(--ui-ink);
-  padding: 4px 10px;
+  padding: 0 10px;
   border-radius: 999px;
   font-size: 0.75rem;
+  height: 26px;
+  line-height: 1;
+  min-width: 64px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
 }
@@ -773,12 +881,12 @@ td {
 
 @media (max-width: 960px) {
   .VPDoc .content-container {
-    padding: 24px 16px 56px;
+    padding: 0;
   }
 
   .VPDoc .content {
-    padding: 24px;
-    border-radius: 20px;
+    padding: 20px 16px 28px;
+    border-radius: 0;
   }
 
   .vp-doc h1::after {

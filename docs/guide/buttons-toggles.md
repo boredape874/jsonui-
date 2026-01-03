@@ -1,10 +1,10 @@
----
-title: 🔘 버튼과 토글 완벽 가이드
+﻿---
+title: 버튼과 토글 완벽 가이드
 ---
 
-# 🔘 버튼과 토글 완벽 가이드 {#buttons-toggles}
+# 버튼과 토글 완벽 가이드 {#buttons-toggles}
 
-> ???: 중급
+> 난이도: 중급
 
 <div class="term-box">
 <div class="term-title">버튼(Button)과 토글(Toggle)의 차이</div>
@@ -159,3 +159,4 @@ title: 🔘 버튼과 토글 완벽 가이드
 • 버튼 매핑으로 클릭 시 동작 정의<br>
 • Content 버튼으로 호버 텍스트 표시
 </div>
+

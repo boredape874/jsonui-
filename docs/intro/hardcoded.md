@@ -10,10 +10,10 @@ title: 하드코딩된 요소
 
 하드코딩된 요소는 마인크래프트 게임 엔진이 직접 찾아서 사용하는 이름입니다. 이 이름을 바꾸면:
 
-- ❌ 화면이 작동하지 않음
-- ❌ 바인딩이 데이터를 받지 못함
-- ❌ 버튼 클릭이 무시됨
-- ❌ 렌더러가 표시되지 않음
+-  화면이 작동하지 않음
+-  바인딩이 데이터를 받지 못함
+-  버튼 클릭이 무시됨
+-  렌더러가 표시되지 않음
 
 ## 화면 이름 (Screen Names) {#screen-names}
 
@@ -25,13 +25,13 @@ title: 하드코딩된 요소
 {
   "namespace": "hud",
 
-  // ⭐ 메인 HUD 화면 - 게임 플레이 중 항상 표시
+  //  메인 HUD 화면 - 게임 플레이 중 항상 표시
   "hud_screen": {
     "type": "screen"
     // 체력바, 허기바, 핫바 등이 여기 포함됨
   },
 
-  // 📱 모바일 전용 HUD
+  //  모바일 전용 HUD
   "hud_screen@hud.hud_screen": {
     // 모바일 디바이스에서만 사용
   }
@@ -44,17 +44,17 @@ title: 하드코딩된 요소
 {
   "namespace": "inventory",
 
-  // 🎒 인벤토리 화면 (E키)
+  //  인벤토리 화면 (E키)
   "inventory_screen": {
     "type": "screen"
   },
 
-  // 📦 크리에이티브 인벤토리
+  //  크리에이티브 인벤토리
   "creative_inventory_screen": {
     "type": "screen"
   },
 
-  // 🔧 생존 인벤토리
+  //  생존 인벤토리
   "survival_inventory_screen": {
     "type": "screen"
   }
@@ -65,17 +65,17 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 💬 채팅 화면 (T키)
+  //  채팅 화면 (T키)
   "chat_screen": {
     "type": "screen"
   },
 
-  // 🗨️ NPC 대화 화면
+  //  NPC 대화 화면
   "npc_interact": {
     "type": "screen"
   },
 
-  // 👤 NPC 이름표
+  //  NPC 이름표
   "npc_name_tag": {
     "type": "panel"
   }
@@ -86,12 +86,12 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🌐 서버 폼 (스크립트 API에서 전송)
+  //  서버 폼 (스크립트 API에서 전송)
   "server_form": {
     "type": "screen"
   },
 
-  // 📝 서버 리스트
+  //  서버 리스트
   "server_screen": {
     "type": "screen"
   }
@@ -102,22 +102,22 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🏠 시작 화면
+  //  시작 화면
   "start_screen": {
     "type": "screen"
   },
 
-  // ⚙️ 설정 화면
+  //  설정 화면
   "settings_screen": {
     "type": "screen"
   },
 
-  // ⏸️ 일시정지 화면
+  //  일시정지 화면
   "pause_screen": {
     "type": "screen"
   },
 
-  // 🎮 게임 모드 선택
+  //  게임 모드 선택
   "game_mode_screen": {
     "type": "screen"
   }
@@ -128,12 +128,12 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🛒 마켓플레이스
+  //  마켓플레이스
   "marketplace_screen": {
     "type": "screen"
   },
 
-  // 💳 구매 확인
+  //  구매 확인
   "purchase_screen": {
     "type": "screen"
   }
@@ -144,22 +144,22 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🎯 십자선 (조준점)
+  //  십자선 (조준점)
   "crosshair_screen": {
     "type": "screen"
   },
 
-  // 💀 사망 화면
+  //  사망 화면
   "death_screen": {
     "type": "screen"
   },
 
-  // 📜 크레딧
+  //  크레딧
   "credits_screen": {
     "type": "screen"
   },
 
-  // 🏆 업적
+  //  업적
   "achievements_screen": {
     "type": "screen"
   }
@@ -176,19 +176,19 @@ title: 하드코딩된 요소
 {
   "bindings": [
     {
-      "binding_name": "#visible",  // ✅ 표시/숨김
+      "binding_name": "#visible",  //  표시/숨김
       "binding_type": "global"
     },
     {
-      "binding_name": "#enabled",  // ✅ 활성화/비활성화
+      "binding_name": "#enabled",  //  활성화/비활성화
       "binding_type": "global"
     },
     {
-      "binding_name": "#text",     // ✅ 텍스트 내용
+      "binding_name": "#text",     //  텍스트 내용
       "binding_type": "global"
     },
     {
-      "binding_name": "#color",    // ✅ 색상 (RGB 배열)
+      "binding_name": "#color",    //  색상 (RGB 배열)
       "binding_type": "global"
     }
   ]
@@ -201,19 +201,19 @@ title: 하드코딩된 요소
 {
   "bindings": [
     {
-      "binding_name": "#texture",           // 🖼️ 텍스처 경로
+      "binding_name": "#texture",           //  텍스처 경로
       "binding_type": "global"
     },
     {
-      "binding_name": "#texture_file_system", // 📁 파일 시스템 텍스처
+      "binding_name": "#texture_file_system", //  파일 시스템 텍스처
       "binding_type": "global"
     },
     {
-      "binding_name": "#clip_ratio",        // ✂️ 잘라내기 비율 (0.0 ~ 1.0)
+      "binding_name": "#clip_ratio",        //  잘라내기 비율 (0.0 ~ 1.0)
       "binding_type": "global"
     },
     {
-      "binding_name": "#uv",                // 📐 UV 좌표
+      "binding_name": "#uv",                //  UV 좌표
       "binding_type": "global"
     }
   ]
@@ -226,11 +226,11 @@ title: 하드코딩된 요소
 {
   "bindings": [
     {
-      "binding_name": "#collection_length",  // 📊 컬렉션 항목 개수
+      "binding_name": "#collection_length",  //  컬렉션 항목 개수
       "binding_type": "collection"
     },
     {
-      "binding_name": "#collection_index",   // 🔢 현재 인덱스
+      "binding_name": "#collection_index",   //  현재 인덱스
       "binding_type": "collection"
     }
   ]
@@ -242,22 +242,22 @@ title: 하드코딩된 요소
 ```json
 {
   "bindings": [
-    // ❤️ 체력
+    //  체력
     { "binding_name": "#health", "binding_type": "global" },
     { "binding_name": "#max_health", "binding_type": "global" },
 
-    // 🍗 허기
+    //  허기
     { "binding_name": "#hunger", "binding_type": "global" },
     { "binding_name": "#saturation", "binding_type": "global" },
 
-    // 🛡️ 방어구
+    //  방어구
     { "binding_name": "#armor", "binding_type": "global" },
 
-    // ✨ 경험치
+    //  경험치
     { "binding_name": "#xp_level", "binding_type": "global" },
     { "binding_name": "#xp_progress", "binding_type": "global" },
 
-    // 🌬️ 산소 (물속)
+    //  산소 (물속)
     { "binding_name": "#air", "binding_type": "global" },
     { "binding_name": "#max_air", "binding_type": "global" }
   ]
@@ -327,7 +327,7 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🧍 플레이어 3D 모델 표시
+  //  플레이어 3D 모델 표시
   "player_renderer": {
     "type": "panel",
     "renderer": "live_player_renderer",
@@ -342,7 +342,7 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🗡️ 아이템 3D 렌더링
+  //  아이템 3D 렌더링
   "item_renderer": {
     "type": "panel",
     "renderer": "inventory_item_renderer",
@@ -351,7 +351,7 @@ title: 하드코딩된 요소
     }
   },
 
-  // 📦 아이템 그리드 렌더러
+  //  아이템 그리드 렌더러
   "grid_item_renderer": {
     "type": "custom",
     "renderer": "grid_item_renderer"
@@ -363,7 +363,7 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🌈 그라디언트 배경
+  //  그라디언트 배경
   "gradient_bg": {
     "type": "panel",
     "renderer": "gradient_renderer",
@@ -380,7 +380,7 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🎬 화면 가장자리 어둡게
+  //  화면 가장자리 어둡게
   "vignette": {
     "type": "panel",
     "renderer": "vignette_renderer",
@@ -395,7 +395,7 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // 🌍 월드 미리보기
+  //  월드 미리보기
   "world_preview": {
     "type": "panel",
     "renderer": "world_preview_renderer"
@@ -471,27 +471,27 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // ❤️ 체력 바
+  //  체력 바
   "health_bar": {
     "type": "panel"
   },
 
-  // 🍗 허기 바
+  //  허기 바
   "food_bar": {
     "type": "panel"
   },
 
-  // 🛡️ 방어구 바
+  //  방어구 바
   "armor_bar": {
     "type": "panel"
   },
 
-  // 🔥 핫바
+  //  핫바
   "hotbar": {
     "type": "panel"
   },
 
-  // ✨ 경험치 바
+  //  경험치 바
   "experience_bar": {
     "type": "panel"
   }
@@ -576,7 +576,7 @@ title: 하드코딩된 요소
 - `progress` - 프로그레스 바
 - `persona` - 캐릭터 커스터마이징
 
-## 중요 주의사항 ⚠️
+## 중요 주의사항 
 
 ### 절대 변경하면 안 되는 것들
 
@@ -595,13 +595,13 @@ title: 하드코딩된 요소
 
 ```json
 {
-  // ❌ 잘못된 방법 - 화면 이름 변경
+  //  잘못된 방법 - 화면 이름 변경
   "my_custom_hud": {
     "type": "screen"
     // 게임이 이 화면을 찾을 수 없음!
   },
 
-  // ✅ 올바른 방법 - 내부 요소만 수정
+  //  올바른 방법 - 내부 요소만 수정
   "hud_screen": {
     "type": "screen",
     "controls": [
@@ -620,26 +620,26 @@ title: 하드코딩된 요소
 
 ### Ore UI로 이동한 화면 (수정 불가능)
 
-- ⛔ 시작 메뉴 (일부)
-- ⛔ 설정 화면 (대부분)
-- ⛔ 마켓플레이스 (전체)
-- ⛔ Realms 화면 (전체)
+-  시작 메뉴 (일부)
+-  설정 화면 (대부분)
+-  마켓플레이스 (전체)
+-  Realms 화면 (전체)
 
 ### 여전히 JSON UI인 화면 (수정 가능)
 
-- ✅ HUD (체력바, 허기바 등)
-- ✅ 인벤토리 화면
-- ✅ NPC 대화창
-- ✅ 서버 폼
-- ✅ 채팅 화면
+-  HUD (체력바, 허기바 등)
+-  인벤토리 화면
+-  NPC 대화창
+-  서버 폼
+-  채팅 화면
 
 ## 요약
 
 하드코딩된 요소는 게임 엔진이 직접 사용하는 **고정 이름**들입니다.
 
-- 📛 **화면 이름** - `hud_screen`, `chat_screen` 등
-- 🔗 **바인딩 이름** - `#visible`, `#health` 등
-- 🎨 **렌더러 타입** - `inventory_item_renderer` 등
-- 🔘 **버튼 ID** - `button.menu_ok` 등
+-  **화면 이름** - `hud_screen`, `chat_screen` 등
+-  **바인딩 이름** - `#visible`, `#health` 등
+-  **렌더러 타입** - `inventory_item_renderer` 등
+-  **버튼 ID** - `button.menu_ok` 등
 
 이 이름들은 **절대 변경하지 말고**, 내부 요소만 수정하세요!
