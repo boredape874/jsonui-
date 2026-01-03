@@ -5175,7 +5175,9 @@ p {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
   gap: 32px;
-  padding: 0 8vw 80px;
+  padding: 0 0 80px 0;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 .toc {
@@ -5260,18 +5262,7 @@ p {
 }
 
 .toc-toggle {
-  display: none;
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  padding: 12px 18px;
-  border-radius: 999px;
-  border: none;
-  background: var(--accent-clay);
-  color: #fff;
-  font-weight: 600;
-  z-index: 100;
-  box-shadow: 0 10px 24px rgba(197, 101, 52, 0.3);
+  display: none !important;
 }
 
 .toc-overlay {
@@ -6257,6 +6248,22 @@ td {
   padding-top: 12px;
 }
 
+.VPLocalNav {
+  display: none !important;
+}
+
+.VPSidebar .VPSidebarItem.is-link > .item {
+  padding-left: 20px;
+}
+
+.VPDocFooter {
+  display: none !important;
+}
+
+.VPBackdrop {
+  display: none !important;
+}
+
 .VPDocAside {
   width: 240px;
   min-width: 240px;
@@ -6274,19 +6281,7 @@ td {
 }
 
 .outline-toggle {
-  position: sticky;
-  top: 96px;
-  align-self: flex-start;
-  margin: 12px 12px 0;
-  border: 1px solid var(--border);
-  background: var(--bg-panel);
-  color: var(--ink);
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 0.78rem;
-  font-weight: 600;
-  cursor: pointer;
-  z-index: 10;
+  display: none;
 }
 
 .vp-doc details:not(.example-group):not(.example-detail) {
@@ -6295,6 +6290,11 @@ td {
   padding: 10px 14px;
   background: rgba(255, 255, 255, 0.75);
   margin-bottom: 12px;
+}
+
+.dark .vp-doc details:not(.example-group):not(.example-detail) {
+  background: rgba(28, 25, 19, 0.85);
+  border-color: var(--border);
 }
 
 .vp-doc details:not(.example-group):not(.example-detail) summary {
