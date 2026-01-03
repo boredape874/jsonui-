@@ -1,8 +1,7 @@
 ﻿import { defineConfig } from 'vitepress'
 
-const base =
-  process.env.VITEPRESS_BASE ??
-  (process.env.NODE_ENV === 'production' ? '/minecraft-bedrock-json-ui-sample/' : '/')
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1]
+const base = process.env.VITEPRESS_BASE ?? (repoName ? `/${repoName}/` : '/')
 
 export default defineConfig({
   lang: 'ko-KR',
