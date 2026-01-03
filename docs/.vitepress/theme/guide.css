@@ -1448,34 +1448,43 @@ td {
   display: none !important;
 }
 
-/* 사이드바 왼쪽 끝으로 이동 및 여백 제거 */
-.VPSidebar {
-  position: fixed !important;
-  left: 0 !important;
-  top: var(--vp-nav-height) !important;
-  padding: 0 !important;
-  margin: 0 !important;
+/* 사이드바 너비 축소 */
+:root {
+  --vp-sidebar-width: 200px !important;
 }
 
-.VPContent.has-sidebar {
-  padding-left: var(--vp-sidebar-width) !important;
-  padding-right: 0 !important;
-  margin: 0 !important;
+/* 사이트 타이틀을 사이드바 위로 이동 */
+.VPNavBarTitle {
+  position: fixed !important;
+  top: calc(var(--vp-nav-height) + 12px) !important;
+  left: 12px !important;
+  z-index: 100 !important;
+  width: calc(var(--vp-sidebar-width) - 24px) !important;
+}
+
+/* 사이드바 상단 여백 추가 (타이틀 공간 확보) */
+.VPSidebar {
+  padding-top: 48px !important;
 }
 
 .VPSidebar .nav {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 12px !important;
 }
 
-.VPDoc.has-sidebar .content-container {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
+/* 컨텐츠 영역 조정 */
+.VPContent.has-sidebar {
+  padding-left: var(--vp-sidebar-width) !important;
   padding-right: 0 !important;
 }
 
+.VPDoc.has-sidebar .content-container {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+}
+
 .VPDoc.has-sidebar .content {
-  padding-left: 24px !important;
+  max-width: 100% !important;
 }
 
 .VPDocAside {
