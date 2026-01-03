@@ -1392,12 +1392,30 @@ td {
 }
 
 .VPDoc .content-container {
-  max-width: 1000px;
+  max-width: 1400px;
   animation: docRise 0.6s ease;
+  padding: 0 !important;
+  margin: 0 auto !important;
 }
 
 .VPDoc .content {
-  padding-top: 12px;
+  padding: 12px 0 0 0 !important;
+  max-width: 100% !important;
+}
+
+.VPDoc.has-sidebar .content-container {
+  margin: 0 auto !important;
+  padding-left: 0 !important;
+}
+
+.VPContent.has-sidebar {
+  padding-left: 0 !important;
+}
+
+.container {
+  margin: 0 auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .VPLocalNav {
@@ -1427,21 +1445,7 @@ td {
 .last-updated,
 .VPFooter,
 .VPNav .VPNavBarExtra,
-.VPNav .VPNavBarSocialLinks,
-.VPNavScreenAppearance,
-.appearance-toggle,
-.VPSwitchAppearance,
-.dark-mode-toggle,
-[class*="appearance"],
-[class*="Appearance"],
-button[aria-label*="appearance"],
-button[aria-label*="theme"],
-.vitepress-theme-appearance,
-aside.VPDocAside .content,
-aside.VPDocAside nav,
-.VPDocAsideOutline,
-.DocAside,
-.outline-marker {
+.VPNav .VPNavBarSocialLinks {
   display: none !important;
 }
 
