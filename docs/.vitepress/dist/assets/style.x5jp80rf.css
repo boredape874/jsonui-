@@ -6296,24 +6296,33 @@ td {
   display: none !important;
 }
 
-/* 사이드바와 콘텐츠 사이 여백 제거 */
+/* 사이드바 왼쪽 끝으로 이동 및 여백 제거 */
 .VPSidebar {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  position: fixed !important;
+  left: 0 !important;
+  top: var(--vp-nav-height) !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .VPContent.has-sidebar {
   padding-left: var(--vp-sidebar-width) !important;
   padding-right: 0 !important;
+  margin: 0 !important;
 }
 
 .VPSidebar .nav {
   padding: 0 !important;
+  margin: 0 !important;
 }
 
 .VPDoc.has-sidebar .content-container {
-  max-width: calc(100% - var(--vp-sidebar-width)) !important;
   margin-left: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.VPDoc.has-sidebar .content {
   padding-left: 24px !important;
 }
 
