@@ -1416,6 +1416,21 @@ td {
   display: none !important;
 }
 
+.VPButton,
+.VPFlyout,
+.VPSwitch,
+.VPSocialLinks,
+.vp-sponsor,
+.pager,
+.prev-next,
+.edit-link,
+.last-updated,
+.VPFooter,
+.VPNav .VPNavBarExtra,
+.VPNav .VPNavBarSocialLinks {
+  display: none !important;
+}
+
 .VPDocAside {
   width: 240px;
   min-width: 240px;
