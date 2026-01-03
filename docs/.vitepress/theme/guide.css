@@ -1448,15 +1448,25 @@ td {
   display: none !important;
 }
 
-/* 왼쪽 사이드바(목차) 완전 숨김 */
+/* 사이드바와 콘텐츠 사이 여백 제거 */
 .VPSidebar {
-  display: none !important;
-}
-
-/* 사이드바 숨김으로 인한 레이아웃 조정 */
-.VPContent.has-sidebar {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+.VPContent.has-sidebar {
+  padding-left: var(--vp-sidebar-width) !important;
+  padding-right: 0 !important;
+}
+
+.VPSidebar .nav {
+  padding: 0 !important;
+}
+
+.VPDoc.has-sidebar .content-container {
+  max-width: calc(100% - var(--vp-sidebar-width)) !important;
+  margin-left: 0 !important;
+  padding-left: 24px !important;
 }
 
 .VPDocAside {
