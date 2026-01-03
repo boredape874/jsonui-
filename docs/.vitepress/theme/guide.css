@@ -1436,7 +1436,6 @@ td {
 
 .VPButton,
 .VPFlyout,
-.VPSwitch,
 .VPSocialLinks,
 .vp-sponsor,
 .pager,
@@ -1447,6 +1446,17 @@ td {
 .VPNav .VPNavBarExtra,
 .VPNav .VPNavBarSocialLinks {
   display: none !important;
+}
+
+/* 왼쪽 사이드바(목차) 완전 숨김 */
+.VPSidebar {
+  display: none !important;
+}
+
+/* 사이드바 숨김으로 인한 레이아웃 조정 */
+.VPContent.has-sidebar {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .VPDocAside {
