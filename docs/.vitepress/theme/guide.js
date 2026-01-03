@@ -93,6 +93,33 @@ const setupSearch = () => {
   }
 };
 
+const wrapLoosePreBlocks = () => {
+  const preBlocks = document.querySelectorAll(".vp-doc pre");
+  preBlocks.forEach((pre) => {
+    if (pre.dataset.codeWrapped === "true") return;
+    if (pre.closest(".code-block")) return;
+    if (pre.closest('div[class*="language-"]')) return;
+
+    const parent = pre.parentElement;
+    if (!parent) return;
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "code-block";
+
+    const header = pre.previousElementSibling;
+    const hasHeader = header && header.classList.contains("code-header");
+
+    parent.insertBefore(wrapper, hasHeader ? header : pre);
+
+    if (hasHeader) {
+      wrapper.appendChild(header);
+    }
+    wrapper.appendChild(pre);
+
+    pre.dataset.codeWrapped = "true";
+  });
+};
+
 const setupCodeBlocks = () => {
   const codeBlocks = document.querySelectorAll(".code-block");
   codeBlocks.forEach((block) => {
@@ -102,19 +129,22 @@ const setupCodeBlocks = () => {
     const code = block.querySelector("code");
     if (!code) return;
 
-    let title = block.querySelector(".code-title");
+    let title = block.querySelector(".code-title") || block.querySelector(".code-header");
     if (!title) {
       title = document.createElement("div");
       title.className = "code-title";
       title.textContent = "코드 예시";
       block.prepend(title);
+    } else {
+      title.classList.add("code-title");
     }
 
     if (title.querySelector(".code-actions")) return;
 
     const titleText = title.textContent.trim() || "코드 예시";
     const rawText = code.textContent.replace(/^\n+|\n+$/g, "");
-    if (rawText) {
+    const hasInlineMarkup = code.children.length > 0;
+    if (rawText && !hasInlineMarkup) {
       const firstLine = rawText.split("\n")[0].trim();
       if (!firstLine.startsWith("//")) {
         code.textContent = `// ${titleText} 예시\n${rawText}`;
@@ -276,6 +306,7 @@ const setupOutlineToggle = () => {
 };
 
 export const setupGuideInteractions = () => {
+  wrapLoosePreBlocks();
   setupCodeBlocks();
   setupVitepressCodeBlocks();
   setupSearch();
