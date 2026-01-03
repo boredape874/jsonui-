@@ -1427,24 +1427,34 @@ td {
 .last-updated,
 .VPFooter,
 .VPNav .VPNavBarExtra,
-.VPNav .VPNavBarSocialLinks {
+.VPNav .VPNavBarSocialLinks,
+.VPNavScreenAppearance,
+.appearance-toggle,
+.VPSwitchAppearance,
+.dark-mode-toggle,
+[class*="appearance"],
+[class*="Appearance"],
+button[aria-label*="appearance"],
+button[aria-label*="theme"],
+.vitepress-theme-appearance,
+aside.VPDocAside .content,
+aside.VPDocAside nav,
+.VPDocAsideOutline,
+.DocAside,
+.outline-marker {
   display: none !important;
 }
 
 .VPDocAside {
-  width: 240px;
-  min-width: 240px;
-  transition: width 0.2s ease;
+  display: none !important;
 }
 
 .VPDocAside.is-collapsed {
-  width: 56px;
-  min-width: 56px;
+  display: none !important;
 }
 
 .VPDocAside.is-collapsed .VPDocOutline {
-  opacity: 0;
-  pointer-events: none;
+  display: none !important;
 }
 
 .outline-toggle {
