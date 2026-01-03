@@ -14,19 +14,17 @@ title: 🧩 요소 타입 완벽 가이드
 <div class="term-content">
 <p>
 <strong>Panel</strong>은 다른 요소들을 담는 <strong>컨테이너</strong>입니다.<br>
-HTML의 <code><div></code>와 비슷하다고 생각하면 됩니다.
+HTML의 <code>&lt;div&gt;</code>와 비슷하다고 생각하면 됩니다.
 </p>
 </div>
 <div class="term-example">
 <div class="code-header">Panel 기본 예시</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"my_panel"</span>: {
     <span style="color: #8b949e;">// 타입: panel</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
-
     <span style="color: #8b949e;">// 크기 [너비, 높이]</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">100</span>],
-
     <span style="color: #8b949e;">// 자식 요소들</span>
     <span style="color: #79c0ff;">"controls"</span>: [
       {
@@ -50,29 +48,22 @@ HTML의 <code><div></code>와 비슷하다고 생각하면 됩니다.
 </div>
 <div class="term-example">
 <div class="code-header">Label 완전 예시</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"my_label"</span>: {
     <span style="color: #8b949e;">// 타입: label</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
     <span style="color: #8b949e;">// 표시할 텍스트</span>
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"점수: 100"</span>,
-
     <span style="color: #8b949e;">// 텍스트 색상 [빨강, 초록, 파랑] (0.0 ~ 1.0)</span>
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],  <span style="color: #8b949e;">// 흰색</span>
-
     <span style="color: #8b949e;">// 텍스트 그림자 (true/false)</span>
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>,
-
     <span style="color: #8b949e;">// 폰트 크기 (기본값, small, large, extra-large)</span>
     <span style="color: #79c0ff;">"font_size"</span>: <span style="color: #a5d6ff;">"normal"</span>,
-
     <span style="color: #8b949e;">// 폰트 타입 (default, smooth, rune 등)</span>
     <span style="color: #79c0ff;">"font_type"</span>: <span style="color: #a5d6ff;">"default"</span>,
-
     <span style="color: #8b949e;">// 텍스트 정렬 (left, center, right)</span>
     <span style="color: #79c0ff;">"text_alignment"</span>: <span style="color: #a5d6ff;">"center"</span>,
-
     <span style="color: #8b949e;">// 크기</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"default"</span>, <span style="color: #a5d6ff;">"default"</span>]
   }
@@ -102,18 +93,15 @@ HTML의 <code><div></code>와 비슷하다고 생각하면 됩니다.
 </div>
 <div class="term-example">
 <div class="code-header">Image 기본 예시</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"my_image"</span>: {
     <span style="color: #8b949e;">// 타입: image</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
-
     <span style="color: #8b949e;">// 텍스처 경로</span>
     <span style="color: #8b949e;">// textures/ui/ 폴더 안의 이미지 파일</span>
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/Black"</span>,
-
     <span style="color: #8b949e;">// 크기 [너비, 높이]</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">64</span>, <span style="color: #79c0ff;">64</span>],
-
     <span style="color: #8b949e;">// 투명도 (0.0 = 완전 투명, 1.0 = 불투명)</span>
     <span style="color: #79c0ff;">"alpha"</span>: <span style="color: #79c0ff;">1.0</span>
   }
@@ -129,17 +117,14 @@ HTML의 <code><div></code>와 비슷하다고 생각하면 됩니다.
 예를 들어, 아이템 아이콘이 모여있는 큰 이미지에서 하나만 사용할 수 있어요.
 </p>
 <div class="code-header">UV 사용 예시</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"item_icon"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/items/items"</span>,
-
     <span style="color: #8b949e;">// UV 시작 위치 [x, y] (픽셀 단위)</span>
     <span style="color: #79c0ff;">"uv"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">0</span>],
-
     <span style="color: #8b949e;">// UV 크기 [너비, 높이] (픽셀 단위)</span>
     <span style="color: #79c0ff;">"uv_size"</span>: [<span style="color: #79c0ff;">16</span>, <span style="color: #79c0ff;">16</span>],
-
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">32</span>, <span style="color: #79c0ff;">32</span>]  <span style="color: #8b949e;">// 실제 표시 크기</span>
   }
 }</code></pre>
@@ -156,23 +141,18 @@ HTML의 <code><div></code>와 비슷하다고 생각하면 됩니다.
 </div>
 <div class="term-example">
 <div class="code-header">Button 예시</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"my_button"</span>: {
     <span style="color: #8b949e;">// 타입: button</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"button"</span>,
-
     <span style="color: #8b949e;">// 크기</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">100</span>, <span style="color: #79c0ff;">40</span>],
-
     <span style="color: #8b949e;">// 기본 상태 (평소)</span>
     <span style="color: #79c0ff;">"default_control"</span>: <span style="color: #a5d6ff;">"button_default_state"</span>,
-
     <span style="color: #8b949e;">// 마우스 올렸을 때</span>
     <span style="color: #79c0ff;">"hover_control"</span>: <span style="color: #a5d6ff;">"button_hover_state"</span>,
-
     <span style="color: #8b949e;">// 클릭했을 때</span>
     <span style="color: #79c0ff;">"pressed_control"</span>: <span style="color: #a5d6ff;">"button_pressed_state"</span>,
-
     <span style="color: #8b949e;">// 버튼 매핑 (어떤 동작을 할지)</span>
     <span style="color: #79c0ff;">"button_mappings"</span>: [
       {
@@ -197,16 +177,14 @@ HTML의 <code><div></code>와 비슷하다고 생각하면 됩니다.
 </div>
 <div class="term-example">
 <div class="code-header">Stack Panel 예시</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"my_stack"</span>: {
     <span style="color: #8b949e;">// 타입: stack_panel</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"stack_panel"</span>,
-
     <span style="color: #8b949e;">// 정렬 방향</span>
     <span style="color: #8b949e;">// "vertical" = 세로 (위에서 아래로)</span>
     <span style="color: #8b949e;">// "horizontal" = 가로 (왼쪽에서 오른쪽으로)</span>
     <span style="color: #79c0ff;">"orientation"</span>: <span style="color: #a5d6ff;">"vertical"</span>,
-
     <span style="color: #8b949e;">// 자식 요소들</span>
     <span style="color: #79c0ff;">"controls"</span>: [
       { <span style="color: #79c0ff;">"item1@namespace.some_element"</span>: {} },

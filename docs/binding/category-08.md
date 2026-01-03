@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 상태 확인
 outline: false
+search: false
 ---
 
 # 상태 확인 {#binding-category}

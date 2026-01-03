@@ -1,0 +1,13 @@
+import { _ as _export_sfc, c as createElementBlock, o as openBlock, ae as createStaticVNode } from "./chunks/framework.DfhncZPL.js";
+const __pageData = JSON.parse('{"title":"Molang","description":"","frontmatter":{"title":"Molang"},"headers":[],"relativePath":"layout/molang.md","filePath":"layout/molang.md"}');
+const _sfc_main = { name: "layout/molang.md" };
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createElementBlock("div", null, [..._cache[0] || (_cache[0] = [
+    createStaticVNode('<h2 id="molang" tabindex="-1">Molang <a class="header-anchor" href="#molang" aria-label="Permalink to &quot;Molang {#molang}&quot;">​</a></h2><p>Molang은 간단한 계산과 조건을 적는 언어입니다. 어렵게 생각하지 말고 짧게 쓰는 것이 좋습니다.</p><h3 id="기본-연산" tabindex="-1">기본 연산 <a class="header-anchor" href="#기본-연산" aria-label="Permalink to &quot;기본 연산&quot;">​</a></h3><ul><li><code>(#value / 20)</code> 나눗셈</li><li><code>(not (#texture = &#39;&#39;))</code> 빈 값 검사</li><li><code>(#title_text - &#39;customUI_&#39;)</code> 문자열 빼기 (없으면 그대로)</li><li><code>((#a = &#39;x&#39;) and (#b &gt; 5))</code> 논리 연산</li></ul><h3 id="문자열-슬라이싱" tabindex="-1">문자열 슬라이싱 <a class="header-anchor" href="#문자열-슬라이싱" aria-label="Permalink to &quot;문자열 슬라이싱&quot;">​</a></h3><p>실제 예제는 텍스트를 잘라서 여러 데이터를 분리합니다.</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>// #dialogue_data에서 200자만 남기기</span></span>\n<span class="line"><span>&quot;source_property_name&quot;: &quot;((&#39;%.200s&#39; * #dialogue_data) - &#39;\\t&#39;)&quot;</span></span></code></pre></div><h3 id="초보-규칙-3가지" tabindex="-1">초보 규칙 3가지 <a class="header-anchor" href="#초보-규칙-3가지" aria-label="Permalink to &quot;초보 규칙 3가지&quot;">​</a></h3><ul><li>괄호로 감싸서 안전하게</li><li>문자열은 작은따옴표 사용</li><li>짧게 쓰고 하나씩 테스트</li></ul><h3 id="자주-쓰는-비교" tabindex="-1">자주 쓰는 비교 <a class="header-anchor" href="#자주-쓰는-비교" aria-label="Permalink to &quot;자주 쓰는 비교&quot;">​</a></h3><ul><li><code>(#value &gt; 0)</code> 양수인지</li><li><code>(#text = &#39;&#39;)</code> 비어있는지</li><li><code>(not (#visible))</code> 반대 조건</li></ul><p>customUI 감지는 <code>((#title_text - &#39;customUI_&#39;) = #title_text)</code> 패턴을 사용합니다. 이 식이 true면 “접두어가 없다”는 뜻입니다.</p><p><code>* 1</code>은 true/false 값을 1/0으로 바꾸는 간단한 변환입니다.</p>', 13)
+  ])]);
+}
+const molang = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+export {
+  __pageData,
+  molang as default
+};

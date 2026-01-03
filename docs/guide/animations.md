@@ -114,23 +114,19 @@ title: 🎬 애니메이션 완벽 이해
 
 <div class="code-block">
 <div class="code-header">애니메이션 정의 방법</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      애니메이션 정의
   ============================================ */</span>
   <span style="color: #79c0ff;">"my_animation@namespace.element_name"</span>: {
     <span style="color: #8b949e;">// 애니메이션 타입 (alpha/offset/size/color/flip_book/wait)</span>
     <span style="color: #79c0ff;">"anim_type"</span>: <span style="color: #a5d6ff;">"alpha"</span>,
-
     <span style="color: #8b949e;">// 애니메이션 시간 (초 단위)</span>
     <span style="color: #79c0ff;">"duration"</span>: <span style="color: #79c0ff;">1.0</span>,
-
     <span style="color: #8b949e;">// 시작 값</span>
     <span style="color: #79c0ff;">"from"</span>: <span style="color: #79c0ff;">0.0</span>,
-
     <span style="color: #8b949e;">// 끝 값</span>
     <span style="color: #79c0ff;">"to"</span>: <span style="color: #79c0ff;">1.0</span>,
-
     <span style="color: #8b949e;">// 이징 함수</span>
     <span style="color: #79c0ff;">"easing"</span>: <span style="color: #a5d6ff;">"linear"</span>
   }
@@ -141,34 +137,28 @@ title: 🎬 애니메이션 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/custom_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      1단계: 페이드 인 애니메이션 정의
   ============================================ */</span>
   <span style="color: #79c0ff;">"fade_in_anim"</span>: {
     <span style="color: #8b949e;">// 투명도 애니메이션</span>
     <span style="color: #79c0ff;">"anim_type"</span>: <span style="color: #a5d6ff;">"alpha"</span>,
-
     <span style="color: #8b949e;">// 2초 동안 진행</span>
     <span style="color: #79c0ff;">"duration"</span>: <span style="color: #79c0ff;">2.0</span>,
-
     <span style="color: #8b949e;">// 투명(0.0)에서 시작</span>
     <span style="color: #79c0ff;">"from"</span>: <span style="color: #79c0ff;">0.0</span>,
-
     <span style="color: #8b949e;">// 불투명(1.0)으로 끝</span>
     <span style="color: #79c0ff;">"to"</span>: <span style="color: #79c0ff;">1.0</span>,
-
     <span style="color: #8b949e;">// 일정한 속도</span>
     <span style="color: #79c0ff;">"easing"</span>: <span style="color: #a5d6ff;">"linear"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      2단계: 애니메이션을 적용할 요소
   ============================================ */</span>
   <span style="color: #79c0ff;">"my_text"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"안녕하세요!"</span>,
-
     <span style="color: #8b949e;">// 애니메이션 적용 (배열로 여러 개 가능)</span>
     <span style="color: #79c0ff;">"anims"</span>: [
       <span style="color: #a5d6ff;">"@custom.fade_in_anim"</span>
@@ -192,34 +182,28 @@ title: 🎬 애니메이션 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/custom_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      아래에서 위로 올라오는 애니메이션
   ============================================ */</span>
   <span style="color: #79c0ff;">"slide_up_anim"</span>: {
     <span style="color: #8b949e;">// 위치 이동 애니메이션</span>
     <span style="color: #79c0ff;">"anim_type"</span>: <span style="color: #a5d6ff;">"offset"</span>,
-
     <span style="color: #8b949e;">// 1.5초 동안 진행</span>
     <span style="color: #79c0ff;">"duration"</span>: <span style="color: #79c0ff;">1.5</span>,
-
     <span style="color: #8b949e;">// 시작 위치: 아래쪽 (y = 100)</span>
     <span style="color: #79c0ff;">"from"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">100</span>],
-
     <span style="color: #8b949e;">// 끝 위치: 원래 위치 (y = 0)</span>
     <span style="color: #79c0ff;">"to"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">0</span>],
-
     <span style="color: #8b949e;">// 점점 느려지며 도착</span>
     <span style="color: #79c0ff;">"easing"</span>: <span style="color: #a5d6ff;">"out_quad"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      애니메이션 적용
   ============================================ */</span>
   <span style="color: #79c0ff;">"my_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">100</span>],
-
     <span style="color: #79c0ff;">"anims"</span>: [
       <span style="color: #a5d6ff;">"@custom.slide_up_anim"</span>
     ]
@@ -231,7 +215,7 @@ title: 🎬 애니메이션 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/custom_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      1단계: 페이드 인 (0.5초)
   ============================================ */</span>
@@ -241,11 +225,9 @@ title: 🎬 애니메이션 완벽 이해
     <span style="color: #79c0ff;">"from"</span>: <span style="color: #79c0ff;">0.0</span>,
     <span style="color: #79c0ff;">"to"</span>: <span style="color: #79c0ff;">1.0</span>,
     <span style="color: #79c0ff;">"easing"</span>: <span style="color: #a5d6ff;">"linear"</span>,
-
     <span style="color: #8b949e;">// 이 애니메이션이 끝나면 다음 애니메이션 실행</span>
     <span style="color: #79c0ff;">"next"</span>: <span style="color: #a5d6ff;">"@custom.anim_2_scale"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      2단계: 크기 변화 (1초)
   ============================================ */</span>
@@ -255,29 +237,24 @@ title: 🎬 애니메이션 완벽 이해
     <span style="color: #79c0ff;">"from"</span>: [<span style="color: #79c0ff;">50</span>, <span style="color: #79c0ff;">50</span>],
     <span style="color: #79c0ff;">"to"</span>: [<span style="color: #79c0ff;">100</span>, <span style="color: #79c0ff;">100</span>],
     <span style="color: #79c0ff;">"easing"</span>: <span style="color: #a5d6ff;">"out_bounce"</span>,
-
     <span style="color: #8b949e;">// 3단계로 이동</span>
     <span style="color: #79c0ff;">"next"</span>: <span style="color: #a5d6ff;">"@custom.anim_3_wait"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      3단계: 대기 (2초)
   ============================================ */</span>
   <span style="color: #79c0ff;">"anim_3_wait"</span>: {
     <span style="color: #79c0ff;">"anim_type"</span>: <span style="color: #a5d6ff;">"wait"</span>,
     <span style="color: #79c0ff;">"duration"</span>: <span style="color: #79c0ff;">2.0</span>,
-
     <span style="color: #8b949e;">// 대기 후 다시 1단계로 (무한 반복)</span>
     <span style="color: #79c0ff;">"next"</span>: <span style="color: #a5d6ff;">"@custom.anim_1_fade"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      애니메이션 적용 요소
   ============================================ */</span>
   <span style="color: #79c0ff;">"animated_image"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/items/diamond"</span>,
-
     <span style="color: #8b949e;">// 첫 번째 애니메이션만 적용 (나머지는 자동으로 연결됨)</span>
     <span style="color: #79c0ff;">"anims"</span>: [
       <span style="color: #a5d6ff;">"@custom.anim_1_fade"</span>
@@ -302,7 +279,7 @@ title: 🎬 애니메이션 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/custom_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      애니메이션 정의 (버튼 ID로 실행)
   ============================================ */</span>
@@ -312,29 +289,24 @@ title: 🎬 애니메이션 완벽 이해
     <span style="color: #79c0ff;">"from"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">0</span>],
     <span style="color: #79c0ff;">"to"</span>: [<span style="color: #79c0ff;">-50</span>, <span style="color: #79c0ff;">0</span>],
     <span style="color: #79c0ff;">"easing"</span>: <span style="color: #a5d6ff;">"out_quad"</span>,
-
     <span style="color: #8b949e;">// 버튼을 누를 때 실행 (버튼 ID와 일치해야 함)</span>
     <span style="color: #79c0ff;">"play_event"</span>: <span style="color: #a5d6ff;">"button.my_animation_trigger"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      버튼 정의
   ============================================ */</span>
   <span style="color: #79c0ff;">"trigger_button@common_buttons.light_text_button"</span>: {
     <span style="color: #79c0ff;">"$button_text"</span>: <span style="color: #a5d6ff;">"애니메이션 실행"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">100</span>, <span style="color: #79c0ff;">30</span>],
-
     <span style="color: #8b949e;">// 버튼을 누르면 이 ID가 실행됨</span>
     <span style="color: #79c0ff;">"$pressed_button_name"</span>: <span style="color: #a5d6ff;">"button.my_animation_trigger"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      애니메이션이 적용될 요소
   ============================================ */</span>
   <span style="color: #79c0ff;">"animated_label"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"움직일 텍스트"</span>,
-
     <span style="color: #8b949e;">// 애니메이션 연결</span>
     <span style="color: #79c0ff;">"anims"</span>: [
       <span style="color: #a5d6ff;">"@custom.button_click_anim"</span>

@@ -25,17 +25,15 @@ title: 💾 데이터 보존 기법
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json - 데이터 보존 컴포넌트</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      재사용 가능한 데이터 보존 라벨
   ============================================ */</span>
   <span style="color: #79c0ff;">"preserved_title_display"</span>: {
     <span style="color: #8b949e;">// 감지할 키워드 (변수)</span>
     <span style="color: #79c0ff;">"$update_string"</span>: <span style="color: #a5d6ff;">"update"</span>,
-
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"#text"</span>,
-
     <span style="color: #8b949e;">/* ============================================
        자식 컨트롤: 데이터 로직 처리
     ============================================ */</span>
@@ -44,7 +42,6 @@ title: 💾 데이터 보존 기법
         <span style="color: #79c0ff;">"data_control"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">0</span>],
-
           <span style="color: #8b949e;">/* =====================================
              로컬 변수 정의 (property_bag)
              - 각 인스턴스마다 독립적인 메모리
@@ -52,7 +49,6 @@ title: 💾 데이터 보존 기법
           <span style="color: #79c0ff;">"property_bag"</span>: {
             <span style="color: #79c0ff;">"#preserved_text"</span>: <span style="color: #a5d6ff;">""</span>
           },
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">// 1. 제목 텍스트 가져오기</span>
@@ -82,7 +78,6 @@ title: 💾 데이터 보존 기법
         }
       }
     ],
-
     <span style="color: #8b949e;">/* ============================================
        라벨 텍스트 바인딩
        - data_control에서 저장된 텍스트 가져오기
@@ -92,7 +87,6 @@ title: 💾 데이터 보존 기법
       {
         <span style="color: #79c0ff;">"binding_type"</span>: <span style="color: #a5d6ff;">"view"</span>,
         <span style="color: #79c0ff;">"source_control_name"</span>: <span style="color: #a5d6ff;">"data_control"</span>,
-
         <span style="color: #8b949e;">// 저장된 텍스트에서 키워드 제거</span>
         <span style="color: #79c0ff;">"source_property_name"</span>: <span style="color: #a5d6ff;">"(#preserved_text - $update_string)"</span>,
         <span style="color: #79c0ff;">"target_property_name"</span>: <span style="color: #a5d6ff;">"#text"</span>
@@ -128,7 +122,7 @@ title: 💾 데이터 보존 기법
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json - 여러 데이터 보존</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      플레이어 이름 표시 (키워드: "name:")
   ============================================ */</span>
@@ -138,7 +132,6 @@ title: 💾 데이터 보존 기법
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">10</span>]
   },
-
   <span style="color: #8b949e;">/* ============================================
      점수 표시 (키워드: "score:")
   ============================================ */</span>
@@ -154,7 +147,7 @@ title: 💾 데이터 보존 기법
 <div class="lecture-note">
 <div class="lecture-note-title">사용 예제 (명령어)</div>
 <div class="lecture-note-content">
-                        <pre><code>/title @a title name:플레이어123
+<pre><code>/title @a title name:플레이어123
 /title @a title score:1500점</code></pre>
 <p>
 → 각각 독립적으로 저장되어 둘 다 계속 표시됩니다!

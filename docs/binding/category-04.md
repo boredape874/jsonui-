@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 개수/수량
 outline: false
+search: false
 ---
 
 # 개수/수량 {#binding-category}
@@ -112,7 +113,7 @@ automation repeat의 개수
     "text": "#automation repeat_count",
     "bindings": [
       {
-        "binding_name": "#automation repeat_count",
+        "binding_name": "#automation_repeat_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -268,7 +269,7 @@ feature toggle의 개수
     "text": "#feature toggle_count",
     "bindings": [
       {
-        "binding_name": "#feature toggle_count",
+        "binding_name": "#feature_toggle_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -307,7 +308,7 @@ filter selected의 개수
     "text": "#filter selected_count",
     "bindings": [
       {
-        "binding_name": "#filter selected_count",
+        "binding_name": "#filter_selected_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -346,7 +347,7 @@ friend world item의 개수
     "text": "#friend world item_count",
     "bindings": [
       {
-        "binding_name": "#friend world item_count",
+        "binding_name": "#friend_world_item_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -385,7 +386,7 @@ friends with의 개수
     "text": "#friends with_count",
     "bindings": [
       {
-        "binding_name": "#friends with_count",
+        "binding_name": "#friends_with_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -424,7 +425,7 @@ info additional server player의 개수
     "text": "#info additional server player_count",
     "bindings": [
       {
-        "binding_name": "#info additional server player_count",
+        "binding_name": "#info_additional_server_player_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -463,7 +464,7 @@ info third party server player의 개수
     "text": "#info third party server player_count",
     "bindings": [
       {
-        "binding_name": "#info third party server player_count",
+        "binding_name": "#info_third_party_server_player_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -502,7 +503,7 @@ inventory selected item stack의 개수
     "text": "#inventory selected item stack_count",
     "bindings": [
       {
-        "binding_name": "#inventory selected item stack_count",
+        "binding_name": "#inventory_selected_item_stack_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -541,7 +542,7 @@ inventory stack의 개수
     "text": "#inventory stack_count",
     "bindings": [
       {
-        "binding_name": "#inventory stack_count",
+        "binding_name": "#inventory_stack_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -581,7 +582,7 @@ item stack의 개수
     "text": "#item stack_count",
     "bindings": [
       {
-        "binding_name": "#item stack_count",
+        "binding_name": "#item_stack_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -620,7 +621,7 @@ left helper의 개수
     "text": "#left helper_count",
     "bindings": [
       {
-        "binding_name": "#left helper_count",
+        "binding_name": "#left_helper_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -659,7 +660,7 @@ marketplace feature toggle의 개수
     "text": "#marketplace feature toggle_count",
     "bindings": [
       {
-        "binding_name": "#marketplace feature toggle_count",
+        "binding_name": "#marketplace_feature_toggle_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -737,7 +738,7 @@ mock http rule의 개수
     "text": "#mock http rule_count",
     "bindings": [
       {
-        "binding_name": "#mock http rule_count",
+        "binding_name": "#mock_http_rule_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -776,7 +777,7 @@ network world player의 개수
     "text": "#network world player_count",
     "bindings": [
       {
-        "binding_name": "#network world player_count",
+        "binding_name": "#network_world_player_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -815,7 +816,7 @@ output stack의 개수
     "text": "#output stack_count",
     "bindings": [
       {
-        "binding_name": "#output stack_count",
+        "binding_name": "#output_stack_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -854,7 +855,7 @@ promo item resource pack의 개수
     "text": "#promo item resource pack_count",
     "bindings": [
       {
-        "binding_name": "#promo item resource pack_count",
+        "binding_name": "#promo_item_resource_pack_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -893,7 +894,7 @@ promo item skin의 개수
     "text": "#promo item skin_count",
     "bindings": [
       {
-        "binding_name": "#promo item skin_count",
+        "binding_name": "#promo_item_skin_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -932,7 +933,7 @@ promo item world template의 개수
     "text": "#promo item world template_count",
     "bindings": [
       {
-        "binding_name": "#promo item world template_count",
+        "binding_name": "#promo_item_world_template_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -971,7 +972,7 @@ realm player의 개수
     "text": "#realm player_count",
     "bindings": [
       {
-        "binding_name": "#realm player_count",
+        "binding_name": "#realm_player_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1049,7 +1050,7 @@ realms feature toggle의 개수
     "text": "#realms feature toggle_count",
     "bindings": [
       {
-        "binding_name": "#realms feature toggle_count",
+        "binding_name": "#realms_feature_toggle_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1088,7 +1089,7 @@ realms notification의 개수
     "text": "#realms notification_count",
     "bindings": [
       {
-        "binding_name": "#realms notification_count",
+        "binding_name": "#realms_notification_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1127,7 +1128,7 @@ realms unread story의 개수
     "text": "#realms unread story_count",
     "bindings": [
       {
-        "binding_name": "#realms unread story_count",
+        "binding_name": "#realms_unread_story_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1166,7 +1167,7 @@ realms world player의 개수
     "text": "#realms world player_count",
     "bindings": [
       {
-        "binding_name": "#realms world player_count",
+        "binding_name": "#realms_world_player_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1205,7 +1206,7 @@ recipe craftable의 개수
     "text": "#recipe craftable_count",
     "bindings": [
       {
-        "binding_name": "#recipe craftable_count",
+        "binding_name": "#recipe_craftable_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1244,7 +1245,7 @@ remaining characters의 개수
     "text": "#remaining characters_count",
     "bindings": [
       {
-        "binding_name": "#remaining characters_count",
+        "binding_name": "#remaining_characters_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1283,7 +1284,7 @@ right helper의 개수
     "text": "#right helper_count",
     "bindings": [
       {
-        "binding_name": "#right helper_count",
+        "binding_name": "#right_helper_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1322,7 +1323,7 @@ sales grid item의 개수
     "text": "#sales grid item_count",
     "bindings": [
       {
-        "binding_name": "#sales grid item_count",
+        "binding_name": "#sales_grid_item_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1361,7 +1362,7 @@ second trade item의 개수
     "text": "#second trade item_count",
     "bindings": [
       {
-        "binding_name": "#second trade item_count",
+        "binding_name": "#second_trade_item_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1439,7 +1440,7 @@ server player의 개수
     "text": "#server player_count",
     "bindings": [
       {
-        "binding_name": "#server player_count",
+        "binding_name": "#server_player_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1478,7 +1479,7 @@ server world item의 개수
     "text": "#server world item_count",
     "bindings": [
       {
-        "binding_name": "#server world item_count",
+        "binding_name": "#server_world_item_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1595,7 +1596,7 @@ trade item의 개수
     "text": "#trade item_count",
     "bindings": [
       {
-        "binding_name": "#trade item_count",
+        "binding_name": "#trade_item_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1634,7 +1635,7 @@ ui feature toggle의 개수
     "text": "#ui feature toggle_count",
     "bindings": [
       {
-        "binding_name": "#ui feature toggle_count",
+        "binding_name": "#ui_feature_toggle_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1712,7 +1713,7 @@ world item의 개수
     "text": "#world item_count",
     "bindings": [
       {
-        "binding_name": "#world item_count",
+        "binding_name": "#world_item_count",
         "binding_name_override": "#text",
         "binding_type": "global"
       }

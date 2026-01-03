@@ -27,11 +27,10 @@ title: 📐 레이아웃 시스템 완벽 이해
 <div class="step-content">
 <h4>화면 중앙에 배치</h4>
 <div class="code-header">중앙 정렬</div>
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"centered_element"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">100</span>, <span style="color: #79c0ff;">100</span>],
-
     <span style="color: #8b949e;">// 부모의 중앙 = 내 중앙</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"center"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"center"</span>
@@ -45,15 +44,13 @@ title: 📐 레이아웃 시스템 완벽 이해
 <div class="step-content">
 <h4>오른쪽 위 모서리 배치</h4>
 <div class="code-header">우상단 정렬</div>
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"top_right_element"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"점수: 100"</span>,
-
     <span style="color: #8b949e;">// 부모의 오른쪽 위 = 내 오른쪽 위</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_right"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_right"</span>,
-
     <span style="color: #8b949e;">// 약간 안쪽으로 이동 (왼쪽으로 -10px, 아래로 10px)</span>
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">-10</span>, <span style="color: #79c0ff;">10</span>]
   }
@@ -66,15 +63,13 @@ title: 📐 레이아웃 시스템 완벽 이해
 <div class="step-content">
 <h4>하단 중앙 배치</h4>
 <div class="code-header">하단 중앙 정렬</div>
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"bottom_center_element"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">50</span>],
-
     <span style="color: #8b949e;">// 부모의 하단 중앙 = 내 하단 중앙</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
-
     <span style="color: #8b949e;">// 위로 조금 올리기</span>
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">-20</span>]
   }

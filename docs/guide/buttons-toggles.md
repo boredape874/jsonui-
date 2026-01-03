@@ -20,27 +20,21 @@ title: 🔘 버튼과 토글 완벽 가이드
 
 <div class="code-block">
 <div class="code-header">버튼의 4가지 상태</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"my_button@common.button"</span>: {
     <span style="color: #8b949e;">/* ============================================
        버튼은 4가지 상태를 가집니다
     ============================================ */</span>
-
     <span style="color: #8b949e;">// 1. default: 평소 상태</span>
     <span style="color: #79c0ff;">"$default_button_texture"</span>: <span style="color: #a5d6ff;">"textures/ui/button_borderless_light"</span>,
-
     <span style="color: #8b949e;">// 2. hover: 마우스를 올렸을 때</span>
     <span style="color: #79c0ff;">"$hover_button_texture"</span>: <span style="color: #a5d6ff;">"textures/ui/button_borderless_lighthover"</span>,
-
     <span style="color: #8b949e;">// 3. pressed: 클릭했을 때</span>
     <span style="color: #79c0ff;">"$pressed_button_texture"</span>: <span style="color: #a5d6ff;">"textures/ui/button_borderless_lightpressed"</span>,
-
     <span style="color: #8b949e;">// 4. locked: 비활성화 (클릭 불가)</span>
     <span style="color: #79c0ff;">"$locked_button_texture"</span>: <span style="color: #a5d6ff;">"textures/ui/button_borderless_locked"</span>,
-
     <span style="color: #8b949e;">// 버튼 텍스트</span>
     <span style="color: #79c0ff;">"$button_text"</span>: <span style="color: #a5d6ff;">"클릭하세요"</span>,
-
     <span style="color: #8b949e;">// 버튼 크기</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">150</span>, <span style="color: #79c0ff;">40</span>]
   }
@@ -54,26 +48,22 @@ title: 🔘 버튼과 토글 완벽 가이드
 
 <div class="code-block">
 <div class="code-header">버튼 매핑 예제</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"close_button@common_buttons.light_text_button"</span>: {
     <span style="color: #79c0ff;">"$button_text"</span>: <span style="color: #a5d6ff;">"닫기"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">100</span>, <span style="color: #79c0ff;">30</span>],
-
     <span style="color: #8b949e;">/* ============================================
        버튼 매핑 설정
        - 버튼을 클릭하면 실행될 액션 ID
     ============================================ */</span>
     <span style="color: #79c0ff;">"$pressed_button_name"</span>: <span style="color: #a5d6ff;">"button.menu_exit"</span>,
-
     <span style="color: #8b949e;">// 또는 button_mappings 배열로 설정</span>
     <span style="color: #79c0ff;">"button_mappings"</span>: [
       {
         <span style="color: #8b949e;">// 버튼에서: 클릭했을 때</span>
         <span style="color: #79c0ff;">"from_button_id"</span>: <span style="color: #a5d6ff;">"button.menu_select"</span>,
-
         <span style="color: #8b949e;">// 이걸로: 화면 닫기</span>
         <span style="color: #79c0ff;">"to_button_id"</span>: <span style="color: #a5d6ff;">"button.menu_exit"</span>,
-
         <span style="color: #8b949e;">// 매핑 타입</span>
         <span style="color: #79c0ff;">"mapping_type"</span>: <span style="color: #a5d6ff;">"pressed"</span>
       }
@@ -99,21 +89,18 @@ title: 🔘 버튼과 토글 완벽 가이드
 
 <div class="code-block">
 <div class="code-header">토글 기본 예제</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      토글 버튼 정의
   ============================================ */</span>
   <span style="color: #79c0ff;">"sound_toggle@common_toggles.light_text_toggle"</span>: {
     <span style="color: #8b949e;">// 토글 라벨 텍스트</span>
     <span style="color: #79c0ff;">"$button_text"</span>: <span style="color: #a5d6ff;">"소리 켜기"</span>,
-
     <span style="color: #8b949e;">// 토글 이름 (다른 요소에서 참조할 때 사용)</span>
     <span style="color: #79c0ff;">"$toggle_view_binding_name"</span>: <span style="color: #a5d6ff;">"sound_enabled"</span>,
-
     <span style="color: #8b949e;">// 기본 상태 (true = ON, false = OFF)</span>
     <span style="color: #79c0ff;">"$toggle_default_state"</span>: <span style="color: #79c0ff;">true</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      토글 상태에 따라 보이는 이미지
   ============================================ */</span>
@@ -121,18 +108,14 @@ title: 🔘 버튼과 토글 완벽 가이드
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/sound_glyph"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">16</span>, <span style="color: #79c0ff;">16</span>],
-
     <span style="color: #8b949e;">// 토글 상태 바인딩</span>
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
         <span style="color: #79c0ff;">"binding_type"</span>: <span style="color: #a5d6ff;">"view"</span>,
-
         <span style="color: #8b949e;">// 어떤 토글을 참조할지</span>
         <span style="color: #79c0ff;">"source_control_name"</span>: <span style="color: #a5d6ff;">"sound_enabled"</span>,
-
         <span style="color: #8b949e;">// 토글의 ON/OFF 상태 가져오기</span>
         <span style="color: #79c0ff;">"source_property_name"</span>: <span style="color: #a5d6ff;">"#toggle_state"</span>,
-
         <span style="color: #8b949e;">// visible에 연결 (ON이면 보임)</span>
         <span style="color: #79c0ff;">"target_property_name"</span>: <span style="color: #a5d6ff;">"#visible"</span>
       }
@@ -148,16 +131,14 @@ title: 🔘 버튼과 토글 완벽 가이드
 
 <div class="code-block">
 <div class="code-header">Content 버튼 예제</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"help_button@common.button"</span>: {
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">20</span>, <span style="color: #79c0ff;">20</span>],
-
     <span style="color: #8b949e;">/* ============================================
        호버 텍스트 설정
     ============================================ */</span>
     <span style="color: #79c0ff;">"$button_content"</span>: <span style="color: #a5d6ff;">"common.tooltip_text"</span>,
     <span style="color: #79c0ff;">"$hover_panel_text"</span>: <span style="color: #a5d6ff;">"도움말: 이 버튼을 클릭하면 안내가 표시됩니다"</span>,
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #79c0ff;">"icon"</span>: {

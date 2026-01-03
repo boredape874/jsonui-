@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 가능 여부
 outline: false
+search: false
 ---
 
 # 가능 여부 {#binding-category}

@@ -55,9 +55,9 @@ ScriptAPI
 - [리소스](start/resources.html#resources)
 - [실제 사례 미리보기](start/showcase.html#showcase)
 - [영상으로 배우기](start/videos.html#videos)
-- [예제 지도](examples/examples.html#example-map)
-- [예제 전체 목록](examples/examples.html#example-index)
-- [예제 미리보기](examples/examples.html#example-view)
+- [예제 지도](examples/index.html#example-map)
+- [예제 전체 목록](examples/list.html#example-index)
+- [예제 미리보기](examples/preview.html#example-view)
 
 
   ### 초보 입문
@@ -115,4 +115,3 @@ ScriptAPI
 
 
 실제 예제 분석을 기반으로 구성되었습니다.
-

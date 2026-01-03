@@ -42,7 +42,7 @@ Factory를 사용하여 하나의 틀(템플릿)을 만들고 필요할 때마�
 
 <div class="code-block">
 <div class="code-header">RP/ui/server_form.json - 1단계: Factory 추가</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      main_screen_content 수정
      서버 폼의 메인 컨테이너에 우리의 Factory 추가
@@ -77,7 +77,7 @@ Factory를 사용하여 하나의 틀(템플릿)을 만들고 필요할 때마�
 
 <div class="code-block">
 <div class="code-header">RP/ui/server_form.json - 2단계: 커스텀 폼 정의</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"my_action_form_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #8b949e;">// 제목 텍스트 바인딩</span>
@@ -109,7 +109,7 @@ Factory를 사용하여 하나의 틀(템플릿)을 만들고 필요할 때마�
 
 <div class="code-block">
 <div class="code-header">RP/ui/server_form.json - 3단계: 바닐라 폼 충돌 방지</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"long_form"</span>: {
     <span style="color: #79c0ff;">"modifications"</span>: [
       {

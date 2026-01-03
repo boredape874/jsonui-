@@ -1,5 +1,6 @@
 ---
 title: 🔗 데이터 바인딩 완벽 이해
+search: false
 ---
 
 # 🔗 데이터 바인딩 완벽 이해 {#bindings}
@@ -57,20 +58,17 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">바인딩 기본 구조</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">// 요소 정의 시작</span>
   <span style="color: #79c0ff;">"my_element"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
     <span style="color: #8b949e;">// 바인딩 배열 (여러 개의 바인딩을 설정할 수 있음)</span>
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
         <span style="color: #8b949e;">// 어떤 타입의 바인딩인지 (global/view/collection)</span>
         <span style="color: #79c0ff;">"binding_type"</span>: <span style="color: #a5d6ff;">"global"</span>,
-
         <span style="color: #8b949e;">// 어떤 데이터를 가져올지 (# 붙임)</span>
         <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#playername"</span>,
-
         <span style="color: #8b949e;">// 가져온 데이터를 어디에 넣을지</span>
         <span style="color: #79c0ff;">"target_property_name"</span>: <span style="color: #a5d6ff;">"#text"</span>
       }
@@ -433,33 +431,27 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      플레이어 이름을 화면에 표시하는 요소
   ============================================ */</span>
   <span style="color: #79c0ff;">"player_name_label"</span>: {
     <span style="color: #8b949e;">// 텍스트를 표시하는 요소</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
     <span style="color: #8b949e;">// 화면 상단 중앙에 배치</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_middle"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_middle"</span>,
-
     <span style="color: #8b949e;">// 위치 조정 (아래로 10px)</span>
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">10</span>],
-
     <span style="color: #8b949e;">// 텍스트 색상 (흰색)</span>
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
-
     <span style="color: #8b949e;">// 바인딩 설정</span>
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
         <span style="color: #8b949e;">// 게임 전역 데이터 사용</span>
         <span style="color: #79c0ff;">"binding_type"</span>: <span style="color: #a5d6ff;">"global"</span>,
-
         <span style="color: #8b949e;">// 플레이어 이름 데이터 가져오기</span>
         <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#playername"</span>,
-
         <span style="color: #8b949e;">// 가져온 이름을 텍스트로 표시</span>
         <span style="color: #79c0ff;">"target_property_name"</span>: <span style="color: #a5d6ff;">"#text"</span>
       }
@@ -472,17 +464,15 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/custom_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      토글 버튼 (ON/OFF 스위치)
   ============================================ */</span>
   <span style="color: #79c0ff;">"my_toggle@common_toggles.light_text_toggle"</span>: {
     <span style="color: #79c0ff;">"$button_text"</span>: <span style="color: #a5d6ff;">"이미지 표시"</span>,
-
     <span style="color: #8b949e;">// 토글 이름 (이 이름으로 다른 요소에서 참조함)</span>
     <span style="color: #79c0ff;">"$toggle_view_binding_name"</span>: <span style="color: #a5d6ff;">"my_toggle_state"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      토글로 켜고 끌 수 있는 이미지
   ============================================ */</span>
@@ -490,19 +480,15 @@ title: 🔗 데이터 바인딩 완벽 이해
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/items/apple"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">32</span>, <span style="color: #79c0ff;">32</span>],
-
     <span style="color: #8b949e;">// 바인딩으로 보임/안보임 제어</span>
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
         <span style="color: #8b949e;">// 화면(view) 데이터 사용</span>
         <span style="color: #79c0ff;">"binding_type"</span>: <span style="color: #a5d6ff;">"view"</span>,
-
         <span style="color: #8b949e;">// 어떤 토글을 참조할지 (토글 이름)</span>
         <span style="color: #79c0ff;">"source_control_name"</span>: <span style="color: #a5d6ff;">"my_toggle_state"</span>,
-
         <span style="color: #8b949e;">// 토글의 ON/OFF 상태 가져오기</span>
         <span style="color: #79c0ff;">"source_property_name"</span>: <span style="color: #a5d6ff;">"#toggle_state"</span>,
-
         <span style="color: #8b949e;">// 상태에 따라 보임/안보임 설정</span>
         <span style="color: #79c0ff;">"target_property_name"</span>: <span style="color: #a5d6ff;">"#visible"</span>
       }
@@ -522,32 +508,26 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      /title 명령어로 보낸 텍스트를 표시
   ============================================ */</span>
   <span style="color: #79c0ff;">"title_text_label"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
     <span style="color: #8b949e;">// 화면 중앙에 배치</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"center"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"center"</span>,
-
     <span style="color: #8b949e;">// 텍스트 색상 (노란색)</span>
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.0</span>],
-
     <span style="color: #8b949e;">// 텍스트 크기</span>
     <span style="color: #79c0ff;">"font_size"</span>: <span style="color: #a5d6ff;">"extra_large"</span>,
-
     <span style="color: #8b949e;">// 바인딩 설정</span>
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
         <span style="color: #8b949e;">// 게임 전역 데이터 사용</span>
         <span style="color: #79c0ff;">"binding_type"</span>: <span style="color: #a5d6ff;">"global"</span>,
-
         <span style="color: #8b949e;">// /title 명령어의 텍스트 데이터</span>
         <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#hud_title_text_string"</span>,
-
         <span style="color: #8b949e;">// 텍스트로 표시</span>
         <span style="color: #79c0ff;">"target_property_name"</span>: <span style="color: #a5d6ff;">"#text"</span>
       }
@@ -1023,7 +1003,7 @@ title: 🔗 데이터 바인딩 완벽 이해
 <td><code>#health > 10</code></td>
 </tr>
 <tr>
-<td><code><</code></td>
+<td><code>&lt;</code></td>
 <td>작다</td>
 <td>첫 번째 값이 더 작으면 true</td>
 <td><code>#health < 5</code></td>
@@ -1035,7 +1015,7 @@ title: 🔗 데이터 바인딩 완벽 이해
 <td><code>#health >= 15</code></td>
 </tr>
 <tr>
-<td><code><=</code></td>
+<td><code>&lt;=</code></td>
 <td>작거나 같음</td>
 <td>첫 번째 값이 작거나 같으면 true</td>
 <td><code>#health <= 6</code></td>
@@ -1079,7 +1059,7 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">논리 연산자 사용 예시</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ========================================
      체력과 허기가 모두 낮을 때만 경고 표시
   ======================================== */</span>
@@ -1087,7 +1067,6 @@ title: 🔗 데이터 바인딩 완벽 이해
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"⚠️ 위험!"</span>,
     <span style="color: #79c0ff;">"visible"</span>: <span style="color: #79c0ff;">false</span>,
-
     <span style="color: #8b949e;">// 체력이 6 이하 AND 허기가 6 이하일 때만 보임</span>
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
@@ -1117,13 +1096,12 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">삼항 연산자 기본 예시</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ========================================
      체력이 10 초과면 "안전", 아니면 "위험" 표시
   ======================================== */</span>
   <span style="color: #79c0ff;">"health_status"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
         <span style="color: #8b949e;">// 체력이 10보다 크면 "안전", 아니면 "위험"</span>
@@ -1137,7 +1115,7 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">중첩 삼항 연산자 (여러 조건)</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ========================================
      체력에 따라 4단계 메시지 표시
      - 75% 이상: 매우 건강
@@ -1147,7 +1125,6 @@ title: 🔗 데이터 바인딩 완벽 이해
   ======================================== */</span>
   <span style="color: #79c0ff;">"health_message"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
         <span style="color: #8b949e;">// 체력 비율 계산</span>
@@ -1197,7 +1174,7 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json - 체력바 전체 코드</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ==========================================
      📦 체력바 컨테이너
      - 화면 왼쪽 위에 표시
@@ -1209,14 +1186,11 @@ title: 🔗 데이터 바인딩 완벽 이해
   <span style="color: #79c0ff;">"health_bar_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">30</span>],           <span style="color: #8b949e;">// 너비 200, 높이 30</span>
-
     <span style="color: #8b949e;">// 위치 설정: 화면 왼쪽 위 모서리</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
-
     <span style="color: #8b949e;">// 미세 조정: 오른쪽 10px, 아래 10px</span>
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">10</span>],
-
     <span style="color: #8b949e;">/* ------------------------------------------
        자식 요소들 (controls 배열)
     ------------------------------------------ */</span>
@@ -1229,10 +1203,8 @@ title: 🔗 데이터 바인딩 완벽 이해
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
           <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/white"</span>,  <span style="color: #8b949e;">// 흰색 텍스처 사용</span>
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">20</span>],
-
           <span style="color: #8b949e;">// RGB 색상: 0.2 = 어두운 회색</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.2</span>, <span style="color: #79c0ff;">0.2</span>, <span style="color: #79c0ff;">0.2</span>],
-
           <span style="color: #8b949e;">// 레이어 1: 가장 뒤에 표시</span>
           <span style="color: #79c0ff;">"layer"</span>: <span style="color: #79c0ff;">1</span>
         }
@@ -1246,7 +1218,6 @@ title: 🔗 데이터 바인딩 완벽 이해
           <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/white"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">20</span>],
           <span style="color: #79c0ff;">"layer"</span>: <span style="color: #79c0ff;">2</span>,                    <span style="color: #8b949e;">// 레이어 2: 배경 위에 표시</span>
-
           <span style="color: #8b949e;">/* --------------------------------------
              클리핑: 바를 채우는 방향
              - "left": 왼쪽에서 오른쪽으로 채움
@@ -1255,7 +1226,6 @@ title: 🔗 데이터 바인딩 완벽 이해
              - "down": 위에서 아래로 채움
           -------------------------------------- */</span>
           <span style="color: #79c0ff;">"clip_direction"</span>: <span style="color: #a5d6ff;">"left"</span>,
-
           <span style="color: #8b949e;">/* --------------------------------------
              🔗 바인딩 2개 사용
           -------------------------------------- */</span>
@@ -1263,7 +1233,6 @@ title: 🔗 데이터 바인딩 완벽 이해
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 바인딩 ①: 체력 비율 (바 길이)
-
                  계산 과정:
                  1. #health = 현재 체력 (예: 15)
                  2. #health_max = 최대 체력 (예: 20)
@@ -1276,20 +1245,15 @@ title: 🔗 데이터 바인딩 완벽 이해
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 바인딩 ②: 체력에 따른 색상
-
                  🔍 삼항 연산자 3단계:
-
                  조건 1: 체력 비율 > 50% 인가?
                    → YES: 녹색 [0.0, 1.0, 0.0]
                    → NO: 조건 2로 이동
-
                  조건 2: 체력 비율 > 25% 인가?
                    → YES: 노란색 [1.0, 1.0, 0.0]
                    → NO: 조건 3으로 이동
-
                  조건 3: (그 외 모든 경우)
                    → 빨간색 [1.0, 0.0, 0.0]
-
                  📊 색상 예시:
                  - [1.0, 0.0, 0.0] = 빨강 (R만 켜짐)
                  - [0.0, 1.0, 0.0] = 초록 (G만 켜짐)
@@ -1316,18 +1280,15 @@ title: 🔗 데이터 바인딩 완벽 이해
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">22</span>],         <span style="color: #8b949e;">// 바 아래 22px 위치</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1</span>, <span style="color: #79c0ff;">1</span>, <span style="color: #79c0ff;">1</span>],      <span style="color: #8b949e;">// 흰색</span>
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 문자열 연결
-
                  연결 과정:
                  1. 'HP: ' (고정 문자열)
                  2. + #health (현재 체력, 예: 15)
                  3. + ' / ' (구분자)
                  4. + #health_max (최대 체력, 예: 20)
-
                  결과: "HP: 15 / 20"
               ================================== */</span>
               <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"('HP: ' + #health + ' / ' + #health_max)"</span>,
@@ -1345,12 +1306,12 @@ title: 🔗 데이터 바인딩 완벽 이해
 <div class="lecture-note-title">📖 이 코드가 화면에 표시하는 것</div>
 <div class="lecture-note-content">
 <p><strong>시각적 구조:</strong></p>
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 ┌─────────────────────────────┐
 │ ████████████░░░░░░░         │ ← 체력 바 (녹색/노랑/빨강)
 │ HP: 15 / 20                 │ ← 체력 텍스트
 └─────────────────────────────┘
-                        </pre>
+</pre>
 <p><strong>동작 원리:</strong></p>
 <ol>
 <li>검은색 배경 바 200px 그리기</li>
@@ -1370,7 +1331,7 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json - 경험치 시스템</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ==========================================
      🌟 경험치 바 전체 시스템
      - 화면 하단 중앙에 배치
@@ -1379,12 +1340,10 @@ title: 🔗 데이터 바인딩 완벽 이해
   <span style="color: #79c0ff;">"xp_system"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">300</span>, <span style="color: #79c0ff;">40</span>],
-
     <span style="color: #8b949e;">// 위치: 화면 하단 중앙</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">-50</span>],        <span style="color: #8b949e;">// 위로 50px</span>
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">/* 1️⃣ 경험치 바 배경 */</span>
@@ -1405,16 +1364,13 @@ title: 🔗 데이터 바인딩 완벽 이해
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.5</span>],  <span style="color: #8b949e;">// 밝은 녹색</span>
           <span style="color: #79c0ff;">"layer"</span>: <span style="color: #79c0ff;">2</span>,
           <span style="color: #79c0ff;">"clip_direction"</span>: <span style="color: #a5d6ff;">"left"</span>,
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 경험치 진행도
-
                  #player_level_progress:
                  - 다음 레벨까지 얼마나 진행했는지
                  - 값 범위: 0.0 ~ 1.0
-
                  예시:
                  - 0.0 = 방금 레벨업 (0%)
                  - 0.5 = 절반 모음 (50%)
@@ -1435,16 +1391,13 @@ title: 🔗 데이터 바인딩 완벽 이해
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.5</span>],
           <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_middle"</span>,
           <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_middle"</span>,
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 레벨 숫자
-
                  #xp_level:
                  - 현재 경험치 레벨
                  - 숫자 값 (0, 1, 2, 3, ...)
-
                  결과 예시:
                  - 레벨 0: "레벨: 0"
                  - 레벨 5: "레벨: 5"
@@ -1487,7 +1440,7 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json - 좌표 표시</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ==========================================
      📍 좌표 표시 시스템
      - 화면 왼쪽 아래에 표시
@@ -1498,12 +1451,10 @@ title: 🔗 데이터 바인딩 완벽 이해
   <span style="color: #79c0ff;">"coordinates_display"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">60</span>],
-
     <span style="color: #8b949e;">// 위치: 화면 왼쪽 아래 모서리</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"bottom_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"bottom_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">-10</span>],      <span style="color: #8b949e;">// 오른쪽 10px, 위로 10px</span>
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">/* ======================================
@@ -1513,32 +1464,25 @@ title: 🔗 데이터 바인딩 완벽 이해
         <span style="color: #79c0ff;">"x_coordinate"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"X: 0"</span>,           <span style="color: #8b949e;">// 기본값 (바인딩으로 덮어씀)</span>
-
           <span style="color: #8b949e;">// 색상: 밝은 빨강 [R, G, B]</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">0.5</span>],
-
           <span style="color: #8b949e;">// 위치: 맨 위 줄</span>
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">0</span>],
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 X 좌표 바인딩
-
                  #position.x:
                  - 플레이어의 X 좌표
                  - 소수점 포함 (예: 123.456)
-
                  🔤 문자열 연결 과정:
                  1. 'X: ' (접두사)
                  2. + (연결 연산자)
                  3. (#position.x) (좌표 값)
                  4. 괄호로 감싸서 표현식으로 만듦
-
                  📊 결과 예시:
                  - X 좌표 50일 때: "X: 50"
                  - X 좌표 -123.45일 때: "X: -123.45"
-
                  💡 왜 괄호가 필요한가?
                  - 괄호 없으면 바인딩 이름으로 인식
                  - 괄호 있으면 계산식으로 인식
@@ -1559,21 +1503,16 @@ title: 🔗 데이터 바인딩 완벽 이해
         <span style="color: #79c0ff;">"y_coordinate"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"Y: 0"</span>,
-
           <span style="color: #8b949e;">// 색상: 밝은 녹색</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.5</span>],
-
           <span style="color: #8b949e;">// 위치: X 좌표 아래 15px</span>
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">15</span>],
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 Y 좌표 바인딩
-
                  #position.y:
                  - 플레이어의 높이 (Y 좌표)
-
                  📍 참고:
                  - 0: 최하단 (bedrock 아래)
                  - 63: 바다 레벨
@@ -1594,21 +1533,16 @@ title: 🔗 데이터 바인딩 완벽 이해
         <span style="color: #79c0ff;">"z_coordinate"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"Z: 0"</span>,
-
           <span style="color: #8b949e;">// 색상: 밝은 파랑</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">1.0</span>],
-
           <span style="color: #8b949e;">// 위치: Y 좌표 아래 15px (총 30px)</span>
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">30</span>],
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 Z 좌표 바인딩
-
                  #position.z:
                  - 플레이어의 Z 좌표
-
                  🧭 방향:
                  - 양수(+): 남쪽 방향
                  - 음수(-): 북쪽 방향
@@ -1650,12 +1584,12 @@ title: 🔗 데이터 바인딩 완벽 이해
 </li>
 </ul>
 <p><strong>💡 기억하는 법:</strong></p>
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 🧭 XYZ = 동서/위아래/남북
   X = eXt (동서)
   Y = 높이 (Yp/down)
   Z = 제일 마지막 (남북)
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -1675,7 +1609,7 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json - 마나 바 UI</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ==========================================
      🔮 마나 시스템 UI
      - 체력 바 오른쪽에 배치
@@ -1685,12 +1619,10 @@ title: 🔗 데이터 바인딩 완벽 이해
   <span style="color: #79c0ff;">"mana_system"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">30</span>],
-
     <span style="color: #8b949e;">// 위치: 체력바 옆 (오른쪽)</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">220</span>, <span style="color: #79c0ff;">10</span>],    <span style="color: #8b949e;">// 체력바에서 오른쪽 220px</span>
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">/* ======================================
@@ -1716,22 +1648,18 @@ title: 🔗 데이터 바인딩 완벽 이해
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">20</span>],
           <span style="color: #79c0ff;">"layer"</span>: <span style="color: #79c0ff;">2</span>,
           <span style="color: #79c0ff;">"clip_direction"</span>: <span style="color: #a5d6ff;">"left"</span>,
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 바인딩 ①: 마나 비율
-
                  ⚠️ 중요한 개념!
                  - 일반 바인딩은 게임 데이터만 가져올 수 있음
                  - 커스텀 데이터(마나)는 없음
                  - 해결책: 허기를 마나로 재활용!
-
                  💡 트릭:
                  - #hunger를 마나로 사용
                  - 허기 0~20 = 마나 0~100 (×5)
                  - 나누기 20으로 비율 계산
-
                  🔢 계산 예시:
                  - 허기 20일 때: 20/20 = 1.0 (100%)
                  - 허기 10일 때: 10/20 = 0.5 (50%)
@@ -1743,16 +1671,13 @@ title: 🔗 데이터 바인딩 완벽 이해
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 바인딩 ②: 마나 색상 (조건부)
-
                  🎨 색상 로직:
                  조건: 마나가 30% 이상인가?
                    → YES: 파란색 [0.3, 0.5, 1.0]
                    → NO: 빨간색 [1.0, 0.2, 0.2] (경고!)
-
                  📊 색상 의미:
                  - 파란색: 마나 충분 (안전)
                  - 빨간색: 마나 부족 (위험)
-
                  💡 왜 0.3인가?
                  - #hunger 6 이상 = 30%
                  - 6/20 = 0.3
@@ -1775,17 +1700,14 @@ title: 🔗 데이터 바인딩 완벽 이해
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">22</span>],
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">0.7</span>, <span style="color: #79c0ff;">1.0</span>],  <span style="color: #8b949e;">// 밝은 파랑</span>
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 마나 숫자 표시
-
                  🔢 계산:
                  - #hunger * 5 = 마나 값
                  - 허기 20 → 마나 100
                  - 허기 10 → 마나 50
-
                  📝 표시 형식:
                  - "마나: 50 / 100"
                  - "마나: 75 / 100"
@@ -1806,19 +1728,15 @@ title: 🔗 데이터 바인딩 완벽 이해
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"⚠️ 마나 부족!"</span>,
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.3</span>, <span style="color: #79c0ff;">0.3</span>],
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">-25</span>],    <span style="color: #8b949e;">// 바 위에 표시</span>
-
           <span style="color: #8b949e;">// 기본값: 숨김</span>
           <span style="color: #79c0ff;">"visible"</span>: <span style="color: #79c0ff;">false</span>,
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ==================================
                  🔗 경고 표시 조건
-
                  조건: 마나 ≤ 20% 인가?
                  - YES: 경고 표시 (visible = true)
                  - NO: 경고 숨김 (visible = false)
-
                  🔢 계산:
                  - #hunger ≤ 4 = 마나 20% 이하
                  - 4/20 = 0.2 (20%)
@@ -1856,37 +1774,31 @@ title: 🔗 데이터 바인딩 완벽 이해
 
 <div class="code-block">
 <div class="code-header">BP/scripts/mana_system.js - 스크립트 (방법 2)</div>
-                    <pre><code><span style="color: #8b949e;">/* ==========================================
+<pre><code><span style="color: #8b949e;">/* ==========================================
    🔮 진짜 마나 시스템 (스크립트 API)
    - Dynamic Properties 사용
    - 실시간 마나 업데이트
 ========================================== */</span>
-
 <span style="color: #ff7b72;">import</span> { world, system } <span style="color: #ff7b72;">from</span> <span style="color: #a5d6ff;">"@minecraft/server"</span>;
-
 <span style="color: #8b949e;">// 플레이어별 마나 데이터 저장</span>
 <span style="color: #ff7b72;">const</span> playerMana = <span style="color: #ff7b72;">new</span> <span style="color: #d2a8ff;">Map</span>();
-
 <span style="color: #8b949e;">/* ------------------------------------------
    초기 설정: 플레이어에게 마나 부여
 ------------------------------------------ */</span>
 <span style="color: #ff7b72;">function</span> <span style="color: #d2a8ff;">initializeMana</span>(player) {
   <span style="color: #8b949e;">// 이미 마나가 있으면 건너뛰기</span>
   <span style="color: #ff7b72;">if</span> (playerMana.<span style="color: #d2a8ff;">has</span>(player.id)) <span style="color: #ff7b72;">return</span>;
-
   <span style="color: #8b949e;">// 초기 마나: 100</span>
   playerMana.<span style="color: #d2a8ff;">set</span>(player.id, {
     current: <span style="color: #79c0ff;">100</span>,   <span style="color: #8b949e;">// 현재 마나</span>
     max: <span style="color: #79c0ff;">100</span>         <span style="color: #8b949e;">// 최대 마나</span>
   });
 }
-
 <span style="color: #8b949e;">/* ------------------------------------------
    마나 사용 함수
 ------------------------------------------ */</span>
 <span style="color: #ff7b72;">export</span> <span style="color: #ff7b72;">function</span> <span style="color: #d2a8ff;">useMana</span>(player, amount) {
   <span style="color: #ff7b72;">const</span> mana = playerMana.<span style="color: #d2a8ff;">get</span>(player.id);
-
   <span style="color: #8b949e;">// 마나가 충분한가?</span>
   <span style="color: #ff7b72;">if</span> (mana.current >= amount) {
     mana.current -= amount;
@@ -1897,21 +1809,17 @@ title: 🔗 데이터 바인딩 완벽 이해
     <span style="color: #ff7b72;">return</span> <span style="color: #79c0ff;">false</span>;
   }
 }
-
 <span style="color: #8b949e;">/* ------------------------------------------
    마나 회복 함수 (자동)
 ------------------------------------------ */</span>
 system.<span style="color: #d2a8ff;">runInterval</span>(() => {
   <span style="color: #ff7b72;">for</span> (<span style="color: #ff7b72;">const</span> player <span style="color: #ff7b72;">of</span> world.<span style="color: #d2a8ff;">getAllPlayers</span>()) {
     <span style="color: #d2a8ff;">initializeMana</span>(player);
-
     <span style="color: #ff7b72;">const</span> mana = playerMana.<span style="color: #d2a8ff;">get</span>(player.id);
-
     <span style="color: #8b949e;">// 마나가 최대치 미만이면 1씩 회복</span>
     <span style="color: #ff7b72;">if</span> (mana.current < mana.max) {
       mana.current += <span style="color: #79c0ff;">1</span>;
     }
-
     <span style="color: #8b949e;">// 액션바에 마나 표시 (임시)</span>
     player.onScreenDisplay.<span style="color: #d2a8ff;">setActionBar</span>(
       <span style="color: #a5d6ff;">`§b마나: §f${mana.current} / ${mana.max}`</span>
@@ -1931,14 +1839,14 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <div class="lecture-note">
 <div class="lecture-note-title">🎨 시각적 결과</div>
 <div class="lecture-note-content">
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 화면 왼쪽 위:
 ┌─────────────────────┬─────────────────────┐
 │ HP: 20 / 20         │ 마나: 75 / 100      │ ← 체력 & 마나
 │ ████████████████    │ ████████████░░░     │
 │                     │ ⚠️ 마나 부족!       │ ← 경고 (20% 이하시)
 └─────────────────────┴─────────────────────┘
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -1966,7 +1874,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
   <span style="color: #8b949e;">/* ==========================================
      📍 날씨 & 시간 정보 패널
      실제 위치: 화면 오른쪽 위
-
      구조:
      ┌──────────────────────┐
      │  ☀️ 맑음  |  12:30   │ ← 날씨 아이콘 + 시간
@@ -1975,14 +1882,12 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
   <span style="color: #79c0ff;">"weather_time_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">30</span>],
-
     <span style="color: #8b949e;">/* ------------------------------------------
        📌 위치 설정: 오른쪽 위 모서리
     ------------------------------------------ */</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_right"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_right"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [-<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">10</span>],  <span style="color: #8b949e;">// 오른쪽에서 10픽셀 왼쪽으로</span>
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">/* ======================================
@@ -1994,15 +1899,12 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
         <span style="color: #79c0ff;">"weather_icon"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">60</span>, <span style="color: #79c0ff;">30</span>],
-
           <span style="color: #8b949e;">/* ------------------------------------------
              📝 텍스트 바인딩 - 날씨에 따라 아이콘 변경
-
              조건 분석:
              1. #is_thundering = true  → ⛈️ 천둥
              2. #is_raining = true     → 🌧️ 비
              3. 둘 다 false            → ☀️ 맑음
-
              삼항 연산자 중첩:
              조건1 ? 결과1 : (조건2 ? 결과2 : 결과3)
           ------------------------------------------ */</span>
@@ -2012,14 +1914,12 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
               <span style="color: #79c0ff;">"binding_name_override"</span>: <span style="color: #a5d6ff;">"#text"</span>
             }
           ],
-
           <span style="color: #8b949e;">/* 텍스트 스타일 */</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
           <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>,
           <span style="color: #79c0ff;">"text_alignment"</span>: <span style="color: #a5d6ff;">"center"</span>
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            ⏰ 시간 표시
@@ -2034,36 +1934,27 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">100</span>, <span style="color: #79c0ff;">30</span>],
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">70</span>, <span style="color: #79c0ff;">0</span>],  <span style="color: #8b949e;">// 날씨 아이콘 오른쪽에 배치</span>
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ------------------------------------------
                  🔢 시간 계산 방법
-
                  1단계: #day_time을 24시간으로 변환
                     #day_time * 24 + 6
-
                     예시) #day_time = 0.25 (정오)
                     → 0.25 × 24 + 6 = 12시
-
                  2단계: 시(hour) 계산
                     (시간 총합) % 24
-
                     예시) 30시간 → 30 % 24 = 6시
-
                  3단계: 분(minute) 계산
                     ((시간 총합) * 60) % 60
-
                     예시) 0.5시간 = 30분
               ------------------------------------------ */</span>
               <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(((#day_time * 24 + 6) % 24))"</span>,
               <span style="color: #79c0ff;">"binding_name_override"</span>: <span style="color: #a5d6ff;">"#hour"</span>
             }
           ],
-
           <span style="color: #8b949e;">/* ------------------------------------------
              📝 텍스트 형식: "⏰ 12시"
-
              주의: Minecraft JSON UI는 문자열 결합이 제한적이므로
              실제로는 숫자만 표시하고 앞에 "⏰" 아이콘을 붙입니다.
           ------------------------------------------ */</span>
@@ -2090,12 +1981,12 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 </ul>
 
 <p><strong>계산 예시:</strong></p>
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 <span style="color: #79c0ff;">#day_time = 0.0</span>   → (0.0 × 24 + 6) % 24 = <span style="color: #a5d6ff;">6시</span>  (새벽)
 <span style="color: #79c0ff;">#day_time = 0.25</span>  → (0.25 × 24 + 6) % 24 = <span style="color: #a5d6ff;">12시</span> (정오)
 <span style="color: #79c0ff;">#day_time = 0.5</span>   → (0.5 × 24 + 6) % 24 = <span style="color: #a5d6ff;">18시</span> (오후 6시)
 <span style="color: #79c0ff;">#day_time = 0.75</span>  → (0.75 × 24 + 6) % 24 = <span style="color: #a5d6ff;">0시</span>  (자정)
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -2123,12 +2014,10 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <pre><code>{
   <span style="color: #8b949e;">/* ==========================================
      🎮 플레이어 상태 아이콘 패널
-
      실제 화면 레이아웃:
      ┌─────────────────────────────┐
      │ ❤ 20/20  [🏃][💨][🌊]      │ ← 상태 아이콘들
      └─────────────────────────────┘
-
      아이콘 종류:
      - 🏃 달리기 (#is_sprinting)
      - 💨 날기 (#is_flying)
@@ -2139,12 +2028,10 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"stack_panel"</span>,
     <span style="color: #79c0ff;">"orientation"</span>: <span style="color: #a5d6ff;">"horizontal"</span>,  <span style="color: #8b949e;">// 가로로 나열</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">120</span>, <span style="color: #79c0ff;">20</span>],
-
     <span style="color: #8b949e;">/* 체력바 오른쪽에 배치 */</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">220</span>, <span style="color: #79c0ff;">10</span>],
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">/* ======================================
@@ -2155,14 +2042,11 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"🏃"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">20</span>, <span style="color: #79c0ff;">20</span>],
-
           <span style="color: #8b949e;">/* ------------------------------------------
              👁️ visible 바인딩 - 조건부 표시
-
              동작 원리:
              - #is_sprinting = true  → visible: true  (보임)
              - #is_sprinting = false → visible: false (안 보임)
-
              이렇게 하면 달릴 때만 아이콘이 나타납니다!
           ------------------------------------------ */</span>
           <span style="color: #79c0ff;">"bindings"</span>: [
@@ -2173,7 +2057,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           ]
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            💨 날기 아이콘
@@ -2183,7 +2066,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"💨"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">20</span>, <span style="color: #79c0ff;">20</span>],
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#is_flying"</span>,
@@ -2192,7 +2074,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           ]
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            🌊 수영 아이콘
@@ -2202,7 +2083,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"🌊"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">20</span>, <span style="color: #79c0ff;">20</span>],
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#is_swimming"</span>,
@@ -2211,7 +2091,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           ]
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            👁️ 웅크리기 아이콘
@@ -2221,7 +2100,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"👁️"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">20</span>, <span style="color: #79c0ff;">20</span>],
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#is_sneaking"</span>,
@@ -2230,11 +2108,9 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           ]
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            🫧 산소 게이지 (물속에서만 표시)
-
            조건 2개 동시 사용:
            1. 수영 중이어야 함 (#is_swimming)
            2. 산소가 최대치보다 낮아야 함 (#air < #air_max)
@@ -2242,13 +2118,10 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
         <span style="color: #79c0ff;">"oxygen_gauge"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">60</span>, <span style="color: #79c0ff;">20</span>],
-
           <span style="color: #8b949e;">/* ------------------------------------------
              🔍 복합 조건 바인딩
-
              AND 연산자 사용:
              (#is_swimming and #air < #air_max)
-
              의미: "수영 중" 그리고 "산소 부족" 둘 다 true
           ------------------------------------------ */</span>
           <span style="color: #79c0ff;">"bindings"</span>: [
@@ -2257,7 +2130,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
               <span style="color: #79c0ff;">"binding_name_override"</span>: <span style="color: #a5d6ff;">"#visible"</span>
             }
           ],
-
           <span style="color: #79c0ff;">"controls"</span>: [
             {
               <span style="color: #8b949e;">/* 산소 바 배경 */</span>
@@ -2275,13 +2147,10 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
                 <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/White"</span>,
                 <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.2</span>, <span style="color: #79c0ff;">0.6</span>, <span style="color: #79c0ff;">1.0</span>],
                 <span style="color: #79c0ff;">"clip_direction"</span>: <span style="color: #a5d6ff;">"left"</span>,
-
                 <span style="color: #8b949e;">/* ------------------------------------------
                    🫁 산소 비율 계산
-
                    #air = 현재 산소 (0~300)
                    #air_max = 최대 산소 (기본 300)
-
                    예시:
                    - 산소 300/300 → 1.0 (100%)
                    - 산소 150/300 → 0.5 (50%)
@@ -2307,7 +2176,7 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <div class="lecture-note">
 <div class="lecture-note-title">🎨 실행 결과 미리보기</div>
 <div class="lecture-note-content">
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 <span style="color: #ff7b72;">▶ 일반 상태:</span>
 ┌─────────────────────────────┐
 │ ❤ 20/20                     │  ← 아이콘 없음 (가만히 서 있음)
@@ -2332,7 +2201,7 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 ┌─────────────────────────────┐
 │ ❤ 20/20  <span style="color: #a5d6ff;">[👁️]</span>              │  ← 웅크리기 아이콘
 └─────────────────────────────┘
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -2389,10 +2258,8 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <pre><code>{
   <span style="color: #8b949e;">/* ==========================================
      🎮 핫바 슬롯 템플릿 (Factory 패턴)
-
      이 템플릿은 9번 복사되어
      각 핫바 슬롯에 적용됩니다!
-
      시각적 구조:
      ┌────┬────┬────┬────┬────┬────┬────┬────┬────┐
      │ 1  │ 2  │ 3  │ 4  │ 5  │ 6  │ 7  │ 8  │ 9  │
@@ -2403,7 +2270,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
   <span style="color: #79c0ff;">"hotbar_slot_template"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">20</span>, <span style="color: #79c0ff;">20</span>],  <span style="color: #8b949e;">// 각 슬롯 크기</span>
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">/* ======================================
@@ -2416,7 +2282,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"alpha"</span>: <span style="color: #79c0ff;">0.8</span>
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            🧊 아이템 아이콘
@@ -2427,15 +2292,12 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">16</span>, <span style="color: #79c0ff;">16</span>],
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">2</span>, <span style="color: #79c0ff;">2</span>],
-
           <span style="color: #8b949e;">/* ------------------------------------------
              🔗 아이템 텍스처 바인딩
-
              #item_id_aux 설명:
              - Minecraft의 각 아이템/블록마다 고유 ID
              - 예: 다이아몬드 = 264, 돌 = 1, 나무 = 17
              - 이 값으로 아이템 텍스처 자동 선택
-
              texture 속성:
              - 게임이 자동으로 아이템 ID에 맞는 텍스처 찾음
           ------------------------------------------ */</span>
@@ -2449,7 +2311,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           ]
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            🔢 아이템 개수 표시
@@ -2460,18 +2321,15 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">20</span>, <span style="color: #79c0ff;">10</span>],
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">10</span>],  <span style="color: #8b949e;">// 아래쪽 배치</span>
-
           <span style="color: #8b949e;">/* 텍스트 스타일 */</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
           <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>,
           <span style="color: #79c0ff;">"text_alignment"</span>: <span style="color: #a5d6ff;">"right"</span>,
           <span style="color: #79c0ff;">"font_scale_factor"</span>: <span style="color: #79c0ff;">0.8</span>,  <span style="color: #8b949e;">// 작은 글씨</span>
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ------------------------------------------
                  📝 아이템 개수 바인딩
-
                  #item_count:
                  - 해당 슬롯의 아이템 개수
                  - 예: 돌 64개 → "64" 표시
@@ -2485,11 +2343,9 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
             {
               <span style="color: #8b949e;">/* ------------------------------------------
                  👁️ 개수 1개면 숨기기
-
                  조건:
                  - #item_count > 1 → visible: true (보임)
                  - #item_count = 1 → visible: false (안 보임)
-
                  이유: 아이템 1개일 때는 숫자 안 보이는 게 깔끔
               ------------------------------------------ */</span>
               <span style="color: #79c0ff;">"binding_type"</span>: <span style="color: #a5d6ff;">"collection"</span>,
@@ -2500,7 +2356,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           ]
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            ⭐ 선택된 슬롯 강조 표시
@@ -2511,16 +2366,12 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
           <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/White"</span>,
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],  <span style="color: #8b949e;">// 흰색 테두리</span>
           <span style="color: #79c0ff;">"alpha"</span>: <span style="color: #79c0ff;">0.9</span>,
-
           <span style="color: #8b949e;">/* ------------------------------------------
              🎯 선택 감지 바인딩
-
              #container_slot_index:
              - 현재 이 슬롯의 인덱스 번호 (0~8)
-
              #selected_container_slot:
              - 플레이어가 선택한 슬롯 번호
-
              비교:
              - 같으면 → 선택됨 (테두리 보임)
              - 다르면 → 선택 안됨 (테두리 안 보임)
@@ -2537,7 +2388,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
       }
     ]
   },
-
   <span style="color: #8b949e;">/* ==========================================
      🎒 핫바 패널 - 실제 UI 구성
   ========================================== */</span>
@@ -2545,15 +2395,12 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"stack_panel"</span>,
     <span style="color: #79c0ff;">"orientation"</span>: <span style="color: #a5d6ff;">"horizontal"</span>,  <span style="color: #8b949e;">// 가로로 슬롯 배치</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">182</span>, <span style="color: #79c0ff;">22</span>],  <span style="color: #8b949e;">// 20×9 + 간격 = 182</span>
-
     <span style="color: #8b949e;">/* 화면 아래 중앙 배치 */</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, -<span style="color: #79c0ff;">40</span>],  <span style="color: #8b949e;">// 바닥에서 40픽셀 위</span>
-
     <span style="color: #8b949e;">/* ------------------------------------------
        🔁 Collection 바인딩 - 핵심!
-
        동작 순서:
        1. 게임이 #hotbar_items 데이터 제공 (배열 9개)
        2. collection_name으로 데이터 연결
@@ -2576,7 +2423,7 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <div class="lecture-note">
 <div class="lecture-note-title">🎨 실행 결과 - 실제 게임 화면</div>
 <div class="lecture-note-content">
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 <span style="color: #79c0ff;">▶ 플레이어가 아이템을 들고 있는 경우:</span>
 
 화면 아래:
@@ -2601,7 +2448,7 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 │ 64 │ 32 │    │  1 │    │    │  5 │    │  1 │
 └<span style="color: #a5d6ff;">════</span>┴────┴────┴────┴────┴────┴────┴────┴────┘
   ↑ 흰색 테두리 = 선택됨
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -2609,7 +2456,7 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <div class="lecture-note-title">🧠 Collection 바인딩 동작 원리 심층 분석</div>
 <div class="lecture-note-content">
 <p><strong>1단계: 게임이 데이터 제공</strong></p>
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 <span style="color: #8b949e;">// 게임 엔진이 제공하는 핫바 데이터 (가상 코드)</span>
 hotbar_items = [
   { item_id: <span style="color: #79c0ff;">1</span>, count: <span style="color: #79c0ff;">64</span>, index: <span style="color: #79c0ff;">0</span> },   <span style="color: #8b949e;">// 슬롯 0: 돌 64개</span>
@@ -2617,10 +2464,10 @@ hotbar_items = [
   { item_id: <span style="color: #79c0ff;">0</span>, count: <span style="color: #79c0ff;">0</span>, index: <span style="color: #79c0ff;">2</span> },    <span style="color: #8b949e;">// 슬롯 2: 비어있음</span>
   ...
 ]
-                        </pre>
+</pre>
 
 <p><strong>2단계: Factory가 템플릿 복사</strong></p>
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 <span style="color: #8b949e;">// JSON UI가 자동으로 수행</span>
 <span style="color: #ff7b72;">for</span> (let i = <span style="color: #79c0ff;">0</span>; i < hotbar_items.length; i++) {
   <span style="color: #8b949e;">// hotbar_slot_template을 복사</span>
@@ -2632,7 +2479,7 @@ hotbar_items = [
   <span style="color: #8b949e;">// UI에 추가</span>
   hotbar_panel.<span style="color: #d2a8ff;">addControl</span>(slot);
 }
-                        </pre>
+</pre>
 
 <p><strong>3단계: 바인딩 자동 연결</strong></p>
 <ul>
@@ -2765,7 +2612,7 @@ JSON UI에서 이 값을 <strong>설정할 수 없고</strong>, 외부에서 설
 </table>
 
 <p><strong>화면 레이아웃:</strong></p>
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 ┌─────────────────────────────────┐
 │  <span style="color: #d2a8ff;">Boss Bar: 드래곤 HP ████░░</span>   │ ← 보스 바 (상단)
 │                                 │
@@ -2778,7 +2625,7 @@ JSON UI에서 이 값을 <strong>설정할 수 없고</strong>, 외부에서 설
 │  ┌────┬────┬────┬────┐         │
 │  │ 🪨 │ 🪵 │ ⛏️ │    │         │ ← 핫바
 └─────────────────────────────────┘
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -2787,22 +2634,18 @@ JSON UI에서 이 값을 <strong>설정할 수 없고</strong>, 외부에서 설
 <div class="code-content">
 <pre><code><span style="color: #8b949e;">/* ==========================================
    ⚙️ 설정 방법
-
    1단계: JSON UI 파일 작성 (아래 코드)
    2단계: 명령어 블록 설치
    3단계: 명령어 블록에 아래 명령어 입력
    4단계: 반복 실행 (Repeat, Always Active)
-
    명령어 블록 내용:
    execute as @a run title @s actionbar §b마나: §f#hunger/20
 ========================================== */</span>
-
 <span style="color: #8b949e;">/* ------------------------------------------
    ⚠️ 문제점:
    - #hunger 값이 그대로 나옴 (계산 안 됨)
    - "마나: #hunger/20" 같이 표시됨
    - JSON UI 바인딩 계산은 명령어에서 안 됨!
-
    결론: 명령어 블록만으로는 계산 불가!
    → 스크립트 필요
 ------------------------------------------ */</span>
@@ -2828,14 +2671,11 @@ JSON UI에서 이 값을 <strong>설정할 수 없고</strong>, 외부에서 설
 <div class="code-content">
 <pre><code><span style="color: #8b949e;">/* ==========================================
    📁 BP/scripts/mana_display.js
-
    1단계: 스크립트로 마나를 액션바에 설정
 ========================================== */</span>
 <span style="color: #ff7b72;">import</span> { world, system } <span style="color: #ff7b72;">from</span> <span style="color: #a5d6ff;">"@minecraft/server"</span>;
-
 <span style="color: #8b949e;">// 마나 데이터 저장</span>
 <span style="color: #ff7b72;">const</span> playerMana = <span style="color: #ff7b72;">new</span> <span style="color: #d2a8ff;">Map</span>();
-
 <span style="color: #8b949e;">/* ------------------------------------------
    📝 마나 초기화
 ------------------------------------------ */</span>
@@ -2847,7 +2687,6 @@ JSON UI에서 이 값을 <strong>설정할 수 없고</strong>, 외부에서 설
     });
   }
 }
-
 <span style="color: #8b949e;">/* ==========================================
    ⭐ 핵심! 액션바에 마나 설정
    - 1초마다 실행
@@ -2857,16 +2696,13 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
   <span style="color: #ff7b72;">for</span> (<span style="color: #ff7b72;">const</span> player <span style="color: #ff7b72;">of</span> world.<span style="color: #d2a8ff;">getAllPlayers</span>()) {
     <span style="color: #d2a8ff;">initMana</span>(player);
     <span style="color: #ff7b72;">const</span> mana = playerMana.<span style="color: #d2a8ff;">get</span>(player.id);
-
     <span style="color: #8b949e;">/* ------------------------------------------
        🎨 액션바에 마나 텍스트 설정
-
        여기서 설정한 값이 → #actionbar_text로 전달됨!
     ------------------------------------------ */</span>
     player.onScreenDisplay.<span style="color: #d2a8ff;">setActionBar</span>(
       <span style="color: #a5d6ff;">`§b⭐ 마나: §f${mana.current}/${mana.max}`</span>
     );
-
     <span style="color: #8b949e;">// 마나 자동 회복</span>
     <span style="color: #ff7b72;">if</span> (mana.current < mana.max) {
       mana.current += <span style="color: #79c0ff;">1</span>;
@@ -2882,13 +2718,11 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <div class="code-content">
 <pre><code><span style="color: #8b949e;">/* ==========================================
    📁 RP/ui/hud_screen.json
-
    2단계: JSON UI가 액션바 값을 읽어서 HUD에 표시
 ========================================== */</span>
 {
   <span style="color: #8b949e;">/* ==========================================
      ⭐ 핵심 패턴!
-
      동작 흐름:
      1. 스크립트가 setActionBar("마나: 75/100")
      2. #actionbar_text = "마나: 75/100"
@@ -2897,15 +2731,12 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
   <span style="color: #79c0ff;">"mana_hud_from_actionbar"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">20</span>],
-
     <span style="color: #8b949e;">/* 화면 왼쪽 위 (HUD) */</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">70</span>],  <span style="color: #8b949e;">// 체력바 아래</span>
-
     <span style="color: #8b949e;">/* ------------------------------------------
        🔗 바인딩 - 액션바 텍스트 읽기
-
        스크립트가 설정한 값을 그대로 표시:
        "⭐ 마나: 75/100" → HUD에 그대로 표시됨!
     ------------------------------------------ */</span>
@@ -2915,12 +2746,10 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
         <span style="color: #79c0ff;">"binding_name_override"</span>: <span style="color: #a5d6ff;">"#text"</span>
       }
     ],
-
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>,
     <span style="color: #79c0ff;">"font_scale_factor"</span>: <span style="color: #79c0ff;">1.2</span>
   },
-
   <span style="color: #8b949e;">/* ==========================================
      🎨 선택사항: 액션바를 핫바 위에도 표시
      (기본 위치)
@@ -2928,19 +2757,16 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
   <span style="color: #79c0ff;">"actionbar_original_position"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%"</span>, <span style="color: #79c0ff;">20</span>],
-
     <span style="color: #8b949e;">/* 핫바 위 (기본 액션바 위치) */</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, -<span style="color: #79c0ff;">60</span>],
-
     <span style="color: #79c0ff;">"bindings"</span>: [
       {
         <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#actionbar_text"</span>,
         <span style="color: #79c0ff;">"binding_name_override"</span>: <span style="color: #a5d6ff;">"#text"</span>
       }
     ],
-
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>,
     <span style="color: #79c0ff;">"text_alignment"</span>: <span style="color: #a5d6ff;">"center"</span>
@@ -2952,7 +2778,7 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <div class="lecture-note">
 <div class="lecture-note-title">🎨 실행 결과 - 2곳에 동시 표시!</div>
 <div class="lecture-note-content">
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 ┌─────────────────────────────────┐
 │ ❤ 체력: 20/20                   │ ← HUD 체력
 │ <span style="color: #a5d6ff;">⭐ 마나: 75/100</span>               │ ← <strong>HUD에 마나 표시!</strong> (액션바 값 읽음)
@@ -2971,7 +2797,7 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 스크립트가 <strong>1번 설정</strong>하면 → JSON UI가 <strong>2곳에 표시</strong>!
 - HUD 패널 (왼쪽 위)
 - 액션바 원래 위치 (핫바 위)
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -2989,7 +2815,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
 <div class="code-content">
 <pre><code><span style="color: #8b949e;">/* 스크립트에서 타이틀 설정 */</span>
 player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style="color: #a5d6ff;">"§6보스 출현!"</span>);
-
 <span style="color: #8b949e;">/* JSON UI에서 읽기 */</span>
 {
   <span style="color: #79c0ff;">"boss_warning_hud"</span>: {
@@ -3031,10 +2856,9 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
 │   ├── hud_screen.json  ← JSON UI (액션바 읽어서 HUD에 표시)
 │   └── ui_defs.json
 └── 📁 textures/
-
 📦 비헤이비어 팩 (BP/)
 └── 📁 scripts/
-    └── mana_display.js  ← 스크립트 (액션바에 마나 설정)</span></code></pre>
+└── mana_display.js  ← 스크립트 (액션바에 마나 설정)</span></code></pre>
 </div>
 </div>
 
@@ -3045,11 +2869,9 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
   <span style="color: #79c0ff;">"title_text_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%"</span>, <span style="color: #79c0ff;">60</span>],
-
     <span style="color: #8b949e;">/* 화면 중앙 배치 */</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"center"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"center"</span>,
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">/* ======================================
@@ -3059,14 +2881,11 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%"</span>, <span style="color: #79c0ff;">30</span>],
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, -<span style="color: #79c0ff;">15</span>],
-
           <span style="color: #8b949e;">/* ------------------------------------------
              🔗 타이틀 텍스트 바인딩
-
              #hud_title_text:
              - /title 명령어로 설정한 텍스트
              - 스크립트에서도 제어 가능
-
              명령어 예시:
              /title @a title §l§6GAME START!
              /title @a title §c마나가 부족합니다!
@@ -3077,7 +2896,6 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
               <span style="color: #79c0ff;">"binding_name_override"</span>: <span style="color: #a5d6ff;">"#text"</span>
             }
           ],
-
           <span style="color: #8b949e;">/* 텍스트 스타일 */</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
           <span style="color: #79c0ff;">"font_type"</span>: <span style="color: #a5d6ff;">"MinecraftTen"</span>,  <span style="color: #8b949e;">// 마인크래프트 기본 폰트</span>
@@ -3086,7 +2904,6 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
           <span style="color: #79c0ff;">"text_alignment"</span>: <span style="color: #a5d6ff;">"center"</span>
         }
       },
-
       {
         <span style="color: #8b949e;">/* ======================================
            📄 서브타이틀 (작은 설명)
@@ -3095,10 +2912,8 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%"</span>, <span style="color: #79c0ff;">20</span>],
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">20</span>],  <span style="color: #8b949e;">// 타이틀 아래</span>
-
           <span style="color: #8b949e;">/* ------------------------------------------
              서브타이틀 바인딩
-
              명령어 예시:
              /title @a subtitle §710초 후 시작
              /title @a subtitle §e스킬을 사용하세요
@@ -3109,7 +2924,6 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
               <span style="color: #79c0ff;">"binding_name_override"</span>: <span style="color: #a5d6ff;">"#text"</span>
             }
           ],
-
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.9</span>, <span style="color: #79c0ff;">0.9</span>, <span style="color: #79c0ff;">0.9</span>],
           <span style="color: #79c0ff;">"font_scale_factor"</span>: <span style="color: #79c0ff;">1.5</span>,  <span style="color: #8b949e;">// 타이틀보다 작음</span>
           <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>,
@@ -3118,36 +2932,28 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
       }
     ]
   },
-
   <span style="color: #8b949e;">/* ==========================================
      ⭐ 핵심! 액션바 텍스트를 HUD에 표시
-
      동작 원리:
      1. 스크립트가 actionbar에 마나 값 설정
         player.onScreenDisplay.setActionBar("마나: 75/100")
-
      2. JSON UI가 #actionbar_text 읽어서 HUD에 표시
         #actionbar_text → "마나: 75/100"
-
      3. HUD에서 보기 좋게 표시!
   ========================================== */</span>
   <span style="color: #79c0ff;">"actionbar_in_hud_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%"</span>, <span style="color: #79c0ff;">20</span>],
-
     <span style="color: #8b949e;">/* 화면 왼쪽 위에 표시 (HUD) */</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">70</span>],  <span style="color: #8b949e;">// 체력바 아래</span>
-
     <span style="color: #8b949e;">/* ------------------------------------------
        🔗 핵심 바인딩!
-
        #actionbar_text:
        - 스크립트가 setActionBar()로 설정한 값
        - JSON UI가 이 값을 읽어서 HUD에 표시
        - 스크립트: player.onScreenDisplay.setActionBar()
-
        명령어 예시:
        /title @a actionbar §b마나: 75/100
        /title @a actionbar §eX: 123 Y: 64 Z: -456
@@ -3158,7 +2964,6 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
         <span style="color: #79c0ff;">"binding_name_override"</span>: <span style="color: #a5d6ff;">"#text"</span>
       }
     ],
-
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>,
     <span style="color: #79c0ff;">"text_alignment"</span>: <span style="color: #a5d6ff;">"center"</span>
@@ -3180,17 +2985,14 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
 <div class="code-content">
 <pre><code><span style="color: #8b949e;">/* ==========================================
    ✅ 이 방법이 가장 좋습니다!
-
    이유:
    1. 스크립트 불필요 (JSON UI만으로 완성)
    2. 명령어 블록 불필요
    3. 바로 작동 (설정 없음)
    4. #hunger를 마나로 재활용
    5. 모든 바인딩 계산 가능
-
    위치: HUD 패널 (화면 좌상단 등)
 ========================================== */</span>
-
 {
   <span style="color: #8b949e;">/* ==========================================
      🎮 순수 JSON UI 마나 바
@@ -3200,12 +3002,10 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
   <span style="color: #79c0ff;">"pure_json_ui_mana_bar"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">40</span>],
-
     <span style="color: #8b949e;">/* 화면 왼쪽 위에 배치 */</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">70</span>],  <span style="color: #8b949e;">// 체력바 아래</span>
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">/* 마나 라벨 */</span>
@@ -3237,15 +3037,12 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">200</span>, <span style="color: #79c0ff;">15</span>],
           <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">15</span>],
           <span style="color: #79c0ff;">"clip_direction"</span>: <span style="color: #a5d6ff;">"left"</span>,
-
           <span style="color: #79c0ff;">"bindings"</span>: [
             {
               <span style="color: #8b949e;">/* ------------------------------------------
                  🔥 마나 비율 계산
-
                  #hunger 범위: 0 ~ 20
                  마나로 변환: 허기 1 = 마나 5
-
                  예시:
                  - 허기 20/20 → 마나 100/100 (100%)
                  - 허기 10/20 → 마나 50/100 (50%)
@@ -3281,7 +3078,7 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
 <div class="lecture-note">
 <div class="lecture-note-title">🎨 방법 3 실행 결과</div>
 <div class="lecture-note-content">
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 <span style="color: #79c0ff;">▶ 화면 왼쪽 위 (HUD):</span>
 
 ┌─────────────────────────────┐
@@ -3296,7 +3093,7 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
 
 │ <span style="color: #ff7b72;">[██████░░░░░░░░░░░░░░]</span>    │ ← 빨간색!
 │ <span style="color: #ff7b72;">6 / 20</span>                     │ ← 경고 색상
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -3329,12 +3126,10 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
 <div class="code-content">
 <pre><code><span style="color: #8b949e;">/* 방법 2에서 사용하는 스크립트 예제 */</span>
 <span style="color: #ff7b72;">import</span> { world, system } <span style="color: #ff7b72;">from</span> <span style="color: #a5d6ff;">"@minecraft/server"</span>;
-
 <span style="color: #8b949e;">/* ==========================================
    💾 플레이어 마나 데이터 저장소
 ========================================== */</span>
 <span style="color: #ff7b72;">const</span> playerMana = <span style="color: #ff7b72;">new</span> <span style="color: #d2a8ff;">Map</span>();
-
 <span style="color: #8b949e;">/* ------------------------------------------
    📝 마나 초기화 함수
 ------------------------------------------ */</span>
@@ -3346,7 +3141,6 @@ player.onScreenDisplay.<span style="color: #d2a8ff;">setTitle</span>(<span style
     });
   }
 }
-
 <span style="color: #8b949e;">/* ==========================================
    🔄 실시간 액션바 업데이트 시스템
    - 1초마다 마나 표시
@@ -3355,20 +3149,16 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
   <span style="color: #ff7b72;">for</span> (<span style="color: #ff7b72;">const</span> player <span style="color: #ff7b72;">of</span> world.<span style="color: #d2a8ff;">getAllPlayers</span>()) {
     <span style="color: #d2a8ff;">initializeMana</span>(player);
     <span style="color: #ff7b72;">const</span> mana = playerMana.<span style="color: #d2a8ff;">get</span>(player.id);
-
     <span style="color: #8b949e;">/* ------------------------------------------
        🎨 마나 바 시각화 (텍스트로)
-
        예시 결과:
        마나: §a████████████░░░░  §f75/100
     ------------------------------------------ */</span>
-
     <span style="color: #8b949e;">// 1. 마나 비율 계산</span>
     <span style="color: #ff7b72;">const</span> ratio = mana.current / mana.max;
     <span style="color: #ff7b72;">const</span> barLength = <span style="color: #79c0ff;">20</span>;  <span style="color: #8b949e;">// 바 총 길이</span>
     <span style="color: #ff7b72;">const</span> filled = <span style="color: #d2a8ff;">Math</span>.<span style="color: #d2a8ff;">floor</span>(ratio * barLength);
     <span style="color: #ff7b72;">const</span> empty = barLength - filled;
-
     <span style="color: #8b949e;">// 2. 색상 선택 (마나 양에 따라)</span>
     <span style="color: #ff7b72;">let</span> color = <span style="color: #a5d6ff;">"§a"</span>;  <span style="color: #8b949e;">// 녹색 (안전)</span>
     <span style="color: #ff7b72;">if</span> (ratio < <span style="color: #79c0ff;">0.3</span>) {
@@ -3376,22 +3166,18 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
     } <span style="color: #ff7b72;">else</span> <span style="color: #ff7b72;">if</span> (ratio < <span style="color: #79c0ff;">0.6</span>) {
       color = <span style="color: #a5d6ff;">"§e"</span>;  <span style="color: #8b949e;">// 노란색 (주의)</span>
     }
-
     <span style="color: #8b949e;">// 3. 바 생성</span>
     <span style="color: #ff7b72;">const</span> filledBar = <span style="color: #a5d6ff;">"█"</span>.<span style="color: #d2a8ff;">repeat</span>(filled);
     <span style="color: #ff7b72;">const</span> emptyBar = <span style="color: #a5d6ff;">"░"</span>.<span style="color: #d2a8ff;">repeat</span>(empty);
-
     <span style="color: #8b949e;">// 4. 액션바에 표시</span>
     <span style="color: #ff7b72;">const</span> message = <span style="color: #a5d6ff;">`§b마나: ${color}${filledBar}§7${emptyBar}  §f${mana.current}/${mana.max}`</span>;
     player.onScreenDisplay.<span style="color: #d2a8ff;">setActionBar</span>(message);
-
     <span style="color: #8b949e;">// 5. 마나 자동 회복</span>
     <span style="color: #ff7b72;">if</span> (mana.current < mana.max) {
       mana.current += <span style="color: #79c0ff;">1</span>;
     }
   }
 }, <span style="color: #79c0ff;">20</span>);  <span style="color: #8b949e;">// 20틱 = 1초</span>
-
 <span style="color: #8b949e;">/* ==========================================
    🎯 타이틀로 경고 메시지 표시
 ========================================== */</span>
@@ -3407,13 +3193,11 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
     }
   );
 }
-
 <span style="color: #8b949e;">/* ------------------------------------------
    ⚡ 스킬 사용 예제
 ------------------------------------------ */</span>
 <span style="color: #ff7b72;">function</span> <span style="color: #d2a8ff;">useSkill</span>(player, manaCost) {
   <span style="color: #ff7b72;">const</span> mana = playerMana.<span style="color: #d2a8ff;">get</span>(player.id);
-
   <span style="color: #ff7b72;">if</span> (mana.current >= manaCost) {
     <span style="color: #8b949e;">// 마나 충분 → 스킬 사용</span>
     mana.current -= manaCost;
@@ -3425,7 +3209,6 @@ system.<span style="color: #d2a8ff;">runInterval</span>(() => {
     <span style="color: #ff7b72;">return</span> <span style="color: #79c0ff;">false</span>;
   }
 }
-
 <span style="color: #8b949e;">/* ------------------------------------------
    🎮 명령어로 스킬 사용
    /scriptevent skill:fireball
@@ -3444,7 +3227,7 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
 <div class="lecture-note">
 <div class="lecture-note-title">🎨 실행 결과 미리보기</div>
 <div class="lecture-note-content">
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 <span style="color: #79c0ff;">▶ 액션바에 마나 표시 (실시간 업데이트):</span>
 
 ┌─────────────────────────────────────┐
@@ -3472,7 +3255,7 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
 │         <span style="color: #8b949e;">§710초 후 시작</span>            │ ← 서브타이틀
 │                                     │
 └─────────────────────────────────────┘
-                        </pre>
+</pre>
 </div>
 </div>
 
@@ -3574,7 +3357,6 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.0</span>, <span style="color: #79c0ff;">0.0</span>]
   }
 }
-
 <span style="color: #a5d6ff;">/* ✅ 올바른 예시 */</span>
 {
   <span style="color: #79c0ff;">"my_panel"</span>: {
@@ -3593,14 +3375,11 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
 {
   <span style="color: #8b949e;">// #heath → 오타! (정확히는 #health)</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#heath"</span>,  <span style="color: #ff7b72;">← 'l'이 빠짐!</span>
-
   <span style="color: #8b949e;">// #health_max → 정확한 이름</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#health_maximum"</span>,  <span style="color: #ff7b72;">← 틀림!</span>
-
   <span style="color: #8b949e;">// #position.x → 소문자</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#Position.X"</span>,  <span style="color: #ff7b72;">← 대문자 사용 안 됨!</span>
 }
-
 <span style="color: #a5d6ff;">/* ✅ 올바른 예시 */</span>
 {
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"#health"</span>,       <span style="color: #a5d6ff;">← 정확!</span>
@@ -3624,7 +3403,6 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
     }
   ]
 }
-
 <span style="color: #a5d6ff;">/* ✅ 올바른 예시 */</span>
 {
   <span style="color: #79c0ff;">"bindings"</span>: [
@@ -3646,28 +3424,21 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
 {
   <span style="color: #8b949e;">// ==는 사용 안 됨! (Java가 아님)</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(#health == 20)"</span>,  <span style="color: #ff7b72;">← 틀림!</span>
-
   <span style="color: #8b949e;">// &&는 사용 안 됨!</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(#health > 10 && #hunger > 10)"</span>,  <span style="color: #ff7b72;">← 틀림!</span>
-
   <span style="color: #8b949e;">// ||는 사용 안 됨!</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(#health < 5 || #hunger < 5)"</span>,  <span style="color: #ff7b72;">← 틀림!</span>
-
   <span style="color: #8b949e;">// !는 사용 안 됨!</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(!#is_flying)"</span>,  <span style="color: #ff7b72;">← 틀림!</span>
 }
-
 <span style="color: #a5d6ff;">/* ✅ 올바른 예시 - Minecraft JSON UI 문법 */</span>
 {
   <span style="color: #8b949e;">// = (등호 1개)</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(#health = 20)"</span>,  <span style="color: #a5d6ff;">← 정확!</span>
-
   <span style="color: #8b949e;">// and (소문자)</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(#health > 10 and #hunger > 10)"</span>,  <span style="color: #a5d6ff;">← 정확!</span>
-
   <span style="color: #8b949e;">// or (소문자)</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(#health < 5 or #hunger < 5)"</span>,  <span style="color: #a5d6ff;">← 정확!</span>
-
   <span style="color: #8b949e;">// not (소문자)</span>
   <span style="color: #79c0ff;">"binding_name"</span>: <span style="color: #a5d6ff;">"(not #is_flying)"</span>,  <span style="color: #a5d6ff;">← 정확!</span>
 }</code></pre>
@@ -3696,7 +3467,6 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">10</span>],
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #79c0ff;">"test_bg"</span>: {
@@ -3708,7 +3478,6 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
     ]
   }
 }
-
 <span style="color: #8b949e;">/* ==========================================
    2단계: 텍스트 추가 (바인딩 없이)
 ========================================== */</span>
@@ -3719,7 +3488,6 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>]
   }
 }
-
 <span style="color: #8b949e;">/* ==========================================
    3단계: 바인딩 추가 (간단한 것부터)
 ========================================== */</span>
@@ -3730,7 +3498,6 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>]
   }
 }
-
 <span style="color: #8b949e;">/* ==========================================
    4단계: 복잡한 바인딩 추가
 ========================================== */</span>
@@ -3765,7 +3532,7 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
 </ol>
 
 <p><strong>해결 방법:</strong></p>
-                        <pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
+<pre style="background: #0d1117; padding: 10px; border-radius: 4px; color: #e6e6e6;">
 <span style="color: #8b949e;">// 1. 일단 빨간 박스로 만들어보기 (바인딩 제거)</span>
 {
   <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
@@ -3783,7 +3550,7 @@ system.afterEvents.scriptEventReceive.<span style="color: #d2a8ff;">subscribe</s
     }
   ]
 }
-                        </pre>
+</pre>
 </div>
 </div>
 

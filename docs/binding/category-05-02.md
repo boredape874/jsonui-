@@ -1,0 +1,3418 @@
+﻿---
+title: 바인딩 목록 - 기타 (2/12)
+outline: false
+search: false
+---
+
+# 기타 {#binding-category}
+
+기타 2/12 (항목 201-400)
+
+[분할 목록으로 돌아가기](category-05.html#binding-category)
+
+<details>
+<summary><strong>#button_start_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#button_thumbstick_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#button_thumbstick_left_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#button_thumbstick_right_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible0</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible1</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible2</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible3</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible4</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible5</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible6</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible7</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_visible8</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#button_x_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#button_y_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#ButtonName</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'rating prompt' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'rating prompt' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+rating prompt (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#call_out_banner_color</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#call_out_color</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#camera_shake</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#carousel_section_content</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'store common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'store common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+store common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cast_button_selected</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona cast character screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona cast character screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona cast character screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cast_character_options_dimensions</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona cast character screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona cast character screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona cast character screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cast_enabled_select</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona cast character screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona cast character screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona cast character screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cast_preview_skin</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona cast character screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona cast character screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona cast character screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#center_preset_size</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona SDL' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona SDL' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona SDL (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#character_loading_in_progress</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'store promo timeline screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'store promo timeline screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+store promo timeline screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#charged_item</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_background_opacity</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_background_opacity_slider_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_background_opacity_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_coordinate_dropdown_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_font_size</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_font_size_custom_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_font_size_steps</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_font_size_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_font_type</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_line_spacing</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_line_spacing_slider_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_line_spacing_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_message_duration_dropdown_toggle_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_message_duration_radio_TenSec</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_message_duration_radio_ThirtySec</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_message_duration_radio_ThreeSec</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_toggle_color</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chat_typeface_dropdown_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat settings menu screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat settings menu screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat settings menu screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cheats_on</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'host options screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'host options screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+host options screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chest_tab_toggle</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'horse screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'horse screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+horse screen pocket (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chunk_map_mode_client</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chunk_map_mode_client_main_chunksource</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chunk_map_mode_off</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chunk_map_mode_server_chunk_debug_display_state</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#chunk_map_mode_server_chunk_state</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#classic_box_selection</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#classic_selected</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#classic_skin_index</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona SDL' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona SDL' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona SDL, store promo timeline screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#clip_ratio</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'brewing stand screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'brewing stand screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+brewing stand screen, brewing stand screen pocket, file upload screen
+외 13개 (총 16개 파일)
+
+</details>
+<details>
+<summary><strong>#cloud_file_last_changed</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cloud_quality</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cloud_quality_slider_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cloud_quality_steps</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cloud_quality_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cloud_upload_do_not_show_again</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'start screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'start screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+start screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cloud_upload_terms_accepted</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'cloud upload screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'cloud upload screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+cloud upload screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#club_infotext</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/realms world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/realms world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/realms world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#code</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'xbl console qr signin' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'xbl console qr signin' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+xbl console qr signin, xbl console signin (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#code_number</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'progress screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'progress screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+progress screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_balance</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'store common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'store common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+store common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_bundle_description_font_color</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_bundle_description_font_size</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_bundle_description_font_type</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_bundle_description_section</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_bundle_description_text_tts</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_bundle_section_content</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_offer_size</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_offer_texture_file_system</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coin_purchase_in_progress</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'store common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'store common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+store common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coins_required_for_purchase</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coins_without_bonus</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'coin purchase screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'coin purchase screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+coin purchase screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#collapsed_show_more_visible_binding</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pdp screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pdp screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pdp screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#collection_total_items</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#color_equipped</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona SDL' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona SDL' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona SDL (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#color_selected</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona SDL' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona SDL' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona SDL (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#color_single_page_size</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona SDL' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona SDL' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona SDL (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_always_on_mode</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_blocks_enabled_on</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_chain_mode</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_conditional_mode</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_focus_override_down</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'npc interact screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'npc interact screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+npc interact screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_hover_note</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_identifier</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'npc interact screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'npc interact screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+npc interact screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_impulse_mode</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_needs_redstone_mode</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_repeat_mode</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_text_edit</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_tick_delay</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#command_unconditional_mode</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#commit_id</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'realms settings screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'realms settings screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+realms settings screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#condition_dropdown_toggle_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'command block screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'command block screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+command block screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#configuration_id</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#configurations_grid_dimension</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#confirm_0</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'confirm delete account screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'confirm delete account screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+confirm delete account screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#confirm_1</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'confirm delete account screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'confirm delete account screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+confirm delete account screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#confirm_2</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'confirm delete account screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'confirm delete account screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+confirm delete account screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#confirm_3</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'confirm delete account screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'confirm delete account screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+confirm delete account screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#confirmation</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'gamepad layout screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'gamepad layout screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+gamepad layout screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#console</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#console_gen8</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#console_gen8_5</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#console_gen9</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#container_item_background</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'inventory screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'inventory screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+inventory screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#container_item_modifier</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'inventory screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'inventory screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+inventory screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_area_focused</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'expanded skin pack screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'expanded skin pack screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+expanded skin pack screen, permissions screen, skin picker screen (총 3개 파일)
+
+</details>
+<details>
+<summary><strong>#content_log_file</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_log_gui</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_log_gui_level_dropdown_toggle_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_log_gui_level_error</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_log_gui_level_info</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_log_gui_level_verbose</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_log_gui_level_warn</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_log_gui_show_on_errors</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_rating</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pdp screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pdp screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pdp screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_rating_reverse</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pdp screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pdp screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pdp screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_tab_sections</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'realmsPlus sections/content section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'realmsPlus sections/content section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+realmsPlus sections/content section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_tier_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pack settings screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pack settings screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pack settings screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_tier_slider_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pack settings screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pack settings screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pack settings screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_tier_steps</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pack settings screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pack settings screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pack settings screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_tier_supported</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pack settings screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pack settings screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pack settings screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_tier_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pack settings screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pack settings screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pack settings screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#content_toggle_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui template toggles' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui template toggles' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui template toggles (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_autojump</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_clear_hotbar</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_destroy_vibration</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_dpad_down_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_dpad_left_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_dpad_right_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_dpad_up_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_face_down_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_face_down_icon_14</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_face_left_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_face_left_icon_14</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_face_right_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_face_right_icon_14</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_face_up_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_face_up_icon_14</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_invert_y_axis</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_left_bumper_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_left_bumper_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_left_stick_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_left_trigger</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_left_trigger_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_right_bumper_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_right_bumper_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_right_stick_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_right_trigger</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_right_trigger_description</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'ui common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'ui common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+ui common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_sensitivity</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_sensitivity_slider_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_sensitivity_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_split_vibration</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_start_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'toast screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'toast screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+toast screen, ui common (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#controller_toggle_crouch</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#converted_world_preview_date</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world conversion complete screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world conversion complete screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world conversion complete screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#converted_world_preview_file_size</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world conversion complete screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world conversion complete screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world conversion complete screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#converted_world_preview_game_mode</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world conversion complete screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world conversion complete screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world conversion complete screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#converted_world_preview_image</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world conversion complete screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world conversion complete screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world conversion complete screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#converted_world_preview_texture_source</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world conversion complete screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world conversion complete screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world conversion complete screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coordinate_type_facing</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#coordinate_type_position</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'chat screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'chat screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+chat screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#copy_button_focus_override_up</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'display logged error screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'display logged error screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+display logged error screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#copy_coordinate_ui</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#correlation_id</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'csb purchase error screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'csb purchase error screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+csb purchase error screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cost</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'enchanting screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'enchanting screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+enchanting screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cost_text_green</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'anvil screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'anvil screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+anvil screen, anvil screen pocket (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#cost_text_red</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'anvil screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'anvil screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+anvil screen, anvil screen pocket (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_banner_colors</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_banner_patterns</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_banner_type</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_color</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_decorated_pot_sherds</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_selected_banner_colors</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'redstone screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'redstone screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+redstone screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_selected_banner_type</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'redstone screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'redstone screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+redstone screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_selected_decorated_pot_sherds</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'redstone screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'redstone screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+redstone screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crafter_output_item_shield_base_color_hovered</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#crafting_preview_info</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'crafter screen pocket' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'crafter screen pocket' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+crafter screen pocket, redstone screen (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#create_persona_has_selected_type</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona popups' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona popups' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona popups (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#created_by_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world templates screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world templates screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world templates screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#creative_delayed_block_breaking</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#creative_horse_hearts</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'hud screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'hud screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+hud screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#creator_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'pdp screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'pdp screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+pdp screen, persona SDL, store common (총 3개 파일)
+
+</details>
+<details>
+<summary><strong>#creator_profiling_bootstrap</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cross_out_icon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'anvil screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'anvil screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+anvil screen, anvil screen pocket, grindstone screen
+외 6개 (총 9개 파일)
+
+</details>
+<details>
+<summary><strong>#cross_platform_friends_network_world_item_grid_dimension</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'play screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'play screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+play screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crosshair_action_button_on</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crosshair_selected</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/controls section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/controls section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/controls section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#crossplatform_toggle</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#csb_chevron_visibility</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world templates screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world templates screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world templates screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#csb_left_price</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'csb sections/csb upsell dialog' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'csb sections/csb upsell dialog' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+csb sections/csb upsell dialog (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#csb_platform_mismatch</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'csb sections/csb subscription panel' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'csb sections/csb subscription panel' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+csb sections/csb subscription panel, settings sections/general section (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#csb_purchased_with_buy_panel</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+
+[분할 목록으로 돌아가기](category-05.html#binding-category)
+
+

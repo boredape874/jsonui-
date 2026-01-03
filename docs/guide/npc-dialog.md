@@ -24,9 +24,8 @@ NPC 대화창 UI는 리소스팩의 <code>ui/npc_interact_screen.json</code> 파
 
 <div class="code-block">
 <div class="code-header">RP/ui/npc_interact_screen.json - 기본 구조</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"namespace"</span>: <span style="color: #a5d6ff;">"npc_interact"</span>,
-
   <span style="color: #8b949e;">// NPC 이름, 메시지, 버튼 등을 여기서 수정</span>
 }</code></pre>
 </div>
@@ -38,7 +37,7 @@ NPC 이름의 색상, 폰트, 크기를 변경할 수 있습니다.
 
 <div class="code-block">
 <div class="code-header">NPC 이름을 금색으로 크게 표시</div>
-                    <pre><code><span style="color: #79c0ff;">"basic_stack_panel/name_label"</span>: {
+<pre><code><span style="color: #79c0ff;">"basic_stack_panel/name_label"</span>: {
   <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.84</span>, <span style="color: #79c0ff;">0.0</span>],   <span style="color: #8b949e;">// 금색 (RGB)</span>
   <span style="color: #79c0ff;">"font_type"</span>: <span style="color: #a5d6ff;">"smooth"</span>,                <span style="color: #8b949e;">// 부드러운 폰트</span>
   <span style="color: #79c0ff;">"font_scale_factor"</span>: <span style="color: #79c0ff;">1.5</span>,            <span style="color: #8b949e;">// 크기 150%</span>
@@ -54,7 +53,7 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 
 <div class="code-block">
 <div class="code-header">대화 메시지 커스터마이징</div>
-                    <pre><code><span style="color: #79c0ff;">"npc_message/label"</span>: {
+<pre><code><span style="color: #79c0ff;">"npc_message/label"</span>: {
   <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],       <span style="color: #8b949e;">// 일반 상태: 흰색</span>
   <span style="color: #79c0ff;">"locked_color"</span>: [<span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">0.5</span>],  <span style="color: #8b949e;">// 잠긴 상태: 회색</span>
   <span style="color: #79c0ff;">"font_type"</span>: <span style="color: #a5d6ff;">"smooth"</span>,
@@ -78,13 +77,12 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 
 <div class="code-block">
 <div class="code-header">말풍선 배경 커스터마이징</div>
-                    <pre><code><span style="color: #79c0ff;">"student_message_bubble"</span>: {
+<pre><code><span style="color: #79c0ff;">"student_message_bubble"</span>: {
   <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
   <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/custom_bubble"</span>,  <span style="color: #8b949e;">// 커스텀 배경 이미지</span>
   <span style="color: #79c0ff;">"alpha"</span>: <span style="color: #79c0ff;">0.8</span>,                                  <span style="color: #8b949e;">// 투명도 80%</span>
   <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%"</span>, <span style="color: #a5d6ff;">"100%c + 10px"</span>]              <span style="color: #8b949e;">// 크기 조정</span>
 }
-
 <span style="color: #8b949e;">// 말풍선 화살표 제거하기</span>
 <span style="color: #79c0ff;">"student_message_section/point"</span>: {
   <span style="color: #79c0ff;">"ignored"</span>: <span style="color: #79c0ff;">true</span>   <span style="color: #8b949e;">// true면 숨김, false면 표시</span>
@@ -98,12 +96,11 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 
 <div class="code-block">
 <div class="code-header">NPC 모델 커스터마이징</div>
-                    <pre><code><span style="color: #8b949e;">// NPC 모델 위치</span>
+<pre><code><span style="color: #8b949e;">// NPC 모델 위치</span>
 <span style="color: #79c0ff;">"message_model/model"</span>: {
   <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">20</span>],      <span style="color: #8b949e;">// [X, Y] X:좌우, Y:상하</span>
   <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">100</span>, <span style="color: #79c0ff;">100</span>]        <span style="color: #8b949e;">// 모델 크기</span>
 }
-
 <span style="color: #8b949e;">// 모델 배경창 스타일</span>
 <span style="color: #79c0ff;">"message_model_window"</span>: {
   <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
@@ -120,23 +117,20 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 
 <div class="code-block">
 <div class="code-header">버튼 스타일 변경</div>
-                    <pre><code><span style="color: #8b949e;">// 버튼 텍스트 스타일</span>
+<pre><code><span style="color: #8b949e;">// 버튼 텍스트 스타일</span>
 <span style="color: #79c0ff;">"student_button_label"</span>: {
   <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
   <span style="color: #79c0ff;">"font_type"</span>: <span style="color: #a5d6ff;">"smooth"</span>,
   <span style="color: #79c0ff;">"font_scale_factor"</span>: <span style="color: #79c0ff;">1.0</span>,
   <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
 }
-
 <span style="color: #8b949e;">// 버튼 디자인</span>
 <span style="color: #79c0ff;">"student_button@common_buttons.light_text_button"</span>: {
   <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%"</span>, <span style="color: #79c0ff;">24</span>],
-
   <span style="color: #8b949e;">// 상태별 텍스처</span>
   <span style="color: #79c0ff;">"$default_texture"</span>: <span style="color: #a5d6ff;">"textures/ui/button_default"</span>,
   <span style="color: #79c0ff;">"$hover_texture"</span>: <span style="color: #a5d6ff;">"textures/ui/button_hover"</span>,
   <span style="color: #79c0ff;">"$pressed_texture"</span>: <span style="color: #a5d6ff;">"textures/ui/button_pressed"</span>,
-
   <span style="color: #8b949e;">// 상태별 색상</span>
   <span style="color: #79c0ff;">"$default_color"</span>: [<span style="color: #79c0ff;">0.3</span>, <span style="color: #79c0ff;">0.3</span>, <span style="color: #79c0ff;">0.4</span>],   <span style="color: #8b949e;">// 기본</span>
   <span style="color: #79c0ff;">"$hover_color"</span>: [<span style="color: #79c0ff;">0.4</span>, <span style="color: #79c0ff;">0.4</span>, <span style="color: #79c0ff;">0.5</span>],     <span style="color: #8b949e;">// 마우스 오버</span>
@@ -149,9 +143,8 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 <h4 id="npc-merchant">예제 1: 고급 상인 NPC (금색 테마)</h4>
 <div class="code-block">
 <div class="code-header">RP/ui/npc_interact_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"namespace"</span>: <span style="color: #a5d6ff;">"npc_interact"</span>,
-
   <span style="color: #8b949e;">// 금색 이름</span>
   <span style="color: #79c0ff;">"basic_stack_panel/name_label"</span>: {
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.84</span>, <span style="color: #79c0ff;">0.0</span>],
@@ -159,14 +152,12 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
     <span style="color: #79c0ff;">"font_scale_factor"</span>: <span style="color: #79c0ff;">1.5</span>,
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
   },
-
   <span style="color: #8b949e;">// 따뜻한 베이지색 메시지</span>
   <span style="color: #79c0ff;">"npc_message/label"</span>: {
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.9</span>, <span style="color: #79c0ff;">0.9</span>, <span style="color: #79c0ff;">0.7</span>],
     <span style="color: #79c0ff;">"font_type"</span>: <span style="color: #a5d6ff;">"smooth"</span>,
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
   },
-
   <span style="color: #8b949e;">// 금색 말풍선</span>
   <span style="color: #79c0ff;">"student_message_bubble"</span>: {
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/gold_bubble"</span>,
@@ -178,22 +169,19 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 <h4 id="npc-enemy">예제 2: 적대적 NPC (빨간색 테마)</h4>
 <div class="code-block">
 <div class="code-header">위험한 NPC 스타일</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"namespace"</span>: <span style="color: #a5d6ff;">"npc_interact"</span>,
-
   <span style="color: #8b949e;">// 빨간색 이름</span>
   <span style="color: #79c0ff;">"basic_stack_panel/name_label"</span>: {
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.0</span>, <span style="color: #79c0ff;">0.0</span>],
     <span style="color: #79c0ff;">"font_scale_factor"</span>: <span style="color: #79c0ff;">1.3</span>,
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
   },
-
   <span style="color: #8b949e;">// 연한 빨강 메시지</span>
   <span style="color: #79c0ff;">"npc_message/label"</span>: {
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.3</span>, <span style="color: #79c0ff;">0.3</span>],
     <span style="color: #79c0ff;">"locked_color"</span>: [<span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">0.0</span>, <span style="color: #79c0ff;">0.0</span>]
   },
-
   <span style="color: #8b949e;">// 어두운 빨강 배경</span>
   <span style="color: #79c0ff;">"message_model_window"</span>: {
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/White"</span>,
@@ -206,9 +194,8 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
 <h4 id="npc-wizard">예제 3: 신비로운 마법사 NPC (보라색 테마)</h4>
 <div class="code-block">
 <div class="code-header">마법사 NPC 스타일</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"namespace"</span>: <span style="color: #a5d6ff;">"npc_interact"</span>,
-
   <span style="color: #8b949e;">// 보라색 룬 문자 이름</span>
   <span style="color: #79c0ff;">"basic_stack_panel/name_label"</span>: {
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.5</span>, <span style="color: #79c0ff;">0.0</span>, <span style="color: #79c0ff;">1.0</span>],
@@ -216,19 +203,16 @@ NPC가 말하는 메시지 텍스트의 스타일을 수정합니다.
     <span style="color: #79c0ff;">"font_scale_factor"</span>: <span style="color: #79c0ff;">1.4</span>,
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
   },
-
   <span style="color: #8b949e;">// 연보라색 메시지</span>
   <span style="color: #79c0ff;">"npc_message/label"</span>: {
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">0.8</span>, <span style="color: #79c0ff;">0.6</span>, <span style="color: #79c0ff;">1.0</span>],
     <span style="color: #79c0ff;">"font_type"</span>: <span style="color: #a5d6ff;">"smooth"</span>
   },
-
   <span style="color: #8b949e;">// 마법 말풍선</span>
   <span style="color: #79c0ff;">"student_message_bubble"</span>: {
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/magic_bubble"</span>,
     <span style="color: #79c0ff;">"alpha"</span>: <span style="color: #79c0ff;">0.85</span>
   },
-
   <span style="color: #8b949e;">// 어두운 보라 배경</span>
   <span style="color: #79c0ff;">"message_model_window"</span>: {
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/White"</span>,

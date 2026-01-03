@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 이미지/텍스처
 outline: false
+search: false
 ---
 
 # 이미지/텍스처 {#binding-category}
@@ -34,7 +35,7 @@ achievement offer lock state의 텍스처 이미지
     "texture": "#achievement offer lock state_texture",
     "bindings": [
       {
-        "binding_name": "#achievement offer lock state_texture",
+        "binding_name": "#achievement_offer_lock_state_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -73,7 +74,7 @@ block type icon의 텍스처 이미지
     "texture": "#block type icon_texture",
     "bindings": [
       {
-        "binding_name": "#block type icon_texture",
+        "binding_name": "#block_type_icon_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -112,7 +113,7 @@ collection permission level dropdown icon의 텍스처 이미지
     "texture": "#collection permission level dropdown icon_texture",
     "bindings": [
       {
-        "binding_name": "#collection permission level dropdown icon_texture",
+        "binding_name": "#collection_permission_level_dropdown_icon_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -151,7 +152,7 @@ container cell background의 텍스처 이미지
     "texture": "#container cell background_texture",
     "bindings": [
       {
-        "binding_name": "#container cell background_texture",
+        "binding_name": "#container_cell_background_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -190,7 +191,7 @@ container item background의 텍스처 이미지
     "texture": "#container item background_texture",
     "bindings": [
       {
-        "binding_name": "#container item background_texture",
+        "binding_name": "#container_item_background_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -229,7 +230,7 @@ dropdown toggle의 텍스처 이미지
     "texture": "#dropdown toggle_texture",
     "bindings": [
       {
-        "binding_name": "#dropdown toggle_texture",
+        "binding_name": "#dropdown_toggle_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -268,7 +269,7 @@ form button의 텍스처 이미지
     "texture": "#form button_texture",
     "bindings": [
       {
-        "binding_name": "#form button_texture",
+        "binding_name": "#form_button_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -307,7 +308,7 @@ in use의 텍스처 이미지
     "texture": "#in use_texture",
     "bindings": [
       {
-        "binding_name": "#in use_texture",
+        "binding_name": "#in_use_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -346,7 +347,7 @@ key bound의 텍스처 이미지
     "texture": "#key bound_texture",
     "bindings": [
       {
-        "binding_name": "#key bound_texture",
+        "binding_name": "#key_bound_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -385,7 +386,7 @@ main image의 텍스처 이미지
     "texture": "#main image_texture",
     "bindings": [
       {
-        "binding_name": "#main image_texture",
+        "binding_name": "#main_image_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -424,7 +425,7 @@ main mashup key art의 텍스처 이미지
     "texture": "#main mashup key art_texture",
     "bindings": [
       {
-        "binding_name": "#main mashup key art_texture",
+        "binding_name": "#main_mashup_key_art_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -463,7 +464,7 @@ manage feed의 텍스처 이미지
     "texture": "#manage feed_texture",
     "bindings": [
       {
-        "binding_name": "#manage feed_texture",
+        "binding_name": "#manage_feed_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -502,7 +503,7 @@ nav button의 텍스처 이미지
     "texture": "#nav button_texture",
     "bindings": [
       {
-        "binding_name": "#nav button_texture",
+        "binding_name": "#nav_button_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -541,7 +542,7 @@ pack info의 텍스처 이미지
     "texture": "#pack info_texture",
     "bindings": [
       {
-        "binding_name": "#pack info_texture",
+        "binding_name": "#pack_info_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -658,7 +659,7 @@ pattern cell background의 텍스처 이미지
     "texture": "#pattern cell background_texture",
     "bindings": [
       {
-        "binding_name": "#pattern cell background_texture",
+        "binding_name": "#pattern_cell_background_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -697,7 +698,7 @@ permission level dropdown icon의 텍스처 이미지
     "texture": "#permission level dropdown icon_texture",
     "bindings": [
       {
-        "binding_name": "#permission level dropdown icon_texture",
+        "binding_name": "#permission_level_dropdown_icon_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -736,7 +737,7 @@ player permission level icon의 텍스처 이미지
     "texture": "#player permission level icon_texture",
     "bindings": [
       {
-        "binding_name": "#player permission level icon_texture",
+        "binding_name": "#player_permission_level_icon_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -775,7 +776,7 @@ promo key art의 텍스처 이미지
     "texture": "#promo key art_texture",
     "bindings": [
       {
-        "binding_name": "#promo key art_texture",
+        "binding_name": "#promo_key_art_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -814,7 +815,7 @@ promo persona thumbnail의 텍스처 이미지
     "texture": "#promo persona thumbnail_texture",
     "bindings": [
       {
-        "binding_name": "#promo persona thumbnail_texture",
+        "binding_name": "#promo_persona_thumbnail_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -853,7 +854,7 @@ promo screenshot의 텍스처 이미지
     "texture": "#promo screenshot_texture",
     "bindings": [
       {
-        "binding_name": "#promo screenshot_texture",
+        "binding_name": "#promo_screenshot_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -892,7 +893,7 @@ prompt icon의 텍스처 이미지
     "texture": "#prompt icon_texture",
     "bindings": [
       {
-        "binding_name": "#prompt icon_texture",
+        "binding_name": "#prompt_icon_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -970,7 +971,7 @@ rarity bar의 텍스처 이미지
     "texture": "#rarity bar_texture",
     "bindings": [
       {
-        "binding_name": "#rarity bar_texture",
+        "binding_name": "#rarity_bar_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -1009,7 +1010,7 @@ realms plus skin pack의 텍스처 이미지
     "texture": "#realms plus skin pack_texture",
     "bindings": [
       {
-        "binding_name": "#realms plus skin pack_texture",
+        "binding_name": "#realms_plus_skin_pack_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -1048,7 +1049,7 @@ redstone arrow의 텍스처 이미지
     "texture": "#redstone arrow_texture",
     "bindings": [
       {
-        "binding_name": "#redstone arrow_texture",
+        "binding_name": "#redstone_arrow_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -1127,7 +1128,7 @@ stone cell background의 텍스처 이미지
     "texture": "#stone cell background_texture",
     "bindings": [
       {
-        "binding_name": "#stone cell background_texture",
+        "binding_name": "#stone_cell_background_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -1166,7 +1167,7 @@ store image의 텍스처 이미지
     "texture": "#store image_texture",
     "bindings": [
       {
-        "binding_name": "#store image_texture",
+        "binding_name": "#store_image_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -1245,7 +1246,7 @@ trade cell background의 텍스처 이미지
     "texture": "#trade cell background_texture",
     "bindings": [
       {
-        "binding_name": "#trade cell background_texture",
+        "binding_name": "#trade_cell_background_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }
@@ -1284,7 +1285,7 @@ user rating star의 텍스처 이미지
     "texture": "#user rating star_texture",
     "bindings": [
       {
-        "binding_name": "#user rating star_texture",
+        "binding_name": "#user_rating_star_texture",
         "binding_name_override": "#texture",
         "binding_type": "global"
       }

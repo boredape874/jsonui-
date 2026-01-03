@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 플레이어 상태 - 경험치
 outline: false
+search: false
 ---
 
 # 플레이어 상태 - 경험치 {#binding-category}

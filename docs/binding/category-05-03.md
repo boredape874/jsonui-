@@ -1,0 +1,3416 @@
+﻿---
+title: 바인딩 목록 - 기타 (3/12)
+outline: false
+search: false
+---
+
+# 기타 {#binding-category}
+
+기타 3/12 (항목 401-600)
+
+[분할 목록으로 돌아가기](category-05.html#binding-category)
+
+<details>
+<summary><strong>#csb_purchased_with_cancel_panel</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#csb_right_price</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'csb sections/csb upsell dialog' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'csb sections/csb upsell dialog' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+csb sections/csb upsell dialog (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#current_day_one_tab_index</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'day one experience screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'day one experience screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+day one experience screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#current_game_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'invite screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'invite screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+invite screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#current_panel_color</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona SDL' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona SDL' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona SDL (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#current_skin</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'persona SDL' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'persona SDL' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+persona SDL (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_dropdown_length</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_form_length</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_radio_toggled</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_slider_step_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_slider_step_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_slider_steps</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_slider_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_slider_timeout</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_slider_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_toggle_focus_id</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_toggle_state</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'server form' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'server form' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+server form (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_world_template_factory_collection</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world templates screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world templates screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world templates screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#custom_world_template_item_grid_dimension</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'world templates screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'world templates screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+world templates screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycle_button_width</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'store common' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'store common' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+store common (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_file_system_addon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_file_system_global</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_file_system_level</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_path_addon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_path_global</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_path_level</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_zip_addon</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_zip_global</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#cycling_icon_zip_level</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#darkness</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#darkness_slider_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#darkness_text_value</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#data_content_edit_box</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'structure editor screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'structure editor screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+structure editor screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#data_field</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'structure editor screen' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'structure editor screen' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+structure editor screen (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#daylight_cycle</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/realms world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/realms world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/realms world section, settings sections/world section (총 2개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_bamboo_jungle</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_bamboo_jungle_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_basalt_deltas</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_beach</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_birch_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_birch_forest_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_birch_forest_hills_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_birch_forest_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_cold_beach</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_cold_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_cold_taiga</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_cold_taiga_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_cold_taiga_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_crimson_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_deep_cold_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_deep_frozen_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_deep_lukewarm_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_deep_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_deep_warm_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_desert</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_desert_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_desert_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_dropdown_toggle_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_extreme_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_extreme_hills_edge</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_extreme_hills_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_extreme_hills_plus_trees</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_extreme_hills_plus_trees_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_flower_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_forest_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_frozen_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_frozen_river</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_hell</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_ice_mountains</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_ice_plains</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_ice_plains_spikes</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_jungle</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_jungle_edge</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_jungle_edge_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_jungle_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_jungle_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_lukewarm_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mega_taiga</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mega_taiga_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mesa</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mesa_bryce</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mesa_plateau</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mesa_plateau_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mesa_plateau_stone</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mesa_plateau_stone_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mushroom_island</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_mushroom_island_shore</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_plains</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_random_biome</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_redwood_taiga_hills_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_redwood_taiga_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_river</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_roofed_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_roofed_forest_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_savanna</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_savanna_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_savanna_plateau</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_savanna_plateau_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_soulsand_valley</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_stone_beach</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_sunflower_plains</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_swampland</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_swampland_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_taiga</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_taiga_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_taiga_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_warm_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_biome_override_warped_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_audio</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_basic</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_buffer_memory</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_cachestorageusage</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_camera</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_client_mob_prediction</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_client_network</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_imagememory</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_imgui</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_lock_contention</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_material_memory</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_off</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_oreui</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_perimagememory</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_profiler</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_renderchunks</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_server_network</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_spatial_packet_optimizations</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_texturememory</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_hud_radio_workerthreads</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/general section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/general section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/general section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_biome_dropdown_toggle_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_dimension_dropdown_toggle_label</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_bamboo_jungle</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_bamboo_jungle_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_basalt_deltas</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_beach</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_birch_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_birch_forest_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_birch_forest_hills_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_birch_forest_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_cold_beach</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_cold_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_cold_taiga</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_cold_taiga_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_cold_taiga_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_crimson_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_deep_cold_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_deep_frozen_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_deep_lukewarm_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_deep_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_deep_warm_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_desert</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_desert_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_desert_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_extreme_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_extreme_hills_edge</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_extreme_hills_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_extreme_hills_plus_trees</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_extreme_hills_plus_trees_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_flower_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_forest_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_frozen_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_frozen_river</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_hell</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_ice_mountains</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_ice_plains</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_ice_plains_spikes</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_jungle</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_jungle_edge</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_jungle_edge_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_jungle_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_jungle_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_lukewarm_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mega_taiga</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mega_taiga_hills</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mesa</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mesa_bryce</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mesa_plateau</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mesa_plateau_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mesa_plateau_stone</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mesa_plateau_stone_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mushroom_island</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_mushroom_island_shore</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_nether</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_ocean</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_overworld</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_plains</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_random_biome</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_redwood_taiga_hills_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_redwood_taiga_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_river</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_roofed_forest</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_roofed_forest_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_savanna</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_savanna_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_savanna_plateau</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_savanna_plateau_mutated</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_soulsand_valley</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+<details>
+<summary><strong>#debug_spawn_in_stone_beach</strong> - 알 수 없음</summary>
+
+**데이터 타입:** 알 수 없음
+
+**간단 설명**
+'settings sections/world section' 화면에서 사용되는 바인딩
+
+**자세한 설명**
+이 바인딩은 주로 'settings sections/world section' 화면에서 사용됩니다.
+
+정확한 기능은 파일 컨텍스트를 참고하세요.
+
+**사용 화면**
+settings sections/world section (총 1개 파일)
+
+</details>
+
+[분할 목록으로 돌아가기](category-05.html#binding-category)
+
+

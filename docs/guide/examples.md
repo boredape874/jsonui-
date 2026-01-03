@@ -10,19 +10,17 @@ title: 📂 실전 예제 모음
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      커스텀 HUD 패널
   ============================================ */</span>
   <span style="color: #79c0ff;">"custom_hud_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"stack_panel"</span>,
     <span style="color: #79c0ff;">"orientation"</span>: <span style="color: #a5d6ff;">"vertical"</span>,
-
     <span style="color: #8b949e;">// 왼쪽 상단 배치</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">10</span>],
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">// 체력 표시</span>
@@ -53,7 +51,6 @@ title: 📂 실전 예제 모음
       }
     ]
   },
-
   <span style="color: #8b949e;">// root_panel에 추가</span>
   <span style="color: #79c0ff;">"root_panel"</span>: {
     <span style="color: #79c0ff;">"modifications"</span>: [{
@@ -71,7 +68,7 @@ title: 📂 실전 예제 모음
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json - 슬라이드 알림</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      페이드 인 애니메이션
   ============================================ */</span>
@@ -83,7 +80,6 @@ title: 📂 실전 예제 모음
     <span style="color: #79c0ff;">"easing"</span>: <span style="color: #a5d6ff;">"out_quad"</span>,
     <span style="color: #79c0ff;">"next"</span>: <span style="color: #a5d6ff;">"@hud.notification_slide_up"</span>
   },
-
   <span style="color: #79c0ff;">"notification_slide_up"</span>: {
     <span style="color: #79c0ff;">"anim_type"</span>: <span style="color: #a5d6ff;">"offset"</span>,
     <span style="color: #79c0ff;">"duration"</span>: <span style="color: #79c0ff;">0.3</span>,
@@ -91,23 +87,19 @@ title: 📂 실전 예제 모음
     <span style="color: #79c0ff;">"to"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">0</span>],
     <span style="color: #79c0ff;">"easing"</span>: <span style="color: #a5d6ff;">"out_bounce"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      알림 패널
   ============================================ */</span>
   <span style="color: #79c0ff;">"notification_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">250</span>, <span style="color: #79c0ff;">50</span>],
-
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_middle"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_middle"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">30</span>],
-
     <span style="color: #8b949e;">// 애니메이션 적용</span>
     <span style="color: #79c0ff;">"anims"</span>: [
       <span style="color: #a5d6ff;">"@hud.notification_fade_in"</span>
     ],
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #79c0ff;">"bg"</span>: {
@@ -143,16 +135,14 @@ title: 📂 실전 예제 모음
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json - 미니맵 UI</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"minimap_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">150</span>, <span style="color: #79c0ff;">150</span>],
-
     <span style="color: #8b949e;">// 우측 상단 배치</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_right"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_right"</span>,
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">-10</span>, <span style="color: #79c0ff;">10</span>],
-
     <span style="color: #79c0ff;">"controls"</span>: [
       {
         <span style="color: #8b949e;">// 배경 (원형)</span>

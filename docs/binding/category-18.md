@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 플레이어 정보
 outline: false
+search: false
 ---
 
 # 플레이어 정보 {#binding-category}

@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 포커스/네비게이션
 outline: false
+search: false
 ---
 
 # 포커스/네비게이션 {#binding-category}

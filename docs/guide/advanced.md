@@ -25,7 +25,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 <div class="comparison-bad">
 <div class="comparison-header">❌ 나쁜 예</div>
 <div class="comparison-content">
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"progress_text_label"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">false</span>,
@@ -43,7 +43,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 <div class="comparison-good">
 <div class="comparison-header">✅ 좋은 예</div>
 <div class="comparison-content">
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"progress_text_label"</span>: {
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">false</span>
   }
@@ -59,7 +59,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 <div class="comparison-bad">
 <div class="comparison-header">❌ 나쁜 예</div>
 <div class="comparison-content">
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"root_panel"</span>: {
     <span style="color: #79c0ff;">"controls"</span>: [
       { <span style="color: #79c0ff;">"my_ui@namespace.my_ui"</span>: {} },
@@ -76,7 +76,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 <div class="comparison-good">
 <div class="comparison-header">✅ 좋은 예</div>
 <div class="comparison-content">
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"root_panel"</span>: {
     <span style="color: #79c0ff;">"modifications"</span>: [
       {
@@ -98,16 +98,14 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 
 <div class="code-block">
 <div class="code-header">중첩된 컨트롤 수정 방법</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      슬래시(/)를 사용한 중첩 접근
   ============================================ */</span>
-
   <span style="color: #8b949e;">// 부모/자식 형식으로 접근</span>
   <span style="color: #79c0ff;">"panel_with_label_and_bg/bg_image"</span>: {
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%c"</span>, <span style="color: #a5d6ff;">"100%c"</span>]
   },
-
   <span style="color: #8b949e;">// 부모/자식/손자 형식</span>
   <span style="color: #79c0ff;">"panel_with_label_and_bg/bg_image/label"</span>: {
     <span style="color: #79c0ff;">"layer"</span>: <span style="color: #79c0ff;">-5</span>
@@ -121,7 +119,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 <div class="comparison-bad">
 <div class="comparison-header">❌ 여러 진입점</div>
 <div class="comparison-content">
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"root_panel"</span>: {
     <span style="color: #79c0ff;">"modifications"</span>: [{
       <span style="color: #79c0ff;">"value"</span>: [{ <span style="color: #79c0ff;">"ui1@ns.ui1"</span>: {} }]
@@ -139,7 +137,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 <div class="comparison-good">
 <div class="comparison-header">✅ 단일 진입점</div>
 <div class="comparison-content">
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"root_panel"</span>: {
     <span style="color: #79c0ff;">"modifications"</span>: [{
       <span style="color: #79c0ff;">"value"</span>: [
@@ -189,7 +187,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 
 <div class="code-block">
 <div class="code-header">invisible vs ignored</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      visible: false - 안 보이지만 평가는 됨 (느림)
   ============================================ */</span>
@@ -197,7 +195,6 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #79c0ff;">"visible"</span>: <span style="color: #79c0ff;">false</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      ignored: true - 완전히 무시됨 (빠름)
   ============================================ */</span>
@@ -214,7 +211,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 <div class="comparison-bad">
 <div class="comparison-header">❌ 5개의 별도 이미지</div>
 <div class="comparison-content">
-                            <pre><code><span style="color: #79c0ff;">"image_1@template"</span>: { <span style="color: #79c0ff;">"$texture"</span>: <span style="color: #a5d6ff;">"textures/ui/1"</span> },
+<pre><code><span style="color: #79c0ff;">"image_1@template"</span>: { <span style="color: #79c0ff;">"$texture"</span>: <span style="color: #a5d6ff;">"textures/ui/1"</span> },
 <span style="color: #79c0ff;">"image_2@template"</span>: { <span style="color: #79c0ff;">"$texture"</span>: <span style="color: #a5d6ff;">"textures/ui/2"</span> },
 <span style="color: #79c0ff;">"image_3@template"</span>: { <span style="color: #79c0ff;">"$texture"</span>: <span style="color: #a5d6ff;">"textures/ui/3"</span> },
 <span style="color: #79c0ff;">"image_4@template"</span>: { <span style="color: #79c0ff;">"$texture"</span>: <span style="color: #a5d6ff;">"textures/ui/4"</span> },
@@ -225,7 +222,7 @@ Mojang이 UI를 업데이트하면 여러분의 커스텀 UI가 깨질 수 있�
 <div class="comparison-good">
 <div class="comparison-header">✅ 1개로 통합</div>
 <div class="comparison-content">
-                            <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"image"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"#texture"</span>,

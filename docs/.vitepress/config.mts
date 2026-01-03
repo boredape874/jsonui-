@@ -7,7 +7,13 @@ export default defineConfig({
   lang: 'ko-KR',
   title: '마인크래프트 베드락 에디션 JSON UI 통합 가이드',
   description: '초보자도 이해할 수 있도록 쉽게 풀어쓴 JSON UI 통합 가이드',
+  buildConcurrency: 1,
   cleanUrls: false,
+  vite: {
+    build: {
+      minify: false
+    }
+  },
   // Update this if the GitHub Pages repo name changes.
   base,
   appearance: true,
@@ -26,15 +32,13 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'JSON UI 통합 가이드',
     outline: false,
-    search: {
-      provider: 'local'
-    },
+    search: false,
     nav: [
       { text: '시작', link: '/#overview' },
       { text: '초보 입문', link: '/intro/zero#zero' },
       { text: '레이아웃', link: '/layout/setup#setup' },
       { text: '실전', link: '/practice/patterns#patterns' },
-      { text: '예제', link: '/examples/examples#example-map' }
+      { text: '예제', link: '/examples/#example-map' }
     ],
     sidebar: {
       '/': [
@@ -47,9 +51,9 @@ export default defineConfig({
             { text: '리소스', link: '/start/resources#resources' },
             { text: '실제 사례 미리보기', link: '/start/showcase#showcase' },
             { text: '영상으로 배우기', link: '/start/videos#videos' },
-            { text: '예제 지도', link: '/examples/examples#example-map' },
-            { text: '예제 전체 목록', link: '/examples/examples#example-index' },
-            { text: '예제 미리보기', link: '/examples/examples#example-view' }
+            { text: '예제 지도', link: '/examples/#example-map' },
+            { text: '예제 전체 목록', link: '/examples/list#example-index' },
+            { text: '예제 미리보기', link: '/examples/preview#example-view' }
           ]
         },
         {
@@ -146,11 +150,45 @@ export default defineConfig({
                   text: '분류별 바인딩',
                   collapsed: true,
                   items: [
-                    { text: 'UI 표시/숨김', link: '/binding/category-01#binding-category' },
-                    { text: 'UI 활성화/비활성화', link: '/binding/category-02#binding-category' },
+                    {
+                      text: 'UI 표시/숨김',
+                      collapsed: true,
+                      items: [
+                        { text: 'UI 표시/숨김 1/4', link: '/binding/category-01-01#binding-category' },
+                        { text: 'UI 표시/숨김 2/4', link: '/binding/category-01-02#binding-category' },
+                        { text: 'UI 표시/숨김 3/4', link: '/binding/category-01-03#binding-category' },
+                        { text: 'UI 표시/숨김 4/4', link: '/binding/category-01-04#binding-category' }
+                      ]
+                    },
+                    {
+                      text: 'UI 활성화/비활성화',
+                      collapsed: true,
+                      items: [
+                        { text: 'UI 활성화/비활성화 1/3', link: '/binding/category-02-01#binding-category' },
+                        { text: 'UI 활성화/비활성화 2/3', link: '/binding/category-02-02#binding-category' },
+                        { text: 'UI 활성화/비활성화 3/3', link: '/binding/category-02-03#binding-category' }
+                      ]
+                    },
                     { text: '가능 여부', link: '/binding/category-03#binding-category' },
                     { text: '개수/수량', link: '/binding/category-04#binding-category' },
-                    { text: '기타', link: '/binding/category-05#binding-category' },
+                    {
+                      text: '기타',
+                      collapsed: true,
+                      items: [
+                        { text: '기타 1/12', link: '/binding/category-05-01#binding-category' },
+                        { text: '기타 2/12', link: '/binding/category-05-02#binding-category' },
+                        { text: '기타 3/12', link: '/binding/category-05-03#binding-category' },
+                        { text: '기타 4/12', link: '/binding/category-05-04#binding-category' },
+                        { text: '기타 5/12', link: '/binding/category-05-05#binding-category' },
+                        { text: '기타 6/12', link: '/binding/category-05-06#binding-category' },
+                        { text: '기타 7/12', link: '/binding/category-05-07#binding-category' },
+                        { text: '기타 8/12', link: '/binding/category-05-08#binding-category' },
+                        { text: '기타 9/12', link: '/binding/category-05-09#binding-category' },
+                        { text: '기타 10/12', link: '/binding/category-05-10#binding-category' },
+                        { text: '기타 11/12', link: '/binding/category-05-11#binding-category' },
+                        { text: '기타 12/12', link: '/binding/category-05-12#binding-category' }
+                      ]
+                    },
                     { text: '버튼', link: '/binding/category-06#binding-category' },
                     { text: '보유 여부', link: '/binding/category-07#binding-category' },
                     { text: '상태 확인', link: '/binding/category-08#binding-category' },
@@ -159,7 +197,14 @@ export default defineConfig({
                     { text: '이름/식별자', link: '/binding/category-11#binding-category' },
                     { text: '이미지/텍스처', link: '/binding/category-12#binding-category' },
                     { text: '컬렉션/리스트', link: '/binding/category-13#binding-category' },
-                    { text: '텍스트 표시', link: '/binding/category-14#binding-category' },
+                    {
+                      text: '텍스트 표시',
+                      collapsed: true,
+                      items: [
+                        { text: '텍스트 표시 1/2', link: '/binding/category-14-01#binding-category' },
+                        { text: '텍스트 표시 2/2', link: '/binding/category-14-02#binding-category' }
+                      ]
+                    },
                     { text: '토글/스위치', link: '/binding/category-15#binding-category' },
                     { text: '포커스/네비게이션', link: '/binding/category-16#binding-category' },
                     { text: '플레이어 상태 - 경험치', link: '/binding/category-17#binding-category' },

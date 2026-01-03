@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 아이템 정보
 outline: false
+search: false
 ---
 
 # 아이템 정보 {#binding-category}

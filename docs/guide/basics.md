@@ -27,10 +27,9 @@ title: 🎯 기초 개념 이해하기
 "어느 파일에 있는 요소야?"라고 알려주기 위해서입니다.
 </p>
 <div class="code-header">네임스페이스 예시</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">// 이 파일의 이름표(네임스페이스)는 "hud"입니다</span>
   <span style="color: #79c0ff;">"namespace"</span>: <span style="color: #a5d6ff;">"hud"</span>,
-
   <span style="color: #8b949e;">// 이 파일에서 만든 요소</span>
   <span style="color: #79c0ff;">"my_text"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
@@ -102,14 +101,12 @@ title: 🎯 기초 개념 이해하기
 </div>
 <div class="term-example">
 <div class="code-header">프로퍼티 예시</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"my_label"</span>: {
     <span style="color: #8b949e;">// ↓ type은 "이게 무슨 종류의 요소야?"를 정하는 프로퍼티</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
     <span style="color: #8b949e;">// ↓ text는 "무슨 글자를 보여줘?"를 정하는 프로퍼티</span>
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"안녕!"</span>,
-
     <span style="color: #8b949e;">// ↓ size는 "얼마나 크게 만들어?"를 정하는 프로퍼티</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">100</span>, <span style="color: #79c0ff;">50</span>]
   }
@@ -133,14 +130,12 @@ title: 🎯 기초 개념 이해하기
 <div class="lecture-note-title">앵커 위치</div>
 <p>화면(또는 부모 요소)을 9개 구역으로 나눕니다:</p>
 <div class="code-header">앵커 포인트</div>
-                    <pre><code><span style="color: #a5d6ff;">top_left</span>       <span style="color: #a5d6ff;">top_middle</span>       <span style="color: #a5d6ff;">top_right</span>
+<pre><code><span style="color: #a5d6ff;">top_left</span>       <span style="color: #a5d6ff;">top_middle</span>       <span style="color: #a5d6ff;">top_right</span>
     ↖               ↑               ↗
-
 <span style="color: #a5d6ff;">left_middle</span>    <span style="color: #a5d6ff;">center</span>          <span style="color: #a5d6ff;">right_middle</span>
     ←               ●               →
-
 <span style="color: #a5d6ff;">bottom_left</span>    <span style="color: #a5d6ff;">bottom_middle</span>   <span style="color: #a5d6ff;">bottom_right</span>
-    ↙               ↓               ↘</code></pre>
+↙               ↓               ↘</code></pre>
 </div>
 
 <h4>앵커 사용 예시</h4>
@@ -148,7 +143,7 @@ title: 🎯 기초 개념 이해하기
 <div class="comparison-good">
 <p><strong>화면 중앙에 배치</strong></p>
 <div class="code-header">중앙 정렬</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">// 부모의 중앙에</span>
   <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"center"</span>,
   <span style="color: #8b949e;">// 내 중앙을 붙여</span>
@@ -158,7 +153,7 @@ title: 🎯 기초 개념 이해하기
 <div class="comparison-good">
 <p><strong>왼쪽 위에 배치</strong></p>
 <div class="code-header">좌상단 정렬</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">// 부모의 왼쪽 위에</span>
   <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
   <span style="color: #8b949e;">// 내 왼쪽 위를 붙여</span>

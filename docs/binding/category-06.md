@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 버튼
 outline: false
+search: false
 ---
 
 # 버튼 {#binding-category}

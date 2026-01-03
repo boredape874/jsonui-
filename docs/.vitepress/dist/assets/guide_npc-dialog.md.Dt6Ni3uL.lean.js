@@ -1,0 +1,13 @@
+import { _ as _export_sfc, c as createElementBlock, o as openBlock, ae as createStaticVNode } from "./chunks/framework.DfhncZPL.js";
+const __pageData = JSON.parse('{"title":"💬 NPC 대화창 커스터마이징","description":"","frontmatter":{"title":"💬 NPC 대화창 커스터마이징"},"headers":[],"relativePath":"guide/npc-dialog.md","filePath":"guide/npc-dialog.md"}');
+const _sfc_main = { name: "guide/npc-dialog.md" };
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createElementBlock("div", null, [..._cache[0] || (_cache[0] = [
+    createStaticVNode("", 34)
+  ])]);
+}
+const npcDialog = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+export {
+  __pageData,
+  npcDialog as default
+};

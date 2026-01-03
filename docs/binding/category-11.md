@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 이름/식별자
 outline: false
+search: false
 ---
 
 # 이름/식별자 {#binding-category}
@@ -34,7 +35,7 @@ active skin의 이름
     "text": "#active skin_name",
     "bindings": [
       {
-        "binding_name": "#active skin_name",
+        "binding_name": "#active_skin_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -73,7 +74,7 @@ active world의 이름
     "text": "#active world_name",
     "bindings": [
       {
-        "binding_name": "#active world_name",
+        "binding_name": "#active_world_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -112,7 +113,7 @@ ad account의 이름
     "text": "#ad account_name",
     "bindings": [
       {
-        "binding_name": "#ad account_name",
+        "binding_name": "#ad_account_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -190,7 +191,7 @@ audible keymapping의 이름
     "text": "#audible keymapping_name",
     "bindings": [
       {
-        "binding_name": "#audible keymapping_name",
+        "binding_name": "#audible_keymapping_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -229,7 +230,7 @@ banner hover texture의 이름
     "text": "#banner hover texture_name",
     "bindings": [
       {
-        "binding_name": "#banner hover texture_name",
+        "binding_name": "#banner_hover_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -268,7 +269,7 @@ banner texture의 이름
     "text": "#banner texture_name",
     "bindings": [
       {
-        "binding_name": "#banner texture_name",
+        "binding_name": "#banner_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -307,7 +308,7 @@ beta retail legacy world의 이름
     "text": "#beta retail legacy world_name",
     "bindings": [
       {
-        "binding_name": "#beta retail legacy world_name",
+        "binding_name": "#beta_retail_legacy_world_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -346,7 +347,7 @@ beta retail local world의 이름
     "text": "#beta retail local world_name",
     "bindings": [
       {
-        "binding_name": "#beta retail local world_name",
+        "binding_name": "#beta_retail_local_world_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -424,7 +425,7 @@ bundle coin texture의 이름
     "text": "#bundle coin texture_name",
     "bindings": [
       {
-        "binding_name": "#bundle coin texture_name",
+        "binding_name": "#bundle_coin_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -502,7 +503,7 @@ bundle thumbnail texture의 이름
     "text": "#bundle thumbnail texture_name",
     "bindings": [
       {
-        "binding_name": "#bundle thumbnail texture_name",
+        "binding_name": "#bundle_thumbnail_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -541,7 +542,7 @@ can change의 이름
     "text": "#can change_name",
     "bindings": [
       {
-        "binding_name": "#can change_name",
+        "binding_name": "#can_change_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -580,7 +581,7 @@ close button visible binding의 이름
     "text": "#close button visible binding_name",
     "bindings": [
       {
-        "binding_name": "#close button visible binding_name",
+        "binding_name": "#close_button_visible_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -619,7 +620,7 @@ cloud file의 이름
     "text": "#cloud file_name",
     "bindings": [
       {
-        "binding_name": "#cloud file_name",
+        "binding_name": "#cloud_file_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -658,7 +659,7 @@ coin offer texture의 이름
     "text": "#coin offer texture_name",
     "bindings": [
       {
-        "binding_name": "#coin offer texture_name",
+        "binding_name": "#coin_offer_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -697,7 +698,7 @@ converted world preview의 이름
     "text": "#converted world preview_name",
     "bindings": [
       {
-        "binding_name": "#converted world preview_name",
+        "binding_name": "#converted_world_preview_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -775,7 +776,7 @@ cross platform friends server icon texture의 이름
     "text": "#cross platform friends server icon texture_name",
     "bindings": [
       {
-        "binding_name": "#cross platform friends server icon texture_name",
+        "binding_name": "#cross_platform_friends_server_icon_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -814,7 +815,7 @@ current skin의 이름
     "text": "#current skin_name",
     "bindings": [
       {
-        "binding_name": "#current skin_name",
+        "binding_name": "#current_skin_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -853,7 +854,7 @@ dev discovery override service의 이름
     "text": "#dev discovery override service_name",
     "bindings": [
       {
-        "binding_name": "#dev discovery override service_name",
+        "binding_name": "#dev_discovery_override_service_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -892,7 +893,7 @@ dynamic tooltip notification visibility binding의 이름
     "text": "#dynamic tooltip notification visibility binding_name",
     "bindings": [
       {
-        "binding_name": "#dynamic tooltip notification visibility binding_name",
+        "binding_name": "#dynamic_tooltip_notification_visibility_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -931,7 +932,7 @@ edu cloud conflict resolution cloud의 이름
     "text": "#edu cloud conflict resolution cloud_name",
     "bindings": [
       {
-        "binding_name": "#edu cloud conflict resolution cloud_name",
+        "binding_name": "#edu_cloud_conflict_resolution_cloud_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -970,7 +971,7 @@ edu cloud conflict resolution local의 이름
     "text": "#edu cloud conflict resolution local_name",
     "bindings": [
       {
-        "binding_name": "#edu cloud conflict resolution local_name",
+        "binding_name": "#edu_cloud_conflict_resolution_local_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1009,7 +1010,7 @@ emote index의 이름
     "text": "#emote index_name",
     "bindings": [
       {
-        "binding_name": "#emote index_name",
+        "binding_name": "#emote_index_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1087,7 +1088,7 @@ friends server icon texture의 이름
     "text": "#friends server icon texture_name",
     "bindings": [
       {
-        "binding_name": "#friends server icon texture_name",
+        "binding_name": "#friends_server_icon_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1165,7 +1166,7 @@ group item group의 이름
     "text": "#group item group_name",
     "bindings": [
       {
-        "binding_name": "#group item group_name",
+        "binding_name": "#group_item_group_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1204,7 +1205,7 @@ icon overlay texture의 이름
     "text": "#icon overlay texture_name",
     "bindings": [
       {
-        "binding_name": "#icon overlay texture_name",
+        "binding_name": "#icon_overlay_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1243,7 +1244,7 @@ include entities binding의 이름
     "text": "#include entities binding_name",
     "bindings": [
       {
-        "binding_name": "#include entities binding_name",
+        "binding_name": "#include_entities_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1282,7 +1283,7 @@ include players binding의 이름
     "text": "#include players binding_name",
     "bindings": [
       {
-        "binding_name": "#include players binding_name",
+        "binding_name": "#include_players_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1321,7 +1322,7 @@ info additional server의 이름
     "text": "#info additional server_name",
     "bindings": [
       {
-        "binding_name": "#info additional server_name",
+        "binding_name": "#info_additional_server_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1360,7 +1361,7 @@ info additional server ping texture의 이름
     "text": "#info additional server ping texture_name",
     "bindings": [
       {
-        "binding_name": "#info additional server ping texture_name",
+        "binding_name": "#info_additional_server_ping_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1399,7 +1400,7 @@ info ping texture의 이름
     "text": "#info ping texture_name",
     "bindings": [
       {
-        "binding_name": "#info ping texture_name",
+        "binding_name": "#info_ping_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1438,7 +1439,7 @@ info third party server의 이름
     "text": "#info third party server_name",
     "bindings": [
       {
-        "binding_name": "#info third party server_name",
+        "binding_name": "#info_third_party_server_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1516,7 +1517,7 @@ legacy world의 이름
     "text": "#legacy world_name",
     "bindings": [
       {
-        "binding_name": "#legacy world_name",
+        "binding_name": "#legacy_world_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1594,7 +1595,7 @@ local world의 이름
     "text": "#local world_name",
     "bindings": [
       {
-        "binding_name": "#local world_name",
+        "binding_name": "#local_world_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1633,7 +1634,7 @@ matching branch의 이름
     "text": "#matching branch_name",
     "bindings": [
       {
-        "binding_name": "#matching branch_name",
+        "binding_name": "#matching_branch_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1672,7 +1673,7 @@ minimize button visible binding의 이름
     "text": "#minimize button visible binding_name",
     "bindings": [
       {
-        "binding_name": "#minimize button visible binding_name",
+        "binding_name": "#minimize_button_visible_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1711,7 +1712,7 @@ mob effect의 이름
     "text": "#mob effect_name",
     "bindings": [
       {
-        "binding_name": "#mob effect_name",
+        "binding_name": "#mob_effect_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1750,7 +1751,7 @@ objective sidebar의 이름
     "text": "#objective sidebar_name",
     "bindings": [
       {
-        "binding_name": "#objective sidebar_name",
+        "binding_name": "#objective_sidebar_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1789,7 +1790,7 @@ offer texture의 이름
     "text": "#offer texture_name",
     "bindings": [
       {
-        "binding_name": "#offer texture_name",
+        "binding_name": "#offer_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1867,7 +1868,7 @@ option state의 이름
     "text": "#option state_name",
     "bindings": [
       {
-        "binding_name": "#option state_name",
+        "binding_name": "#option_state_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -1984,7 +1985,7 @@ placeholder realm의 이름
     "text": "#placeholder realm_name",
     "bindings": [
       {
-        "binding_name": "#placeholder realm_name",
+        "binding_name": "#placeholder_realm_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2023,7 +2024,7 @@ preview skin의 이름
     "text": "#preview skin_name",
     "bindings": [
       {
-        "binding_name": "#preview skin_name",
+        "binding_name": "#preview_skin_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2140,7 +2141,7 @@ realms plus skin pack의 이름
     "text": "#realms plus skin pack_name",
     "bindings": [
       {
-        "binding_name": "#realms plus skin pack_name",
+        "binding_name": "#realms_plus_skin_pack_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2179,7 +2180,7 @@ remove blocks binding의 이름
     "text": "#remove blocks binding_name",
     "bindings": [
       {
-        "binding_name": "#remove blocks binding_name",
+        "binding_name": "#remove_blocks_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2218,7 +2219,7 @@ resource pack의 이름
     "text": "#resource pack_name",
     "bindings": [
       {
-        "binding_name": "#resource pack_name",
+        "binding_name": "#resource_pack_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2257,7 +2258,7 @@ save world의 이름
     "text": "#save world_name",
     "bindings": [
       {
-        "binding_name": "#save world_name",
+        "binding_name": "#save_world_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2296,7 +2297,7 @@ screenshot texture의 이름
     "text": "#screenshot texture_name",
     "bindings": [
       {
-        "binding_name": "#screenshot texture_name",
+        "binding_name": "#screenshot_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2335,7 +2336,7 @@ search box의 이름
     "text": "#search box_name",
     "bindings": [
       {
-        "binding_name": "#search box_name",
+        "binding_name": "#search_box_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2374,7 +2375,7 @@ selected character의 이름
     "text": "#selected character_name",
     "bindings": [
       {
-        "binding_name": "#selected character_name",
+        "binding_name": "#selected_character_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2413,7 +2414,7 @@ selected control scheme의 이름
     "text": "#selected control scheme_name",
     "bindings": [
       {
-        "binding_name": "#selected control scheme_name",
+        "binding_name": "#selected_control_scheme_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2452,7 +2453,7 @@ selected skin의 이름
     "text": "#selected skin_name",
     "bindings": [
       {
-        "binding_name": "#selected skin_name",
+        "binding_name": "#selected_skin_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2491,7 +2492,7 @@ show bounding box binding의 이름
     "text": "#show bounding box binding_name",
     "bindings": [
       {
-        "binding_name": "#show bounding box binding_name",
+        "binding_name": "#show_bounding_box_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2608,7 +2609,7 @@ store row image animation의 이름
     "text": "#store row image animation_name",
     "bindings": [
       {
-        "binding_name": "#store row image animation_name",
+        "binding_name": "#store_row_image_animation_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2647,7 +2648,7 @@ store row image texture의 이름
     "text": "#store row image texture_name",
     "bindings": [
       {
-        "binding_name": "#store row image texture_name",
+        "binding_name": "#store_row_image_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2725,7 +2726,7 @@ structure content binding의 이름
     "text": "#structure content binding_name",
     "bindings": [
       {
-        "binding_name": "#structure content binding_name",
+        "binding_name": "#structure_content_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2842,7 +2843,7 @@ text box의 이름
     "text": "#text box_name",
     "bindings": [
       {
-        "binding_name": "#text box_name",
+        "binding_name": "#text_box_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2881,7 +2882,7 @@ text box placeholder의 이름
     "text": "#text box placeholder_name",
     "bindings": [
       {
-        "binding_name": "#text box placeholder_name",
+        "binding_name": "#text_box_placeholder_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2959,7 +2960,7 @@ third party profile의 이름
     "text": "#third party profile_name",
     "bindings": [
       {
-        "binding_name": "#third party profile_name",
+        "binding_name": "#third_party_profile_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -2998,7 +2999,7 @@ third party server의 이름
     "text": "#third party server_name",
     "bindings": [
       {
-        "binding_name": "#third party server_name",
+        "binding_name": "#third_party_server_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -3076,7 +3077,7 @@ trending row의 이름
     "text": "#trending row_name",
     "bindings": [
       {
-        "binding_name": "#trending row_name",
+        "binding_name": "#trending_row_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -3115,7 +3116,7 @@ tts offer의 이름
     "text": "#tts offer_name",
     "bindings": [
       {
-        "binding_name": "#tts offer_name",
+        "binding_name": "#tts_offer_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -3154,7 +3155,7 @@ waterlog blocks binding의 이름
     "text": "#waterlog blocks binding_name",
     "bindings": [
       {
-        "binding_name": "#waterlog blocks binding_name",
+        "binding_name": "#waterlog_blocks_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -3232,7 +3233,7 @@ world slot의 이름
     "text": "#world slot_name",
     "bindings": [
       {
-        "binding_name": "#world slot_name",
+        "binding_name": "#world_slot_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -3271,7 +3272,7 @@ world template의 이름
     "text": "#world template_name",
     "bindings": [
       {
-        "binding_name": "#world template_name",
+        "binding_name": "#world_template_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -3310,7 +3311,7 @@ world texture의 이름
     "text": "#world texture_name",
     "bindings": [
       {
-        "binding_name": "#world texture_name",
+        "binding_name": "#world_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -3349,7 +3350,7 @@ xout button visible binding의 이름
     "text": "#xout button visible binding_name",
     "bindings": [
       {
-        "binding_name": "#xout button visible binding_name",
+        "binding_name": "#xout_button_visible_binding_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }
@@ -3388,7 +3389,7 @@ zoomed texture의 이름
     "text": "#zoomed texture_name",
     "bindings": [
       {
-        "binding_name": "#zoomed texture_name",
+        "binding_name": "#zoomed_texture_name",
         "binding_name_override": "#text",
         "binding_type": "global"
       }

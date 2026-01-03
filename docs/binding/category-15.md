@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 토글/스위치
 outline: false
+search: false
 ---
 
 # 토글/스위치 {#binding-category}

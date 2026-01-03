@@ -170,7 +170,7 @@ title: ⚙️ 프로퍼티 완벽 가이드
 <div class="comparison-good">
 <p><strong>투명도 사용 예시</strong></p>
 <div class="code-header">반투명 패널</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"semi_transparent_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
     <span style="color: #8b949e;">// 50% 투명하게</span>
@@ -181,7 +181,7 @@ title: ⚙️ 프로퍼티 완벽 가이드
 <div class="comparison-good">
 <p><strong>레이어 사용 예시</strong></p>
 <div class="code-header">겹치는 요소</div>
-                        <pre><code>{
+<pre><code>{
   <span style="color: #79c0ff;">"background"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
     <span style="color: #8b949e;">// 맨 뒤에 표시</span>

@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 보유 여부
 outline: false
+search: false
 ---
 
 # 보유 여부 {#binding-category}

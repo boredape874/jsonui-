@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 컬렉션/리스트
 outline: false
+search: false
 ---
 
 # 컬렉션/리스트 {#binding-category}

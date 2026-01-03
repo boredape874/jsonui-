@@ -1,6 +1,7 @@
 ---
 title: 바인딩 목록 - 색상
 outline: false
+search: false
 ---
 
 # 색상 {#binding-category}

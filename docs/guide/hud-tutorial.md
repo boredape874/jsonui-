@@ -39,31 +39,25 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      1단계: 표시할 텍스트 요소 정의
   ============================================ */</span>
   <span style="color: #79c0ff;">"my_custom_text"</span>: {
     <span style="color: #8b949e;">// 텍스트 요소</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
     <span style="color: #8b949e;">// 표시할 텍스트 내용</span>
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"환영합니다!"</span>,
-
     <span style="color: #8b949e;">// 화면 상단 중앙에 배치</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_middle"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_middle"</span>,
-
     <span style="color: #8b949e;">// 위에서 5픽셀 아래로</span>
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">5</span>],
-
     <span style="color: #8b949e;">// 텍스트 색상 (금색)</span>
     <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">0.84</span>, <span style="color: #79c0ff;">0.0</span>],
-
     <span style="color: #8b949e;">// 텍스트 그림자 (true = 그림자 있음)</span>
     <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      2단계: root_panel에 요소 추가
   ============================================ */</span>
@@ -73,10 +67,8 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
       {
         <span style="color: #8b949e;">// 어떤 배열을 수정할지 (controls = 자식 요소 목록)</span>
         <span style="color: #79c0ff;">"array_name"</span>: <span style="color: #a5d6ff;">"controls"</span>,
-
         <span style="color: #8b949e;">// 어떻게 수정할지 (insert_front = 맨 앞에 추가)</span>
         <span style="color: #79c0ff;">"operation"</span>: <span style="color: #a5d6ff;">"insert_front"</span>,
-
         <span style="color: #8b949e;">// 추가할 요소들</span>
         <span style="color: #79c0ff;">"value"</span>: [
           {
@@ -105,28 +97,23 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      사과 이미지를 HUD에 표시
   ============================================ */</span>
   <span style="color: #79c0ff;">"apple_icon"</span>: {
     <span style="color: #8b949e;">// 이미지 요소</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
-
     <span style="color: #8b949e;">// 사과 텍스처 (바닐라 리소스)</span>
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/items/apple"</span>,
-
     <span style="color: #8b949e;">// 이미지 크기 (16x16 픽셀)</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">16</span>, <span style="color: #79c0ff;">16</span>],
-
     <span style="color: #8b949e;">// 화면 왼쪽 상단에 배치</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"top_left"</span>,
-
     <span style="color: #8b949e;">// 왼쪽에서 10px, 위에서 10px</span>
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">10</span>, <span style="color: #79c0ff;">10</span>]
   },
-
   <span style="color: #79c0ff;">"root_panel"</span>: {
     <span style="color: #79c0ff;">"modifications"</span>: [
       {
@@ -150,24 +137,20 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      속도계 패널 (배경 + 텍스트를 담는 컨테이너)
   ============================================ */</span>
   <span style="color: #79c0ff;">"speedometer_panel"</span>: {
     <span style="color: #8b949e;">// 패널 타입 (여러 요소를 담을 수 있음)</span>
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
-
     <span style="color: #8b949e;">// 패널 크기</span>
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">120</span>, <span style="color: #79c0ff;">30</span>],
-
     <span style="color: #8b949e;">// 화면 하단 중앙에 배치</span>
     <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
     <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"bottom_middle"</span>,
-
     <span style="color: #8b949e;">// 아래에서 60픽셀 위로 (핫바 위에 표시)</span>
     <span style="color: #79c0ff;">"offset"</span>: [<span style="color: #79c0ff;">0</span>, <span style="color: #79c0ff;">-60</span>],
-
     <span style="color: #8b949e;">// 패널에 포함될 요소들</span>
     <span style="color: #79c0ff;">"controls"</span>: [
       {
@@ -176,13 +159,10 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
         ===================================== */</span>
         <span style="color: #79c0ff;">"background"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
-
           <span style="color: #8b949e;">// 바닐라 검은색 텍스처</span>
           <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/ui/Black"</span>,
-
           <span style="color: #8b949e;">// 부모(패널)의 크기를 그대로 사용</span>
           <span style="color: #79c0ff;">"size"</span>: [<span style="color: #a5d6ff;">"100%"</span>, <span style="color: #a5d6ff;">"100%"</span>],
-
           <span style="color: #8b949e;">// 투명도 50% (반투명)</span>
           <span style="color: #79c0ff;">"alpha"</span>: <span style="color: #79c0ff;">0.5</span>
         }
@@ -193,27 +173,21 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
         ===================================== */</span>
         <span style="color: #79c0ff;">"speed_label"</span>: {
           <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
-
           <span style="color: #8b949e;">// 기본 텍스트 (바인딩으로 변경됨)</span>
           <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"속도: 0.0"</span>,
-
           <span style="color: #8b949e;">// 패널 중앙에 배치</span>
           <span style="color: #79c0ff;">"anchor_from"</span>: <span style="color: #a5d6ff;">"center"</span>,
           <span style="color: #79c0ff;">"anchor_to"</span>: <span style="color: #a5d6ff;">"center"</span>,
-
           <span style="color: #8b949e;">// 텍스트 색상 (흰색)</span>
           <span style="color: #79c0ff;">"color"</span>: [<span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>, <span style="color: #79c0ff;">1.0</span>],
-
           <span style="color: #8b949e;">// 그림자 효과</span>
           <span style="color: #79c0ff;">"shadow"</span>: <span style="color: #79c0ff;">true</span>,
-
           <span style="color: #8b949e;">// 레이어 (배경보다 위에 표시)</span>
           <span style="color: #79c0ff;">"layer"</span>: <span style="color: #79c0ff;">1</span>
         }
       }
     ]
   },
-
   <span style="color: #8b949e;">/* ============================================
      root_panel에 속도계 추가
   ============================================ */</span>
@@ -252,26 +226,23 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">// 요소 1: 텍스트</span>
   <span style="color: #79c0ff;">"element_1"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"요소 1"</span>
   },
-
   <span style="color: #8b949e;">// 요소 2: 이미지</span>
   <span style="color: #79c0ff;">"element_2"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"image"</span>,
     <span style="color: #79c0ff;">"texture"</span>: <span style="color: #a5d6ff;">"textures/items/diamond"</span>,
     <span style="color: #79c0ff;">"size"</span>: [<span style="color: #79c0ff;">16</span>, <span style="color: #79c0ff;">16</span>]
   },
-
   <span style="color: #8b949e;">// 요소 3: 또 다른 텍스트</span>
   <span style="color: #79c0ff;">"element_3"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"label"</span>,
     <span style="color: #79c0ff;">"text"</span>: <span style="color: #a5d6ff;">"요소 3"</span>
   },
-
   <span style="color: #8b949e;">/* ============================================
      모든 요소를 한 번에 추가
   ============================================ */</span>
@@ -298,13 +269,12 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
 
 <div class="code-block">
 <div class="code-header">RP/ui/hud_screen.json (정리된 버전)</div>
-                    <pre><code>{
+<pre><code>{
   <span style="color: #8b949e;">/* ============================================
      모든 커스텀 요소를 담는 패널
   ============================================ */</span>
   <span style="color: #79c0ff;">"my_custom_elements_panel"</span>: {
     <span style="color: #79c0ff;">"type"</span>: <span style="color: #a5d6ff;">"panel"</span>,
-
     <span style="color: #8b949e;">// 자식 요소들</span>
     <span style="color: #79c0ff;">"controls"</span>: [
       { <span style="color: #79c0ff;">"element_1@hud.element_1"</span>: {} },
@@ -312,7 +282,6 @@ root_panel은 HUD의 모든 요소를 담고 있는 가장 큰 컨테이너입�
       { <span style="color: #79c0ff;">"element_3@hud.element_3"</span>: {} }
     ]
   },
-
   <span style="color: #8b949e;">// root_panel에는 패널만 추가</span>
   <span style="color: #79c0ff;">"root_panel"</span>: {
     <span style="color: #79c0ff;">"modifications"</span>: [
